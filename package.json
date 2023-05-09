@@ -1,0 +1,61 @@
+{
+  "name": "eleison",
+  "version": "1.0.0",
+  "description": "⚡Eleison personal blog.",
+  "homepage": "https://eleison.vercel.app",
+  "author": "lovkyndig",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lovkyndig/eleison.git"
+  },
+  "devDependencies": {
+    "@iconify/vue": "latest",
+    "@nuxt/content": "latest",
+    "@nuxt/eslint-config": "latest",
+    "@nuxt/kit": "latest",
+    "@nuxtjs/tailwindcss": "latest",
+    "@vite-pwa/nuxt": "latest",
+    "d3-hierarchy": "latest",
+    "d3-selection": "latest",
+    "d3-shape": "latest",
+    "d3-zoom": "latest",
+    "eslint": "latest",
+    "feed": "latest",
+    "mermaid": "latest",
+    "nuxt": "latest",
+    "pagefind": "latest",
+    "rehype-katex": "latest",
+    "remark-math": "latest",
+    "remark-sub": "latest",
+    "remark-super": "latest",
+    "sass": "latest",
+    "sitemap": "latest",
+    "typescript": "<5.0.0",
+    "vue-gtag": "latest",
+    "vue-tsc": "latest"
+  },
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxt generate && npx pagefind --source dist",
+    "preview": "nuxi preview",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "bloginote",
+    "bubblewrap",
+    "google-play",
+    "google-site-verification",
+    "gtag",
+    "nuxt",
+    "markdown",
+    "mermaid",
+    "remark",
+    "pagefind",
+    "pwa",
+    "tailwindcss",
+    "vercel",
+    "window.find()"
+  ]
+}

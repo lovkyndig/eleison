@@ -1,0 +1,1 @@
+import{a as t,o as a,e as n,x as o}from"./entry.89ebc114.js";const p=t({__name:"TabItem",props:{name:{default:"Tab",type:String}},setup(r){return(e,s)=>(a(),n("div",null,[o(e.$slots,"default")]))}});export{p as default};

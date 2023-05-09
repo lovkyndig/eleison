@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>eleison</title>
+        <link>https://eleison.vercel.app</link>
+        <description>⚡Eleison personal blog.</description>
+        <lastBuildDate>Tue, 09 May 2023 16:34:11 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>eleison</title>
+            <url>https://eleison.vercel.app/avatar.jpg}</url>
+            <link>https://eleison.vercel.app</link>
+        </image>
+        <copyright>All rights reserved 2023, lovkyndig</copyright>
+        <item>
+            <title><![CDATA[Eleison til den rike mann]]></title>
+            <link>https://eleison.vercel.app/article/sak1/eleison-til-den-rike-mann</link>
+            <guid>/article/sak1/eleison-til-den-rike-mann</guid>
+            <pubDate>Tue, 09 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kjære rike mann!
+Viser til Din beslutning om salg av arvet leilighet i det åpne eiendomsmarkedet (til tredjeperson).
+Det er flere andre arveberettigede og din beslutning er tatt uten samtykke eller samtaler med de andre arveberettigede, om saken.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Eleison til menighetslederne]]></title>
+            <link>https://eleison.vercel.app/article/sak1/eleison-til-menighetslederne</link>
+            <guid>/article/sak1/eleison-til-menighetslederne</guid>
+            <pubDate>Tue, 09 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Viser til brevet fra Eleison til den rike mann.
+Bibelen oppfordrer de kristne til at de ikke skal overlate meglingen mellom seg innbyrdes til utenforstående kontrollorganer som er styrt av urettferdige mennesker. 1 Kor 6, 1.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Forord]]></title>
+            <link>https://eleison.vercel.app/article/forord</link>
+            <guid>/article/forord</guid>
+            <description><![CDATA[På liknende måte som bibelens epistler 📜 er henvendt til enkeltpersoner 😎 eller folkesamlinger, vil epistlene 📝 her være stilet til enkeltpersoner - i anonymisert form - til menighetsledere eller menigheten som helhet.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Om Eleison]]></title>
+            <link>https://eleison.vercel.app/about</link>
+            <guid>/about</guid>
+            <description><![CDATA[Eleison'1 mal for denne appen er Paulus epistler i det nye testamente, hvor Paulus skriver brev som han mener skal bli opplest i menigheten.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Eleison]]></title>
+            <link>https://eleison.vercel.app/</link>
+            <guid>/</guid>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+    </channel>
+</rss>

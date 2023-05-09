@@ -1,0 +1,150 @@
+{
+  "name": "Eleison",
+  "short_name": "Eleison",
+  "description": "Eleison' epistler til menigheten.",
+  "start_url": "/",
+  "scope": "/",
+  "id": "/",
+  "theme_color": "#f9fafb",
+  "background_color": "#f9fafb",
+  "orientation": "any",
+  "display": "minimal-ui",
+  "icons": [
+    {
+      "src": "img/icons/24.webp",
+      "sizes": "24x24",
+      "type": "image/webp"
+    },
+    {
+      "src": "img/icons/48.webp",
+      "sizes": "48x48",
+      "type": "image/webp"
+    },
+    {
+      "src": "img/icons/64.webp",
+      "sizes": "64x64",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+     {
+      "src": "img/icons/64.webp",
+      "sizes": "64x64",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/icons/384.webp",
+      "sizes": "384x384",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/384.webp",
+      "sizes": "384x384",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/icons/144.webp",
+      "sizes": "144x144",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/144.webp",
+      "sizes": "144x144",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/icons/192.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/192.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/icons/512.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icons/512.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "maskable"
+    }
+  ],
+   "shortcuts": [
+    {
+      "name": "Evangelier",
+      "short_name": "Evangelium",
+      "description": "Dr. Martin Luthers utleggelse av evangelieteksten.",
+      "url": "/list?tags=Evangelium&category=Alle&series=Alle",
+      "icons": [{ "src": "/img/shortcuts/default.webp", "sizes": "96x96" }]
+    },
+    {
+      "name": "Epistler",
+      "short_name": "Epistel",
+      "description": "Dr. Martin Luthers utleggelse av epistelteksten.",
+      "url": "/list?tags=Epistel&category=Alle&series=Alle",
+      "icons": [{ "src": "/img/shortcuts/default.webp", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/img/screenshots/narrow/540x720.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Frontpage of Eleison"
+    },
+    {
+      "src": "/img/screenshots/wide/720x540.png",
+      "sizes": "720x540",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Frontpage of Eleison"
+    },
+    {
+      "src": "/img/screenshots/narrow/1080x1920-front.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpg",
+      "platform": "narrow",
+      "label": "Frontpage of Eleison"
+    },
+    {
+      "src": "/img/screenshots/narrow/1080x1920-list.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpg",
+      "platform": "narrow",
+      "label": "List of pages from Eleison"
+    },
+    {
+      "src": "/img/screenshots/wide/1920x1080-front.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpg",
+      "platform": "wide",
+      "label": "Frontpage of Eleison"
+    },
+    {
+      "src": "/img/screenshots/wide/1920x1080-list.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpg",
+      "platform": "wide",
+      "label": "List of pages from Eleison"
+    }
+  ],
+  "lang": "da",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "display_override": ["window-controls-overlay"],
+  "categories": ["books", "education", "medical"]
+}

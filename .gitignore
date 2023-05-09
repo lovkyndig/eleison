@@ -1,0 +1,10 @@
+node_modules
+*.log*
+*.txt
+.nuxt
+.nitro
+.cache
+.output
+yarn.lock
+
+.well-known/guide

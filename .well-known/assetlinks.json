@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "app.vercel.kirkepostille.twa",
+                     "sha256_cert_fingerprints": ["14:54:04:29:A7:D4:D3:AF:D1:E6:FE:DF:63:C2:47:CE:06:28:6E:03:DB:79:2B:36:E6:C9:19:8F:40:2C:2B:8B"] }
+      }
+]

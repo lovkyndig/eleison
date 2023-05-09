@@ -1,0 +1,22 @@
+{
+  // refer to https://nuxt.com/docs/community/contribution#use-eslint
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true
+  },
+  "files.associations": {
+    "*.css": "scss"
+  },
+  "editor.formatOnSave": false,
+  "cSpell.words": [
+    "bloginote",
+    "flexi",
+    "iconify",
+    "katex",
+    "nuxi",
+    "nuxtjs",
+    "pagefind",
+    "rehype"
+  ],
+  "scss.lint.unknownAtRules": "ignore"
+}
