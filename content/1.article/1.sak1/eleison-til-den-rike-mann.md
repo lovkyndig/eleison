@@ -1,11 +1,11 @@
 ---
-series: ugyldighet
+series: til synderen
 showTime: false
 showOutdatedWarning: true
 created: 2023-05-09
 updated: 2023-05-09
 tags:
-  - ugyldighet
+  - bedrageri
 ---
 
 # Eleison til den rike mann

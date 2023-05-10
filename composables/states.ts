@@ -87,3 +87,18 @@ export interface StylesDictionary {
 }
 // https://stackoverflow.com/questions/63739711/type-string-has-no-properties-in-common-with-type-propertiesreacttext-strin
 
+/**
+ *
+ * search modal
+ *
+ */
+export const useShowSearchModal = () => useState<Boolean>('showSearchModal', () => false)
+
+/**
+ *
+ * Creating state to transfer search-input to url and handled on loading md-page
+ * from SearchMode.vue to [...slug].vue
+ * The value isn't saved in searchString but only used in SearchModal
+ *
+ */
+export const useSearchString = () => useState<String>('searchString', () => '')

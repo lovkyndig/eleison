@@ -1,0 +1,4 @@
+# the bundle_dir is generated in the folder below
+# source: .output/public
+# bundle_dir: ../public/_pagefind
+bundle_dir: ../public/_pagefind

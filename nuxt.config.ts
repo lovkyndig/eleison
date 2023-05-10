@@ -48,9 +48,14 @@ export default defineNuxtConfig({
       ssr: true
     },
   },
+  // testing - copy from kirkepostille v0.3.9
+  routeRules: {
+    '/privacy.txt': { prerender: true }
+  },
+
   nitro: {
     prerender: {
-      routes: ['/rss.xml', '/sitemap.xml']
+      routes: ['/rss.xml', '/sitemap.xml', '/']
     }
   },
   // vite: { plugins: [ // VitePWA({ /* vite.config.ts */ }) ] },

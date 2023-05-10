@@ -28,7 +28,7 @@ useServerSeoMeta({
 }) // https://nuxt.com/docs/getting-started/seo-meta#useseometa
 
 useHead({
-  htmlAttrs: { lang: 'da' },
+  htmlAttrs: { lang: 'no' },
   style: [
   'body { overflow: overlay }'
   ],
