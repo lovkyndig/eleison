@@ -7,9 +7,8 @@ node_modules
 .cache
 .output
 yarn.lock
-
 .well-known/guide
-
 dist
+dist/**
 dist/**/*
 dev-dist
