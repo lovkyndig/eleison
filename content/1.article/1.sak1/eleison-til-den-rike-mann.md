@@ -3,28 +3,30 @@ series: til synderen
 showTime: false
 showOutdatedWarning: true
 created: 2023-05-09
-updated: 2023-05-09
+updated: 2023-05-10
 tags:
   - bedrageri
 ---
 
 # Eleison til den rike mann
 Kjære rike mann!  
-Viser til Din beslutning om salg av arvet leilighet i det åpne eiendomsmarkedet (til tredjeperson).
-Det er flere andre arveberettigede og din beslutning er tatt uten samtykke eller samtaler med de andre arveberettigede, om saken.
+Du er i ferd med å bedra dine søsken og svindle dem for største delen av arven som dere alle burde dele likt. Måten du har gjort det på kan kanskje skjules for de som ikke har forstand på lov og rett. Men Gud være takk som har gitt meg visdom og forstand på lov og rett.
 
-## Faktum og drøfting av sak
-### Salg av leilighet
-Det som åpenbares er at du forsøker å gjøre deg rik på bekostning av din psykisk syke søster og dine andre søsken, hvilket du svindlet for en halv million kroner (fra to av dem), og som ingen av dem har klaget over hittil.
+Det er et grunnleggende prinsipp i kristendommen:
+* Den som ikke vil dømmes av loven som en synder har heller ingen behov for å be om tilgivelse.
 
-Nå tar Eleison på vegne av din syke søster, og gjør oppmerksom på at du overtalte/ manipulerte henne til å godta å selge leiligheten for mindre enn det hun gav for den (flere år i forveien). Da hun solgte den til deg hadde du innhentet en takst som viste at den var verdt 485 000 kroner mer. Denne taksten underslo du, og holdt skjult for din syke søster.
+## Faktum og drøfting av saker
+### Salg av leilighet[^1]
+Det som åpenbares er at du forsøker å gjøre deg rik på bekostning av din syke søster og dine andre søsken, hvilket du svindlet for en halv million kroner (fra to av dem), og som ingen av dem har klaget over hittil.
 
-Det er kjent at du har vært hennes økonomiske verge, og hvis du på salgs- tidspunktet har vært hennes verge, er dette svært alvorlig misbruk av tillitsforhold.
+Nå tar Eleison til ordet på vegne av dine søsken, og gjør oppmerksom på at du overtalte/ manipulerte din syke søster til å godta å selge leiligheten for mindre enn det hun gav for den (flere år i forveien). Da hun solgte den til deg hadde du innhentet en takst som viste at den var verdt 485 000 kroner mer. Denne taksten underslo du, og holdt skjult for din syke søster.
 
-### Konkret ad et privat lån
+Det er kjent at du har vært din syke søsters økonomiske verge, og hvis du på salgs- tidspunktet har vært hennes verge, er dette svært alvorlig misbruk av tillitsforhold.
+
+### Konkret ad et privat lån - som bedrageriet er knyttet til
 Da din syke søster ble tvunget til å selge begynte din eldste søster å hjelpe din mor (som før hun døde ble kastet ut av en bolig du eide som hun hadde bodd i de siste 20 årene). Din eldste søster hadde ordnet en avtale med kommunen om at din mor kunne få 100% finanisering.
 
-Faktum er at du da grep inn og ikke lot din mor få låne mer enn ca. 50% av banken. Resten ble hun manipulert til å låne privat hos deg. For å få innvilge dette avdragsfrie private lånet, måtte hun gå med på å skrive under på at du skulle få betalt mer enn 800 000 kroner for at ordnet med nyt parkett og maling på veggene i stua.
+Faktum er at du da grep inn og ikke lot din mor få låne mer enn ca. 50% av banken. Resten ble hun manipulert til å låne privat hos deg. For å få innvilge dette avdragsfrie private lånet, måtte hun gå med på å skrive under på at du skulle få betalt mer enn 800 000 kroner for å pusse litt opp (med ny parkett og maling på veggene i stua).
 
 Dette lånet er notifisert i et gjeldsbrev som nærmere bestemt består av to deler. 
 
@@ -32,7 +34,7 @@ Mindre enn halvparten av gjeldsbrevet er et beløp som din mor faktisk og reelt 
 
 Din mor var sannynligvis svekket av demens på slutten og hun har også vært svært fortvilt og hjelpetrengende da hun slet med å finne annen ledig leilighet. (Det er forståelig at du hadde et økonomisk motiv for å kaste henne ut, da kommunen kunne tilby deg 1/3 mer i husleie for å leie ut til flyktninger fra Ukraina.) 
 
-Det er svært urimelig at du nå ved å gjøre gjeldsbrevet gjeldende krever at du og ditt hus skal ha over 800 000 kroner for minimal oppussing av den leiligheten som du nå har arvet en andel av. Din mor har sannsynligvis ikke forstått at du ved denne avtalen stjal bortimot en million kroner fra hennes andre barn som hun helt sikkert ikke ville gjort noe slikt mot - hvis hun hadde forstått innholdet i gjeldsbrevet.
+**Det er svært urimelig (og uredelig) at du nå ved å gjøre gjeldsbrevet gjeldende krever at du og ditt hus skal ha over 800 000 kroner for minimal oppussing av den leiligheten som du nå har arvet en andel av.**[^2] Din mor har sannsynligvis ikke forstått at du ved denne avtalen stjal bortimot en million kroner fra hennes andre barn som hun helt sikkert ikke ville gjort noe slikt mot - hvis hun hadde forstått innholdet i gjeldsbrevet.
 
 Enten må du fremlegge dokumenter som beviser at del 2 i gjeldsbrevet som beløper seg til ca. 830 000 kroner er rettmessig, eller frafalle det meste av kravet.
 
@@ -40,7 +42,7 @@ Enten må du fremlegge dokumenter som beviser at del 2 i gjeldsbrevet som beløp
 Det presiseres at det også vil stride mot ærbarhet og gjøre mer enn 10% av gjeldsbrevets del 2 gyldig, og at det i så fall vil dreie seg om urimelig pris for tjenester og varer.
 
 ### Summa
-Inntil det motsatte er bevist hevdes det at 90% av del 2 (830 000 x 0.9) er ugyldig.
+> Inntil det motsatte er bevist hevdes det at 90% av gjeldsbrevets del 2 (830 000 x 0.9) er ugyldig.
 
 ### Prosessen videre
 Dersom ikke kravet i del 2 av gjeldsbrevet for det meste frafalles, vil trolig virkningen av det være en prosess hvor rettmessigheten av ditt krav vil prøves av ulike kontrollinstanser. Det er forhåpentligvis dommere som skal prøve gyldigheten av gjeldsbrevet, både innholdsmangler og eventuelle mangler ved din mor (demens).
@@ -48,10 +50,12 @@ Dersom ikke kravet i del 2 av gjeldsbrevet for det meste frafalles, vil trolig v
 ### Bønn til den rike mann
 Det er i broderkjærlighet denne e-posten sendes. Du får nå mulighet til å stoppe opp og avstå fra å fortsette med å la grådigheten styre deg. 
 
+```
 Vennlig hilsen
 
 Eleison
 Jurist
+```
 
 ## Vedlegg: Notater om ugyldighet
 ::TipBox{type="tip"}
@@ -80,4 +84,7 @@ Urimelig eller i strid med god forretningsskikk (avtl. $ 36)
 
 Gjeldsbrevlova slår fast at avtalerettens regler om ugyldighet også gjelder gjeldsbrev.
 
-[Kilde](https://rettslaere.portfolio.no/read/8476d9bc-ee3c-48ee-95ea-2341ecc4d43d){:target="_blank"}
+[Kilde for notater](https://rettslaere.portfolio.no/read/8476d9bc-ee3c-48ee-95ea-2341ecc4d43d){:target="_blank"}
+
+[^1]: Denne saken nevnes kun for å vise hvor alvorlig dypt siktede er falt i mørket. Saken kan overses og utelates i første omgang, slik at man kan konsentrere seg om det mest alvorlige - nemlig bedrageriet som gjeldsbrevet i realiteten er.
+[^2]: Det er sannsynlig at dine nærmeste i ditt hus er medvirkende i bedrageriet som nå forsøkes å realiseres.

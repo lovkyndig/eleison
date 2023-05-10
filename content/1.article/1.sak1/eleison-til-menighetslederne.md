@@ -33,9 +33,11 @@ Det betyr at anbefalingen etter Matt 18, 15-17 da er å ta saken opp med to elle
 
 Styrelederne i menigheten oppfordres til å ta kontakt med undertegnede (på epost) for å få telefonnumrene til partene. Kun seriøse henvendelser godtas. All respons offentliggjøres.
 
+```
 Vennlig hilsen 
 
 Eleison
 Jurist
+```
 
 [^1]: Dette mener Eleison faller inn under straffelovens bestemmelser om bedrageri/svindel. Det betyr at den bedragne eller svindlede selv kan anlegge privat straffesak mot den mistenkte for retten. Dette kan gjøres uten å anmelde forholdet til politiet.
