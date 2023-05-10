@@ -1,7 +1,7 @@
 {
   "name": "eleison",
-  "version": "1.0.1-rc.2",
-  "description": "⚡Eleison personal blog.",
+  "version": "1.0.1-rc.3",
+  "description": "⚡Eleison's personal blog based on BlogiNote",
   "homepage": "https://eleison.vercel.app",
   "author": "lovkyndig",
   "license": "MIT",

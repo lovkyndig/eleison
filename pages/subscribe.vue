@@ -54,14 +54,17 @@ const config = useRuntimeConfig()
                   :icon-color-class="'text-purple-400'"
                   :icon-size-class="'w-6 h-6'"
                 />
-                <NuxtLink 
-                  href="/privacy.txt" 
+                <a 
+                  href="/privacy.txt"
+                  download="/eleison-privacy.txt"
+                  media="screen"
+                  type="text/plain"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-blue-500 hover:text-blue-600 transition-colors duration-300"
                 >
                   Privacy
-                </NuxtLink>
+                </a>
               </div>
             </div>
           </div>

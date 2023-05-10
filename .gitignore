@@ -1,3 +1,4 @@
+# https://git-scm.com/docs/gitignore
 node_modules
 *.log*
 *.txt
@@ -10,4 +11,5 @@ yarn.lock
 .well-known/guide
 
 dist
+dist/**/*
 dev-dist
