@@ -11,73 +11,73 @@
   "display": "minimal-ui",
   "icons": [
     {
-      "src": "img/icons/24.webp",
+      "src": "img/icons/24.png",
       "sizes": "24x24",
-      "type": "image/webp"
+      "type": "image/png"
     },
     {
-      "src": "img/icons/48.webp",
+      "src": "img/icons/48.png",
       "sizes": "48x48",
-      "type": "image/webp"
+      "type": "image/png"
     },
     {
-      "src": "img/icons/64.webp",
+      "src": "img/icons/64.png",
       "sizes": "64x64",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "any"
     },
      {
-      "src": "img/icons/64.webp",
+      "src": "img/icons/64.png",
       "sizes": "64x64",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "img/icons/384.webp",
+      "src": "img/icons/384.png",
       "sizes": "384x384",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "img/icons/384.webp",
+      "src": "img/icons/384.png",
       "sizes": "384x384",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "img/icons/144.webp",
+      "src": "img/icons/144.png",
       "sizes": "144x144",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "img/icons/144.webp",
+      "src": "img/icons/144.png",
       "sizes": "144x144",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "img/icons/192.webp",
+      "src": "img/icons/192.png",
       "sizes": "192x192",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "img/icons/192.webp",
+      "src": "img/icons/192.png",
       "sizes": "192x192",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "img/icons/512.webp",
+      "src": "img/icons/512.png",
       "sizes": "512x512",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "img/icons/512.webp",
+      "src": "img/icons/512.png",
       "sizes": "512x512",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "maskable"
     }
   ],
@@ -87,14 +87,14 @@
       "short_name": "Evangelium",
       "description": "Dr. Martin Luthers utleggelse av evangelieteksten.",
       "url": "/list?tags=Evangelium&category=Alle&series=Alle",
-      "icons": [{ "src": "/img/shortcuts/default.webp", "sizes": "96x96" }]
+      "icons": [{ "src": "/img/shortcuts/default.png", "sizes": "96x96" }]
     },
     {
       "name": "Epistler",
       "short_name": "Epistel",
       "description": "Dr. Martin Luthers utleggelse av epistelteksten.",
       "url": "/list?tags=Epistel&category=Alle&series=Alle",
-      "icons": [{ "src": "/img/shortcuts/default.webp", "sizes": "96x96" }]
+      "icons": [{ "src": "/img/shortcuts/default.png", "sizes": "96x96" }]
     }
   ],
   "screenshots": [

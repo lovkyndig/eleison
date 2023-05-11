@@ -4,7 +4,6 @@ node_modules
 *.txt
 .nuxt
 .output
-dev-dist
 dist
-.well-known/guide
 yarn.lock
+bubblewrap
