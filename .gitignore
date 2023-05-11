@@ -3,12 +3,8 @@ node_modules
 *.log*
 *.txt
 .nuxt
-.nitro
-.cache
 .output
-yarn.lock
-.well-known/guide
-dist
-dist/**
-dist/**/*
 dev-dist
+dist
+.well-known/guide
+yarn.lock

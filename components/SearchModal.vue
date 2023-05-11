@@ -171,11 +171,13 @@ const clearInputTextHandler = () => {
           v-show="!inputText"
           class="p-16 flex flex-col justify-center items-center gap-y-8 text-purple-400"
         >
+          <!--
           <IconCustom
             name="fluent:text-t-28-filled"
             class="w-12 h-12"
           />
-          <p>Type to Search</p>
+          -->
+          <p>{{ appConfig.filter.search_guide }}</p>
         </div>
         <div
           v-show="inputText && searchState === 'waiting'"

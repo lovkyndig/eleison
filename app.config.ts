@@ -42,6 +42,6 @@ export default defineAppConfig({
     category: 'Sak',
     tags: 'Merke',
     series: 'Serie',
-    search_guide: 'Søg efter ord eller en frase. Fraser må være omsluttet av anførselstegn.'
+    search_guide: 'Søg etter ord eller en frase. Fraser må være omsluttet av anførselstegn.'
   },
 })
