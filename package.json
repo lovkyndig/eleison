@@ -1,6 +1,6 @@
 {
   "name": "eleison",
-  "version": "1.0.2-rc.5",
+  "version": "1.0.2-rc.6",
   "description": "⚡Eleison's personal blog based on BlogiNote",
   "homepage": "https://eleison.vercel.app",
   "author": "lovkyndig",
@@ -38,7 +38,7 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "generate": "nuxt generate && npx pagefind --source dist",
+    "generate": "nuxt generate && npx pagefind",
     "preview": "nuxi preview",
     "lint": "eslint ."
   },

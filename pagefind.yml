@@ -1,3 +1,4 @@
 # The bundle_dir need to be generated in the public-directory
 # source: .output/public
-bundle_dir: ../public/_pagefind
+source: .output/public
+bundle_dir: ../../public/_pagefind
