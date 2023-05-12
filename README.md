@@ -3,7 +3,9 @@ The Theme in Eleison is [`BlogiNote`](https://github.com/Benbinbin/bloginote) (v
 
 ## Install and setup
 Read the release notes for guide to setup a release.
-NB! _Typescript > 4.9.5_ stop _vue-tsc_ from checking typescript errors on `dev`.
+NB! 
+* _Typescript > 4.9.5_ stop _vue-tsc_ from checking typescript errors on `dev`.
+* _mermaid_ < 10.0.0 only not working on promise-based mermaid.
 
 ## To do-list (personal notes)
 - Add find()-function and
@@ -15,4 +17,4 @@ NB! _Typescript > 4.9.5_ stop _vue-tsc_ from checking typescript errors on `dev`
 ## License
 [MIT](./LICENSE)
 
-Updated 11.May 2023
+Updated 12.May 2023

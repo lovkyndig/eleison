@@ -123,6 +123,14 @@ const showSearchModal = useState('showSearchModal')
           >
             Subscribe
           </NuxtLink>
+          <a
+            href="https://kirkepostille.vercel.app"
+            target="_blank"
+            class="option-item text-purple-500 bg-purple-50 hover:bg-purple-100 border-purple-500"
+            @click="showFooterNavMoreOptions = false"
+          >
+            Luther
+          </a>
         </div>
       </Transition>
 
