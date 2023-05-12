@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import mermaid from 'mermaid'
+import { StringObj } from 'sitemap/dist/lib/sitemap-item-stream'
 
 const props = defineProps({
   code: {
@@ -94,7 +95,7 @@ if (props.filename) {
  */
 type CopyState = 'wait' | 'process' | 'success' | 'fail'
 const copyState = ref<CopyState>('wait')
-const clipboard = ref<Clipboard | Navigator>(null)
+const clipboard = ref<Clipboard | Navigator>(null) // ref<null | Navigator>(null)
 
 onMounted(() => {
   clipboard.value = navigator.clipboard
@@ -137,12 +138,19 @@ const urlRegex = /(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-
  *
  */
 // convert mermaid code to svg
-const mermaidGraph = ref('')
+const mermaidGraph = ref<Promise<string | string> | string>('') // ref('')
 onMounted(() => {
   if (props.language === 'mermaid' && props.code && document) {
     mermaid.mermaidAPI.initialize({ startOnLoad: false })
-    mermaid['mermaidGraph'].value = mermaid.mermaidAPI.render('graphDiv', props.code)
-  }
+    if (!props.code.includes('mindmap')) {
+      mermaidGraph.value = mermaid.mermaidAPI.render('graphDiv', props.code)
+    }
+    else if (props.code.includes('mindmap')) {
+      // mermaidGraph.value = mermaid.mermaidAPI.renderAsync('graphDiv', props.code)
+      console.log('mindmap and other promise-based mermaid is not working - sorry!')
+    }
+
+  } 
 })
 </script>
 
