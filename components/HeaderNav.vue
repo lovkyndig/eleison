@@ -115,6 +115,13 @@ const showSearchModal = useState('showSearchModal')
         >
           About
         </NuxtLink>
+        <a
+          href="https://github.com/lovkyndig/eleison/discussions"
+          target="_blank"
+          class="btn text-purple-500 hover:bg-purple-100"
+        >
+          Diskusjon
+        </a>
         <NuxtLink
           v-if="appConfig.basic.subscribePage"
           to="/subscribe"
@@ -122,13 +129,6 @@ const showSearchModal = useState('showSearchModal')
         >
           Subscribe
         </NuxtLink>
-        <a
-          href="https://kirkepostille.vercel.app"
-          target="_blank"
-          class="btn text-purple-500 hover:bg-purple-100"
-        >
-          Luther
-        </a>
       </div>
       <div class="flex justify-end items-center gap-4">
         <button
