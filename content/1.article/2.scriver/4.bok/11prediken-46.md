@@ -8,7 +8,7 @@ tags:
   - 4.bok
 ---
 
-# Fiendene gavnlig for en kristne
+# Fiendene gavnlig for en kristen
 _Se, hvor gavnlig ofte en hatefull fiende er for en kristen, og hvorledes Gud etter sin store godhet kan vende ondskapen til det beste for sine barn og gjøre et ryggesløst menneske til en botspredikant!_ (Christian Schrivers Sjeleskatt)
 
 ## Sjeleskatt - 4.bok - 11.prediken - $ 46 (s.370-371)
@@ -36,3 +36,16 @@ Såre merkeligen siger den dyrebare Luther:
 > 5. Derved blive de kjække og udrustede til at stride mot djevelen og synden.
 > 6. Derved blir de dyktige til all god gjerning.
 > 7. Og kort sagt, derved blir troen øvet, evangeliet skjærpet og de kristne en sann Guds gjerning og ny skabing.
+
+## Eleisons kommentar
+Ingen må tro at den som gjør noe ondt mot en Guds barn, ikke også sårer Jesus minst like mye, eller at dette ikke vil bli husket på dommens dag. Jesus er de troendes broder. Det vi gjør mot Gud og Guds barn skal vi dømmes for på dommens dag. Det gode vi gjør mot våre ugudelige barn og mot de vantroe, vil ikke bli tilregnet oss. Det er kun hvis vi gjør noe godt mot de troende Guds barn at Gud vil ta imot oss i de himmelske boliger. Dette taler Luther om på [26.søndag etter trefoldighet](https://kirkepostille.vercel.app/article/trefoldighed/host/26-evangelium){:target="_blank"}.
+
+I bibelen står det at det er de hellige (Guds barn) som skal dømme verden på den ytterste dag:
+
+> _Vet dere ikke at de hellige skal dømme verden? Men når dere skal dømme verden, hvorfor duger dere ikke da til å dømme i småsaker?  Vet dere ikke at vi skal dømme engler? Kan dere ikke da dømme i jordiske saker?_ [1 Kor 6, 2-3](https://no.bibelsite.com/1_corinthians/6-2.htm){:target="_blank"}.
+
+På dommens dag hjelper ikke troen oss. Det er kun mens vi lever at troen og håpet hjelper oss til å holde motet oppe, at vi ikke mistviler. På dommens dag er det gjerningene vi skal dømmes etter. Evangelieteksten på 26.søndag etter trefoldighet fra [Matt 25, 31-46](https://no.bibelsite.com/matthew/25-31.htm){:target="_blank"} beviser dette. Bibelteksten er så klar i seg selv at den ikke trenger noen utleggelse:
+
+Dette skriver jeg for at ikke sitatet fra Christian Schrivers Sjeleskatt skal tas til inntekt for at kristne skal kunne gjøre ondt mot andre kristne. Selv om den andre kristne har en lav stilling her på jorden, og kanskje må godta det onde som gjøres mot han eller henne, skal faktisk denne personen opphøyes og sitte på dommens trone og dømme de som har gjort ondt mot dem.[^1]
+
+[^1]: Dette betyr ikke at de som har sonet for en urett skal straffes en gang til. Den som har blitt dømt for en ugjerning her i verden, kan ikke bli dømt for det samme på dommens dag. Det er et grunnleggende prinsipp, som selv verdslige domstoler overholder, at ingen kan dømmes to ganger for det samme. Luther skriver i sin forklaring over epistelen på [3.søn i faste](https://kirkepostille.vercel.app/article/vinter/faste/3-epistel/?searchparam=straffen){:target="_blank"}: _For en straffet synd er ligesom ingen synd, og man kan ikke bebrejde den._
