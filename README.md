@@ -18,3 +18,5 @@ NB!
 [MIT](./LICENSE)
 
 Updated 12.May 2023
+
+[//]: # (MDC-Tipbox-types: tip, announce, warning, fun, achieve, question, good, bad)

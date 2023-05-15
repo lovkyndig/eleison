@@ -106,14 +106,14 @@ const showSearchModal = useState('showSearchModal')
             class="option-item text-purple-500 bg-purple-50 hover:bg-purple-100 border-purple-500"
             @click="showFooterNavMoreOptions = false"
           >
-            Front
+            Hjem
           </NuxtLink>
           <NuxtLink
             to="/about"
             class="option-item text-purple-500 bg-purple-50 hover:bg-purple-100 border-purple-500"
             @click="showFooterNavMoreOptions = false"
           >
-            About
+            Om
           </NuxtLink>
           <a
             href="https://github.com/lovkyndig/eleison/discussions"

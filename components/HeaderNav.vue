@@ -113,7 +113,7 @@ const showSearchModal = useState('showSearchModal')
           to="/about"
           class="btn text-purple-500 hover:bg-purple-100"
         >
-          About
+          Om
         </NuxtLink>
         <a
           href="https://github.com/lovkyndig/eleison/discussions"
