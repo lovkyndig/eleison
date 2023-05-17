@@ -149,7 +149,7 @@ const showSearchModal = useState('showSearchModal')
           <p
             class="text-xs"
           >
-            Saker
+            Bøker
           </p>
         </div>
       </button>

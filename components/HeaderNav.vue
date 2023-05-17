@@ -107,7 +107,7 @@ const showSearchModal = useState('showSearchModal')
           @mouseleave="setSubNav(false)"
           @click="showSubNav=!showSubNav"
         >
-          Saker
+          Bøker
         </button>
         <NuxtLink
           to="/about"
