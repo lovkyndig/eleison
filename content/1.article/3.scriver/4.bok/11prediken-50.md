@@ -1,0 +1,65 @@
+---
+series: til menigheten
+showTime: false
+showOutdatedWarning: true
+created: 2023-05-17
+updated: 2023-05-17
+tags:
+  - 11.prediken
+---
+
+# Hemmlig synd med dog uskyldig for verden
+Vær ikke bekymret; _jeg vil tugte dig med måde og ikke holde dig aldeles uskyldig_ Siden giver Gud til beleilig tid onde mennesker tilladelse til at angribe hans barn, men ærer det tillige for verden, idet det har navn af at lide uskyldigt.
+
+## Sjeleskatt - 4.bok - 11.prediken - § 50 (s.372-373)
+En ting må jeg endnu påminde om, at når den retfærdige, men dog nådige Gud undertiden lader nogle af sine barn angribes og plages af den hadske og falske verden, tager han herved hensyn til en aller anden lønlig synd, som de forhen kunne have begået og som de endnu ikke have tilbørligen erkjendt og angret, for at de fiendske hjerter skulle være hans tugtensvis hvormed Han faderligen straffer sine egne, så at de gå i sig selv og sige:
+
+> _Sandelige, vi have skyld på os formedelst vor broder; derfor er denne nød kommen over os_,  
+ligesom Josefs brødre, da han viste dem et meget surt ansigt og tiltalte dem hårdt (1 Mos 42, 21). 
+
+Jeg vil yterligere fremstille denne sag med en åndrig og bekjendt lærers ord.
+
+### Dr. Lürkemann
+Ved denne refselse er det vel at mærke, at Gud deri omgåes lempeligt med sine børn; Han tugter dem således at de får den ære at lide uskyldigt. 
+
+> Til eksempel: når David efter sit ægteskabsbrud og manndrab ikke straks bliver overgiven i blodhævnerens hænder, glemmer dog ikke Gud at tugte sit kjære barn; men til passende tid lader Han en forfølgelse komme, over ham, og den gode David må flygte for sin egen sønn (han ble også på denne flugt udskjældt og beskjæmmet og kaldet en blodmand og nedrig mand af Simei); 
+
+da blev David tugtet, men skulde alligevel have den ære, at han led uskyldigt; thi uden egen brøde blev han fordreven fra sit kongerige. 
+
+Således hænder det undnu ofte, at et Guds barn bliver overilet af en brøst, som ingen ved noget om uden Gud og han selv, da siger Gud til den bedrøvede sjel: 
+
+> Vær ikke bekymret; jeg vil ikke forskyde dig; men _jeg vil tugte dig med måde og ikke holde dig aldeles uskyldig_ (Jer 30, 11). 
+
+Siden giver Gud til beleilig tid onde mennesker tilladelse til at angribe hans barn, men ærer det tillige for verden, idet det har navn af at lide uskyldigt.
+
+### En straffeprædikens følger
+Sådant tildrager sig ofte. Jeg kjender et eksempel derpå, nemlig en brav preæst, der formedels en velgrundet straffeprædiken blev offentligen og heftigt forhånet og angreben med ærerørige ord af et ondskabsfuldt menneske; 
+
+i begyndelsen blev han høiligen fortørnet herover og ingav en klage til retten over sin angriber, for hvem det så farligt ud, da han intet kunde bevise og kun havde udøst sin ondskab i afsindig vrede efter en falsk beretning;[^1] 
+
+Presten viste sig imidlertid meget sagtmodig og lod sig ved andres mægling overtale til at tilgive sin fornærmer alt og lade den imod denne reiste klage falde, efter at han havde erkjendt sin ondskab, afgivet en tilfredsstillende erklæring og bedet om kristelig tilgivelse;[^2]
+
+da nu nogle tildels kjødeligsindede personer, som formedelst skumlerens mangfoldige onde gjerninger gjerne havde seet ham lide en beskjæmmelse, forundrede sig heerover, og jeg selv, der stod i et fortroligt venskabsforhold til presten, spurgte ham om årsagen dertil, svarede han:
+
+> Jeg tænkte på Kong David, som Simei uventet og uforskyldt udskjældte; omendskjønt han havde midler ihænde, hvorved han kunde have forhindret ham fra nogensinde at bespotte ham mere, led han det dog med tålmodighed og tænkte tilbage på tildragelsen med Urias og hans hustru, erkjendte Guds retfærdige dom og taug stille; 
+
+Mange er vel uskyldige for verden, emn ikke for Gud, og hverved lod jeg mig da let berolige.
+
+### Den kristne kirke 
+Dette har jeg ikke villet unlade at omtale, for om det muligens også kunde tjene dig, min medkristen, til eftertanke og derefter til din sjels beroligelse; måskje vil også du i dette tilfælde sige med Kong David og den græske keiser Mauritius:
+
+> Retfærdig er du, Herre, og rette ere dine domme (ps. 119, 137), 
+
+og med den kristne kirke:
+> Skal synd og pine følges ad,  
+Så straf mig her ilive;  
+Ja hårdt mig her kun bøde lad,  
+Må hist jeg fri kun blive. 
+
+> Gjør med mig, som det tykkes dig;  
+Jeg tillidsfuldt og stille  
+Vil lide, når det mig  
+Fra dig kun ei må skille.
+
+[^1]: Ærekrenkeren var i ferd med å tabe sagen pga. falsk anklage.
+[^2]: Ærekrenkeren bad om tilgivelse.

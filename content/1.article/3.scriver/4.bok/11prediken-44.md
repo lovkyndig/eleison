@@ -9,7 +9,7 @@ tags:
 ---
 
 # Intet kors er uden nytte
-_gjennem en ond embedsbroder bevirker han, at en begavet og berømt mand ikke smager den timelige æres sødme, tænker lidet på sine fortrin og erkjender, at han endu er i verden, i tåredalen og har årsag til at længes efter himmelen._
+Via medmenneskers urettferdige angreb bevirker Gud, _at en begavet og berømt mand ikke smager den timelige æres sødme, tænker lidet på sine fortrin og erkjender, at han endu er i verden, i tåredalen og har årsag til at længes efter himmelen._
 
 ## Sjeleskatt - 4.bok - 11.prediken - § 44 (s.369-370)
 Dette kunde nu allerede være nok til at berolige dit hjerte, min broder (min søster), aldenstund ingen af de troende vil efter ånden attråe en bedre plads og tilstand end Guds forsyn har givet ham. Hvo af os vilde fordriste sig til at forandre eller forbedre Guds anordning?
@@ -48,7 +48,7 @@ Men isærdeleshed findes denne farlige vanart hos os i gode dage,
 
 Dette er de sure sitronskiver, som Gud lader sætte for sine egne, på det den timelige lyksaligheds vin ikke skal skade dem; 
 - ved en ond nabo gjør han, at en kristen ikke hænger sit hjerte ved sit nærsomme, velbeliggende hus, ved sin heldige handel og ønskelige opkomst; 
-- gjennem en ond embedsbroder bevirker han, at en begavet og berømt mand ikke smager den timelige æres sødme, tænker lidet på sine fortrin og erkjender, at han endu er i verden, i tåredalen og har årsag til at længes efter himmelen.
+- gjennem en ond embedsbroder bevirker Han, at en begavet og berømt mand ikke smager den timelige æres sødme, tænker lidet på sine fortrin og erkjender, at han endu er i verden, i tåredalen og har årsag til at længes efter himmelen.
 
 [^1]: heder=varmer
 [^2]: Den anden årsag begynner i § 51.

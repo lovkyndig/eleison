@@ -116,11 +116,11 @@ const showSearchModal = useState('showSearchModal')
           Om
         </NuxtLink>
         <a
-          href="https://github.com/lovkyndig/eleison/discussions"
+          href="https://kirkepostille.vercel.app"
           target="_blank"
           class="btn text-purple-500 hover:bg-purple-100"
         >
-          Diskusjon
+          Kirkepostil
         </a>
         <NuxtLink
           v-if="appConfig.basic.subscribePage"

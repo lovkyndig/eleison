@@ -81,22 +81,6 @@
       "purpose": "maskable"
     }
   ],
-   "shortcuts": [
-    {
-      "name": "Evangelier",
-      "short_name": "Evangelium",
-      "description": "Dr. Martin Luthers utleggelse av evangelieteksten.",
-      "url": "/list?tags=Evangelium&category=Alle&series=Alle",
-      "icons": [{ "src": "/img/shortcuts/default.png", "sizes": "96x96" }]
-    },
-    {
-      "name": "Epistler",
-      "short_name": "Epistel",
-      "description": "Dr. Martin Luthers utleggelse av epistelteksten.",
-      "url": "/list?tags=Epistel&category=Alle&series=Alle",
-      "icons": [{ "src": "/img/shortcuts/default.png", "sizes": "96x96" }]
-    }
-  ],
   "screenshots": [
     {
       "src": "/img/screenshots/narrow/540x720.png",
@@ -141,7 +125,23 @@
       "label": "List of pages from Eleison"
     }
   ],
-  "lang": "da",
+  "shortcuts": [
+    {
+      "name": "Sjeleskatt",
+      "short_name": "Schriver",
+      "description": "Christian Schrivers Sjeleskatt",
+      "url": "/list?theme=scriver",
+      "icons": [{ "src": "/img/shortcuts/scriver.jpg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Kirkepostille",
+      "short_name": "Kirkepostil",
+      "description": "Dr. Martin Luthers kirkepostille",
+      "url": "https://kirkepostille.vercel.app",
+      "icons": [{ "src": "/img/shortcuts/kirkepostil.jpg", "sizes": "96x96" }]
+    }
+  ],
+  "lang": "no",
   "dir": "ltr",
   "prefer_related_applications": false,
   "related_applications": [],
