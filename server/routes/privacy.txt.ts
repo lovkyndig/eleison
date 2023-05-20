@@ -1,15 +1,16 @@
-import fs from 'node:fs'
-import { sendStream } from 'h3'
+// import fs from 'node:fs'
+// import { sendStream } from 'h3'
 import { defineEventHandler, appendHeader } from 'h3'
 // import { serverQueryContent } from '#content/server'
 // import { useRuntimeConfig } from '#imports'
 
-// const path_to_file = `asdf\nasdfas\ `
+const textcontent = 'Testing new privacy-file' +
+'not finished yet - wait a day or two :)'
 
 export default defineEventHandler((event) => { 
 
-  // appendHeader(event, 'Content-Type', 'text/plain')
+  appendHeader(event, 'Content-Type', 'text/plain')
 
-  // return sendStream(event, fs.createReadStream('/'))
-  return 'testing testing not ok when async event'
+  return textcontent
 })
+// https://nuxt.com/docs/guide/directory-structure/server#sending-streams-experimental
