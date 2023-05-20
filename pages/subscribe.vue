@@ -56,7 +56,6 @@ const config = useRuntimeConfig()
                 />
                 <a 
                   href="/privacy.txt"
-                  download="/eleison-privacy.txt"
                   media="screen"
                   type="text/plain"
                   target="_blank"

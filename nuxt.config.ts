@@ -51,7 +51,7 @@ export default defineNuxtConfig({
   // routeRules: {/* '/privacy.txt': { prerender: true } */ },
   nitro: {
     prerender: {
-      routes: ['/rss.xml', '/sitemap.xml', '/']
+      routes: ['/rss.xml', '/sitemap.xml', '/', '/test2.txt', 'privacy.txt']
     }
   },
   // vite: { plugins: [ // VitePWA({ /* vite.config.ts */ }) ] },
