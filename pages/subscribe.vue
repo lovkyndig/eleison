@@ -66,6 +66,24 @@ const config = useRuntimeConfig()
                 </a>
               </div>
             </div>
+            <div class="flex items-center gap-2">
+              <CopyContent
+                :content="`${config.public.hostname}/text3.txt`"
+                :icon-name="'iconoir:privacy-policy'"
+                :icon-color-class="'text-purple-400'"
+                :icon-size-class="'w-6 h-6'"
+              />
+              <a 
+                href="/text3.txt"
+                media="screen"
+                type="text/plain"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-blue-500 hover:text-blue-600 transition-colors duration-300"
+              >
+                Privacy
+              </a>
+            </div>
           </div>
         </template>
       </ContentDoc>
