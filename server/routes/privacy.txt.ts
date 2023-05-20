@@ -6,11 +6,10 @@ import { defineEventHandler, appendHeader } from 'h3'
 
 // const path_to_file = `asdf\nasdfas\ `
 
-export default defineEventHandler(() => { 
+export default defineEventHandler(async(event) => { 
 
   // appendHeader(event, 'Content-Type', 'text/plain')
 
-  // return sendStream(event, fs.createReadStream('test3.txt'))
-  return 'testing testing '
-
+  // return sendStream(event, fs.createReadStream('/'))
+  return 'testing testing okay'
 })
