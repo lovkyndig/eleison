@@ -4,8 +4,7 @@ import { defineEventHandler, appendHeader } from 'h3'
 // import { serverQueryContent } from '#content/server'
 // import { useRuntimeConfig } from '#imports'
 
-const textcontent = 'Testing new privacy-file' +
-'not finished yet - wait a day or two :)'
+const textcontent = 'Testing new privacy-file'
 
 export default defineEventHandler((event) => { 
 
