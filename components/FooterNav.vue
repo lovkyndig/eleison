@@ -125,11 +125,11 @@ const showSearchModal = useState('showSearchModal')
           </a>
           <NuxtLink
             v-if="appConfig.basic.subscribePage"
-            to="/subscribe"
+            to="/privacy"
             class="option-item text-purple-500 bg-purple-50 hover:bg-purple-100 border-purple-500"
             @click="showFooterNavMoreOptions = false"
           >
-            Subscribe
+            Privacy
           </NuxtLink>
         </div>
       </Transition>

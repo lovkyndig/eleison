@@ -48,7 +48,7 @@ export default defineNuxtConfig({
       ssr: true
     },
   },
-  // routeRules: {/* '/privacy.txt': { prerender: true } */ },
+  // routeRules: {/* '/filename.txt': { prerender: true } */ },
   nitro: {
     prerender: {
       routes: ['/rss.xml', '/sitemap.xml', '/']

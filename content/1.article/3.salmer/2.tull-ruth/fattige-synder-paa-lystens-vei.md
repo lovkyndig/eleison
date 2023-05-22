@@ -5,7 +5,7 @@ showOutdatedWarning: false
 created: 2023-05-20
 updated: 2023-05-20
 tags:
-  - Til synderen
+  - Salme
 ---
 
 # Fattige synder på lystens vei

@@ -5,7 +5,7 @@ showOutdatedWarning: false
 created: 2023-05-20
 updated: 2023-05-20
 tags:
-  - Hjelp mig
+  - Salme
 ---
 
 # Hjelp mig Herre mig og mine, ut av syndens død og pine

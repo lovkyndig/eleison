@@ -1,7 +1,7 @@
 {
-  "name": "Eleison",
+  "name": "Eleisons Bibel",
   "short_name": "Eleison",
-  "description": "Eleison' epistler til menigheten.",
+  "description": "Eleisons Bibel med epistler, salmer & Christian Scrivers Sjeleskatt.",
   "start_url": "/",
   "scope": "/",
   "id": "/",
@@ -127,18 +127,25 @@
   ],
   "shortcuts": [
     {
-      "name": "Sjeleskatt",
-      "short_name": "Schriver",
-      "description": "Christian Schrivers Sjeleskatt",
-      "url": "/list?theme=scriver",
-      "icons": [{ "src": "/img/shortcuts/scriver.jpg", "sizes": "96x96" }]
+      "name": "Læstadianske salmer",
+      "short_name": "Salmer",
+      "description": "Salmer fra to læstadianere fra Nordreisa.",
+      "url": "/list?theme=salmer",
+      "icons": [{ "src": "/img/shortcuts/salmer.png", "sizes": "96x96" }]
     },
     {
-      "name": "Kirkepostille",
-      "short_name": "Kirkepostil",
-      "description": "Dr. Martin Luthers kirkepostille",
-      "url": "https://kirkepostille.vercel.app",
-      "icons": [{ "src": "/img/shortcuts/kirkepostil.jpg", "sizes": "96x96" }]
+      "name": "Scrivers Sjeleskatt",
+      "short_name": "Schriver",
+      "description": "Christian Schrivers Sjeleskatt",
+      "url": "/list?theme=sjeleskatt",
+      "icons": [{ "src": "/img/shortcuts/sjeleskatt.jpg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Epistler",
+      "short_name": "Eleisons epistler",
+      "description": "Salmer fra Nordreisa",
+      "url": "/list?theme=epistler",
+      "icons": [{ "src": "/img/shortcuts/default.png", "sizes": "96x96" }]
     }
   ],
   "lang": "no",

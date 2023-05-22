@@ -1,11 +1,11 @@
 ---
-series: Eleisons salmer
+series: Kyrie
 showTime: false
 showOutdatedWarning: false
 created: 2023-05-20
 updated: 2023-05-20
 tags:
-  - Gimle
+  - Salme
 ---
 
 # Å, min kjærlighet og glede

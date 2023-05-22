@@ -28,7 +28,7 @@ export default defineAppConfig({
       exclude: [
         '/',
         '/about/',
-        '/subscribe/',
+        '/privacy/',
         '/list/'
       ]
     },
@@ -39,7 +39,7 @@ export default defineAppConfig({
     frontpage: '/img/seo-meta/frontpage.png',
   },
   filter: {
-    category: 'Sak',
+    category: 'Bøker',
     tags: 'Merke',
     series: 'Serie',
     search_guide: 'Søg etter ord eller en frase. Fraser må være omsluttet av anførselstegn.'
