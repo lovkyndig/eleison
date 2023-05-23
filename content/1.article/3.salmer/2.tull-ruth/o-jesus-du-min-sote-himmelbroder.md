@@ -19,7 +19,7 @@ Dig som er veien sannheten og live.
 I dine fotspor jeg tilbeder Dig,  
 at du kjære Herre drager mig.
 
-> 3. Om jeg i verden hates må av alle,  
+> 3. Om jeg i verden hates må av alle,[^1]  
 som ikke Dig i sannhet vil påkalle,  
 Jeg vil igjennen kors og trengsel gå,  
 innad til Dig og evig hvile få.
@@ -47,3 +47,5 @@ og alle Herre drage inn til dig.
 ## Melodi
 Tekst: Ruth Rasmussen  
 Melodi: Hva tid og stund skal det O Frelser være
+
+[^1]: Legg merke til at hatet ikke bare kommer fra verden, men fra _"alle"_. Erfaringen og virkeligheten viser at kristne spotter de sanne kristne aller mest. Se også omtale under [dikterne](/article/salmer/dikterne#verdsligsinnede-kristne)
