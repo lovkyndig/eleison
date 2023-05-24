@@ -3,7 +3,7 @@ series: Epistler
 showTime: false
 showOutdatedWarning: false
 created: 2023-05-19
-updated: 2023-05-23
+updated: 2023-05-24
 tags:
   - Prediken
 ---
@@ -11,7 +11,7 @@ tags:
 # Tuktemester til Kristus
 Og når man så begynner å fortælle dem, hva uret de gjør, så foregiver de, at man taler mot øvrigheten og giver årsak til opprør. Kort sagt, man skal kun præ­dike, hvad de gjerne vil høre. Gjør man ikke det, forkynner man ikke lengere evangeliet.
 
-## Hvorfor skjennepreken?
+## Hvorfor formane?
 ### Gud tukter til kristus
 > _Du skal ikke hate din bror i ditt hjerte, men du skal irettesette din næste, forat du ikke skal få synd på dig for hans skyld._ [3 Mos 18, 17](https://no.bibelsite.com/leviticus/19-17.htm){:target="_blank"}.[^1]
 
@@ -23,8 +23,17 @@ Og når man så begynner å fortælle dem, hva uret de gjør, så foregiver de, 
 
 > _Så er da loven blitt vår tuktemester til Kristus, forat vi skulde bli rettferdiggjort av tro_ [Gal 3, 24](https://no.bibelsite.com/galatians/3-24.htm){:target="_blank"}
 
-### Luther anbefaler refs
+### Luther forsvarer refs
+I [epistelen på 3.søndag i faste](https://kirkepostille.vercel.app/article/vinter/faste/3-epistel/?searchparam=straffe_synden#v3-men-utugt-og-al-slags-urenhed-og-griskhed-m%C3%A5-end-ikke-n%C3%A6vnes-iblandt-jer-det-s%C3%B8mmer-sig-ikke-for-hellige){:target="_blank"} viser Luther hvordan Paulus refser:
+
 > Paulus _revser korintherne i 1 Kor 5, fordi de lod synden være ustraffet. For en straffet synd er ligesom ingen synd, og man kan ikke bebrejde den._ [Kirkepostillen](https://kirkepostille.vercel.app/article/vinter/faste/3-epistel/?searchparam=straffe_synden#v3-men-utugt-og-al-slags-urenhed-og-griskhed-m%C3%A5-end-ikke-n%C3%A6vnes-iblandt-jer-det-s%C3%B8mmer-sig-ikke-for-hellige){:target="_blank"}
+
+### Paulus dom
+> _Men dere gjør urett og lar andre lide tap – til og med søsken. Vet dere ikke at de som gjør urett, ikke skal arve Guds rike? La dere ikke føre vill! Verken ... grådige, ... baktalere eller røvere skal arve Guds rike. Slik var noen av dere før. Men nå er dere vasket rene ... i den Herre Jesu navn og i vår Guds Ånd._ [1 Kor 6, 8-11](https://no.bibelsite.com/1_corinthians/6-9.htm){:target="_blank"}
+
+::TipBox{type="announce" name="Ikke refs men fordømmelse"}
+Legg merke til at Paulus ikke bare refser gjerrighet, grådighet eller havesakyke[^2], men fordømmer dem (som ugudelige) som drives av dette begjæret om å ville ha mer.
+::
 
 ## Språklig om _tukte_
 ”Tukte” og ”tukt” er på hebraisk _jasár_ og _musár_ og på gresk _paidévå_ og _paidéia_. 
@@ -42,9 +51,10 @@ At urettferdige mennesker hater tukt er i samsvar med bibelens ord:
 - _Dåren forakter sin fars tukt_ [Orsp. 15, 5](https://no.bibelsite.com/proverbs/15-5.htm){:target="_blank"}
 
 Men hvor kan vi finne profetier i bibelen om at det skal være som vi nå erfarer?
-
 ::TipBox{type="question" name="Ingen bør refse!"}
 Har samtidens tankestrømninger om at ingen bør refse, blitt snudd på hodet slik at de som refser blir mobbet og refset av enhver?
+
+Viser til staten, kirken og liberalister som refser, dømmer og utstøter de konservative (fra bl.a. jobb og kirke)?
 ::
 
 ## Bibelen om den som taler sannhet
@@ -72,12 +82,12 @@ Disse hovmodige stolthetens tjenere vet at det er de færreste i menigheten som 
 
 Med sin fornuft ser de at når de beskylder de som elsker Guds ord (og ikke kan tale om annet), for å være lovlærere, smiler mobberne i menigheten og er straks klare til å utføre det deres onde hjerter begjærer.
 
-### Læstadius begreper avslører hykleriet
+### Læstadius definerer hykleriet
 Sannheten er at disse falske hyklerne er det som Læstadius kaller `nådetyver` og `sorgløse`, som dog har navn av å være kristne. Engang bar de kanskje korset, men dette har de lagt av seg for lenge siden. Nå lever de som sorgløse nådetyver. Det er grunnen til at de hverken kan tale om korset eller refse synden, fordi de har glemt hvordan det var å bære korset, og synden er blitt som en halv venn, som de stadig blir overtalt av til kjødelige forlystelser og lettsindighet med ugudelige barn og familie. 
 
 Kvinnene har manipulert og forført de engang så fromme mennene til å tro at den kjødelige kjærlighet som de viser mot mennene, er besmykket med kristen nestekjærlighet. Det beviser livet deres at den ikke er (beskykket med). Beviset på kjødelig kjærlighet uten snev av Gudsfrykt, er at de kun bryr seg om sine barn og sin egne. De er så hovmodige og stolte når de kommer i forsamling at de selv ikke der engang viser kristen nestekjærlighet.
 
-Se hvor de hater hverandre, kan man si om de kristne i dag.[^3]
+Se hvor de hater hverandre, kan man si om de (som kaller seg) kristne i dag.[^3]
 
 ### Guds ords lys
 Når Guds ord skinn avslører hvor skittent det er i huset, får man lyst til å feie ut skitten. De kristne er ikke bedre enn narkomane. Hos sistnevnte flyter det med skitt og søppel. Narkomane som engang har vært opplyst av Guds ord, forstår dog at de går til helvete, fordi de er drevet av sine lyster, og elsker synden.
@@ -86,5 +96,5 @@ Det er langt værre med de hykleriske egenrettferdige. De er drevet av den kjød
 
 
 [^1]: [Kilde](https://oversattsakprosa.wordpress.com/2015/02/19/om-tukt-i-bibelen/){:target="_blank"}
-[^2]: [1 Tess 5, 3](https://no.bibelsite.com/1_thessalonians/5-3.htm){:target="_blank"}
+[^2]: Ordene havesyke, grådighet og griskhet er synonymer som stammer fra det samme greske ordet _"pleoneksịa"_.
 [^3]: De vantroe sa derimot om de første kristne: _Se, hvor de elsker hverandre._
