@@ -44,9 +44,7 @@ export default defineNuxtConfig({
       }
     },
     // ignores: ['images', 'attachment']
-    documentDriven: { // When doc.driven is true message about <NuxtLayout> shows on dev.
-      ssr: true
-    },
+    // documentDriven: { ssr: true },
   },
   // routeRules: {/* '/filename.txt': { prerender: true } */ },
   nitro: {
@@ -66,7 +64,8 @@ export default defineNuxtConfig({
       navigateFallback: '/',
       globPatterns: ['**/*.{js,css,html,xml,json,md,svg,webp,ico,png,jpg}'],
       globIgnores: ['google*.html'],
-      cleanupOutdatedCaches: true,
+      // cleanupOutdatedCaches: true,
+      /*
       runtimeCaching: [
         {
           // source: https://vite-pwa-org.netlify.app/workbox/generate-sw.html
@@ -74,12 +73,11 @@ export default defineNuxtConfig({
           handler: 'CacheFirst' as const,
           options: {
             cacheName: 'api-cache',
-            cacheableResponse: {
-              statuses: [0, 200]
-            }
+            cacheableResponse: { statuses: [0, 200] }
           }
         },
       ]
+      */
     },
     devOptions: {
       enabled: true,
@@ -88,8 +86,8 @@ export default defineNuxtConfig({
     useCredentials: true,
     manifest: false,
     client: {
-      installPrompt: true,
-      periodicSyncForUpdates: 300 // per 5 min for testing only
+      // installPrompt: true,
+      // periodicSyncForUpdates: 300 // per 5 min for testing only
     }
   },
 

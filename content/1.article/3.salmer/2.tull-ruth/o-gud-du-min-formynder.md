@@ -61,4 +61,4 @@ i himlens englekor.
 
 ## Melodi
 Tekst: Ruth Rasmussen  
-Melodi: 
+Melodi: Versemål 7 + 6 + 7 + 6
