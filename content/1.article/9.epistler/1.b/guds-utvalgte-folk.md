@@ -57,7 +57,7 @@ Luthers forklaring:
 ### Hva er galt med denne tro?
 Så kan man spørre hva som er galt med å tro at man er **Guds utvalgte folk**?
 
-::TipBox{type="bad" name="Sovende jombruer"}
+::TipBox{type="bad" name="Sovende jomfruer"}
 Den oppfatning som synes å ha bredt om seg blant læstsadianere er at det ikke er farlig om lyset mangler, eller at gjerningene mangler, sålenge oljen og troen er tilstede i hjertet (lampen).
 
 💤 Viser til at oljen var tilstede i de kloke jomfruers sluknede lamper. [Matt 22, 1-14](https://kirkepostille.vercel.app/article/trefoldighed/host/20-evangelium){:target="_blank"}
