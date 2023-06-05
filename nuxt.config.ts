@@ -2,6 +2,9 @@ import { isProduction } from 'std-env'
 import pkg from './package.json'
 import { createResolver } from '@nuxt/kit'
 const { resolve } = createResolver(import.meta.url)
+// https://github.com/damien-hl/nuxt3-auth-example
+const one_day = 60 * 60 * 24 * 1000
+const one_week = one_day * 7
 
 export default defineNuxtConfig({
   css: [ /* app.vue */ ],
@@ -25,7 +28,7 @@ export default defineNuxtConfig({
       theme: 'one-dark-pro',
       // check out https://content.nuxtjs.org/api/configuration#highlightpreload for the default preload languages
       // check out https://github.com/shikijs/shiki/blob/main/docs/languages.md for the available program language
-      preload: ['vue', 'python', 'tsx']
+      preload: ['latex', 'markdown', 'md', 'tex']
     },
     markdown: {
       toc: {
@@ -108,11 +111,19 @@ export default defineNuxtConfig({
       hostname: pkg.homepage,
       production_mode: isProduction,
       gtag_id: `G-${process.env.GTAG_ID}`
+    },
+    auth: {
+      cookieName: process.env.COOKIE_NAME || '__session',
+      cookieSecret: process.env.COOKIE_SECRET || 'secret',
+      cookieExpires: parseInt(process.env.COOKIE_REMEMBER_ME_EXPIRES || one_day.toString(), 10), // 1 day
+      cookieRememberMeExpires: parseInt(process.env.COOKIE_REMEMBER_ME_EXPIRES || one_week.toString(), 10), // 7 days
     }
   },
   typescript: {
     shim: false,
     strict: false,
     typeCheck: true
-  }
+  },
+  // unocss: { preflight: true },
+  // headlessui: { prefix: 'Hui' }
 })

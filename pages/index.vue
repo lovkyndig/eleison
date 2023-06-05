@@ -2,6 +2,8 @@
 import type { NavItem } from '@nuxt/content/dist/runtime/types'
 // import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
 
+const currentUser = useAuthUser()
+
 /**
  *
  * switch the homepage layout mode

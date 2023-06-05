@@ -12,7 +12,7 @@ tags:
 _"Herre, fri min sjel fra en løgnaktig lebe, fra en falsk tunge! ... Ve mig, at jeg lever som fremmed iblandt barbarer og villmenn! Lenge nok har min sjel bodd hos dem som hater fred. Jeg er bare fred, men når jeg taler, er de ferdige til krig."_[^1]
 
 ## Misforstått
-```
+```tex [A.L.Greenstreet 1871, L. Sandell 1879]
 En stille stund med Jesus,  
 Å, hvilken fred den gir;  
 Når hjerteløse dommer  
@@ -20,7 +20,7 @@ Som salt i såret svir.
 Når misforstått og motløs  
 Jeg selv fra venner går,  
 En stille stund med Jesus -  
-Den leger alle sår.[^2]
+Den leger alle sår.
 ```
 
 ## Hvorfor?

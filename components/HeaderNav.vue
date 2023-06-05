@@ -73,7 +73,7 @@ const onAfterEnter = (el:HTMLElement) => {
 const subNavDOM = ref<any | HTMLElement>(null)
 const scrollWheelHandler = (event: WheelEvent) => {
   if(subNavDOM.value) {
-    overscrollWheelHandler(event, subNavDOM.value)
+    scrollWheelHandler(event)
   }
 }
 
@@ -83,6 +83,7 @@ const scrollWheelHandler = (event: WheelEvent) => {
  *
  */
 const showSearchModal = useState('showSearchModal')
+const showLoginModal = useState('showLoginModal')
 </script>
 
 <template>
@@ -129,6 +130,14 @@ const showSearchModal = useState('showSearchModal')
         >
           Privacy
         </NuxtLink>
+        <!--
+        <button
+          class="btn text-purple-500 hover:bg-purple-100 opacity-90 transition-opacity duration-300"
+          @click="showLoginModal=true"
+        >
+          Login
+        </button>
+        -->
       </div>
       <div class="flex justify-end items-center gap-4">
         <button

@@ -1,4 +1,6 @@
 <script setup lang="ts">
+// source: https://github.com/damien-hl/nuxt3-auth-example
+
 const props = defineProps({
   footerCatalog: {
     type: Boolean,
@@ -10,12 +12,11 @@ const route = useRoute()
 
 /**
  *
- * listen page resize
+ * listen page resize (onMounted1)
  *
  */
 let resizeTimer:(null | ReturnType<typeof setTimeout>) = null
 const windowSize = useWindowSize()
-
 onMounted(() => {
   if (document) {
     windowSize.value.width = document.documentElement.clientWidth
@@ -36,8 +37,9 @@ onMounted(() => {
   })
 })
 
+const showLoginPage = useState('showLoginPage')
 /**
- * listen page scroll
+ * listen page scroll (onMounted2)
  */
 const pageScrollTop = usePageScrollTop()
 let scrollTimer:(null | ReturnType<typeof setTimeout>)
@@ -60,9 +62,10 @@ onMounted(() => {
   }
 })
 
-const showSearchModal = useState('showSearchModal')
+
 
 // keyboard shortcuts for search modal
+const showSearchModal = useState('showSearchModal')
 const ModalKeyListener = function (event: KeyboardEvent) {
   if(event.ctrlKey && event.key ==='k') {
     event.preventDefault()
@@ -72,14 +75,29 @@ const ModalKeyListener = function (event: KeyboardEvent) {
   }
 }
 
+// const showLoginModal = useState('showLoginModal')
+/*
+// keyboard shortcuts for login modal
+const LoginKeyListener = function (event: KeyboardEvent) {
+  if(event.ctrlKey && event.key ==='l') {
+    event.preventDefault()
+    showLoginModal.value = !showLoginModal.value
+  } else if (showLoginModal.value && event.key === 'Escape') {
+    showLoginModal.value = false
+  }
+}
+*/
+
 onMounted(() => {
   if (document) {
     document.addEventListener('keydown', ModalKeyListener)
+    // document.addEventListener('keydown', LoginKeyListener)
   }
 })
 
 onUnmounted(() => {
   document.removeEventListener('keydown', ModalKeyListener)
+  // document.removeEventListener('keydown', LoginKeyListener)
 })
 </script>
 
@@ -123,6 +141,7 @@ onUnmounted(() => {
     </nav>
 
     <ClientOnly>
+      <!-- <LoginModal v-show="showLoginModal" /> -->
       <SearchModal v-show="showSearchModal" />
     </ClientOnly>
   </div>

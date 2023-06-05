@@ -1,4 +1,5 @@
-
+export const useLoginPage = () => useState<Boolean>('loginPage', () => true)
+export const showLoginModal = () => useState<Boolean>('showLoginModal', () => false)
 /**
  *
  * window width and heigh
@@ -30,18 +31,6 @@ export const usePageScrollTop = () => useState<number>('pageScrollTop', () => 0)
  *
  */
 export const useHomepageLayoutMode = () => useState<'post' | 'folder'>('homepageLayoutMode', () => 'post')
-
-/**
- *
- * article catalog
- *
- */
-// export const useBlogSidebarFloat = () => useState<Boolean>('blogSidebarFloat', () => false)
-// export const useNoteSidebarFloat = () => useState<Boolean>('noteSidebarFloat', () => true)
-// export const useToggleBlogSidebarFloat = () => useState<Boolean>('toggleBlogSidebarFloat', () => false)
-// export const useToggleNoteSidebarFloat = () => useState<Boolean>('toggleNoteSidebarFloat', () => true)
-// export const useFloatBlogCatalogType = () => useState<'list' | 'tree'>('floatBlogCatalogType', () => 'list')
-// export const useFloatNoteCatalogType = () => useState<'list' | 'tree'>('floatNoteCatalogType', () => 'tree')
 
 /**
  *

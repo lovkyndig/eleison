@@ -71,7 +71,8 @@ const languageColorMap = {
   scss: '#c6538c',
   vue: '#41b883',
   markdown: '#083fa1',
-  md: '#083fa1'
+  md: '#083fa1',
+  tex: '#f1e05a'
 }
 
 const programLanguage = ref('')
@@ -104,7 +105,7 @@ onMounted(() => {
 const copyHandler = () => {
   copyState.value = 'process'
   if (clipboard.value) {
-    navigator.clipboard['value'].writeText(props.code).then(() => {
+    navigator.clipboard.writeText(props.code).then(() => {
       copyState.value = 'success'
 
       const timer = setTimeout(() => {
@@ -138,7 +139,7 @@ const urlRegex = /(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-
  *
  */
 // convert mermaid code to svg
-const mermaidGraph = ref<Promise<string | string> | string>('') // ref('')
+const mermaidGraph = ref<Promise<string> | string>('') // ref('')
 onMounted(() => {
   if (props.language === 'mermaid' && props.code && document) {
     mermaid.mermaidAPI.initialize({ startOnLoad: false })
