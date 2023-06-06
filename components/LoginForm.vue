@@ -6,8 +6,8 @@ const { login } = useAuth()
 
 const form = reactive({
   data: {
-    email: 'wrong@gmail.com',
-    password: 'password',
+    email: useFormEmail(),
+    password: useFormPassword(),
     rememberMe: false,
   },
   error: '',
@@ -20,7 +20,7 @@ async function onLoginClick() {
     form.pending = true
 
     await login(form.data.email, form.data.password, form.data.rememberMe)
-
+    
     emit('success')
   }
   catch (error: any) {
@@ -33,7 +33,13 @@ async function onLoginClick() {
     form.pending = false
   }
 }
-console.log('Echo from ~/components/LoginForm.vue')
+// console.log('Transfer values to LoginModal, from content/LoginForm')
+const email = ref(form.data.email)
+const password = ref(form.data.password)
+defineExpose({
+  email,
+  password,
+})
 </script>
 
 <template>

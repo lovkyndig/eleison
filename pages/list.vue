@@ -69,7 +69,7 @@ const toggleTheme = (theme) => {
  * build the tag and series filter options
  *
  */
-const showMoreFilter = ref(true)
+const showMoreFilter = ref(false) // changed
 
 let tagSet, seriesSet
 
@@ -259,7 +259,30 @@ watch(() => route.fullPath, () => {
  *
  * show article list detail
  */
-const showListDetail = ref(true)
+const showListDetail = ref(true) 
+/**
+ *
+ * Changed below based on windows size. 
+ * Toggle list detail if mobil-screen
+ */
+function checkWindowWidth (width) {
+  if (width < 500) {
+    showListDetail.value = true
+    document.getElementById('showListDetail').click()
+  } else {
+    showListDetail.value = false
+    document.getElementById('showListDetail').click()
+  }
+}
+const windowSize = useWindowSize()
+watch(() => windowSize.value.width, () => {
+  if (!document?.body) { return }
+  checkWindowWidth(windowSize.value.width)
+})
+onMounted(() => {
+  if (!document) { return }
+  checkWindowWidth(windowSize.value.width)
+})
 
 /**
  *
@@ -308,11 +331,11 @@ const getFileTypeIcon = (type) => {
                   :class="showMoreTheme ? 'rotate-90' : 'rotate-0'"
                 />
                 <p>
-                  {{ appConfig.filter.category }}
+                  <!-- {{ appConfig.filter.category }} -->
                 </p>
               </button>
               <p class="px-2 py-1 sm:hidden">
-                {{ appConfig.filter.category }}
+                <!-- {{ appConfig.filter.category }} -->
               </p>
               <ul
                 class="filter-list-container"
@@ -376,11 +399,11 @@ const getFileTypeIcon = (type) => {
                       :class="showMoreTag ? 'rotate-90' : 'rotate-0'"
                     />
                     <p>
-                      Tags
+                      <!-- Tags -->
                     </p>
                   </button>
                   <p class="px-2 py-1 sm:hidden">
-                    Tags
+                    <!-- Tags -->
                   </p>
                   <ul
                     v-if="tagSet"
@@ -414,11 +437,11 @@ const getFileTypeIcon = (type) => {
                       :class="showMoreSeries ? 'rotate-90' : 'rotate-0'"
                     />
                     <p>
-                      {{ appConfig.filter.series }}
+                      <!-- {{ appConfig.filter.series }} -->
                     </p>
                   </button>
                   <p class="px-2 py-1 sm:hidden">
-                    {{ appConfig.filter.series }}
+                    <!-- {{ appConfig.filter.series }} -->
                   </p>
                   <ul
                     v-if="seriesSet"
@@ -474,6 +497,7 @@ const getFileTypeIcon = (type) => {
                 />
               </button>
               <button
+                id="showListDetail"
                 class="px-4 py-1 sm:hidden transition-colors duration-300 rounded"
                 :class="showListDetail ? 'text-white bg-green-500 hover:bg-green-400' : 'text-green-400 hover:text-green-500 bg-green-50 hover:bg-green-100'"
                 @click="showListDetail = !showListDetail"

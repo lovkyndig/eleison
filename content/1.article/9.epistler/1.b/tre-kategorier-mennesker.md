@@ -11,7 +11,7 @@ tags:
 # Tre kategorier mennesker
 De sorgløse, nådetyvene og levende, er tre definisjoner som Læstadius bruker mest for å beskrive tilstanden til sine egne tilhørere innenfor kirkeveggene (og ikke utenfor slik Raattamaa delvis syntes å gjøre).
 
-::LoginContent{email="user@gmail.com" password="password"}
+::LoginContent
 ## Lærte Raattamaa vrangt?
 Raattamaas definisjoner er svært egnet til å skape egenrettferdige mennesker. Straks man begynner å dømme de som er utenfor, og frikjenne de som er innenfor, slutter enhver menighet å ransake seg selv. Da tjener ordene som predikanten anvender ikke til å oppvekke eller føre til selvransakelse og uopphørlig **bot**, hvilket er stikk i strid med hensikten til ordene i bibelen fra Gud (og Luther).[^1]
 

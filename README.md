@@ -1,5 +1,5 @@
 # Eleison
-The Theme in Eleison is [`BlogiNote`](https://github.com/Benbinbin/bloginote) (version 3.1.1) from [`Benbinbin`](https://github.com/Benbinbin), that is a hidden treasure, like the treasure in the Bible, hidden for the wise and prudent. [Matt 11, 25](https://no.bibelsite.com/matthew/11-25.htm). With my repo you can move on to `Google Play Store`.
+The Theme in Eleison is [`BlogiNote`](https://github.com/Benbinbin/bloginote) (version 3.1.1) from [`Benbinbin`](https://github.com/Benbinbin), that is a hidden treasure, like the treasure in the Bible, hidden for the wise and prudent. [Matt 11, 25](https://no.bibelsite.com/matthew/11-25.htm). With my repo you can move on to [`Google Play Store`](https://play.google.com/console).
 
 ## Install and setup
 Read the release notes for guide to setup a release.
@@ -14,6 +14,6 @@ NB!
 ## License
 [MIT](./LICENSE)
 
-Updated June 01, 2023
+Updated June 05, 2023
 
 [//]: # (MDC-Tipbox-types: tip, announce, warning, fun, achieve, question, good, bad)

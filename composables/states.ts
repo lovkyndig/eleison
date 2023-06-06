@@ -1,5 +1,7 @@
-export const useLoginPage = () => useState<Boolean>('loginPage', () => true)
 export const showLoginModal = () => useState<Boolean>('showLoginModal', () => false)
+export const useFormEmail = () => useState<string>('formEmail', () => 'wrong@gmail.com')
+export const useFormPassword = () => useState<string>('formPassword', () => 'password')
+
 /**
  *
  * window width and heigh

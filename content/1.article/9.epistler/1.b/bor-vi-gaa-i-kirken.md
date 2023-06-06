@@ -1,0 +1,17 @@
+---
+series: B
+showTime: false
+showOutdatedWarning: false
+created: 2023-05-20
+updated: 2023-05-20
+tags:
+  - Diverse
+---
+
+# Bør vi gå i kirken?
+Slik egenrettferdige på Jesus tid ønsket å kaste stein på synderne, ønsker vi også å kaste stein, særlig på de som er utenfor vår egen forsamling. Kan en grenseløs overbærende langmodighet gjøre at vi kan spise ved samme bordet som dem?
+
+::LoginContent
+## Innhold er under produksjon
+Innhold er under produksjon
+::
