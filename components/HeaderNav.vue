@@ -130,14 +130,6 @@ const showLoginModal = useState('showLoginModal')
         >
           Privacy
         </NuxtLink>
-        <!--
-        <button
-          class="btn text-purple-500 hover:bg-purple-100 opacity-90 transition-opacity duration-300"
-          @click="showLoginModal=true"
-        >
-          Login
-        </button>
-        -->
       </div>
       <div class="flex justify-end items-center gap-4">
         <button

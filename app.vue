@@ -1,17 +1,19 @@
-<template>
-  <NuxtLayout>
-    <NuxtLoadingIndicator />
-    <NuxtPage />
-  </NuxtLayout>
-</template>
-
 <script setup lang="ts">
 import pkg from '~/package.json'
 const appConfig = useAppConfig()
+
+style.var = 'body { overflow: overlay }'
+function style() {
+  if (appConfig.basic.scrollSmooth) {
+    style.var = 'html, body { scroll-behavior: smooth }'
+  }
+}
+style()
+
 /**
  *
  * set head meta for all pages
- *
+ * https://nuxt.com/docs/getting-started/seo-meta#useseometa
  */
 useServerSeoMeta({
   ogTitle: `${appConfig.basic.meta.name} - v${pkg.version}`,
@@ -25,29 +27,30 @@ useServerSeoMeta({
   twitterCard: 'summary_large_image',
   googleSiteVerification: process.env.GSITE_VERIFICATION,
   themeColor: '#f9fafb'
-}) // https://nuxt.com/docs/getting-started/seo-meta#useseometa
-
+})
+// plugins: ['~/plugins/vue-gtag-next.client.ts']
 useHead({
   htmlAttrs: { lang: 'no' },
-  style: [
-  'body { overflow: overlay }'
-  ],
   link: [
     { rel: 'icon', href: appConfig.basic.favicon },
     { rel: 'apple-touch-icon', href: appConfig.basic.avatar },
     { rel: 'manifest', href: 'manifest.webmanifest', crossorigin: 'use-credentials' }
   ],
   noscript: [{ children: 'JavaScript is required' }],
-  script: []
+  // source: 10.03.23/lovkyndig/kirkepostille-v/v0.1.0-/v0.1.15
+  script: [
+    {
+      src: `https://www.googletagmanager.com/gtag/js?id=G-${process.env.GTAG_ID}`,
+      async: true
+    },
+    {
+      hid: 'gtmHead',
+      innerHTML: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-${process.env.GTAG_ID}');`
+    }
+  ],
+  style: [ `${style.var}` ],
+  meta: [ { name: 'id', content: `${pkg.version}`,} ],
 })
-
-if (appConfig.basic.scrollSmooth) {
-  useHead({
-    style: [
-      'html, body { scroll-behavior: smooth }'
-    ]
-  })
-}
 
 onMounted(() => {
   // pwa - Content is sized correctly for the viewport
@@ -69,6 +72,13 @@ onMounted(() => {
 onUnmounted(() => { })
 
 </script>
+
+<template>
+  <NuxtLayout>
+    <NuxtLoadingIndicator />
+    <NuxtPage />
+  </NuxtLayout>
+</template>
 
 <style lang="scss">
 ::-webkit-scrollbar {
