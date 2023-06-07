@@ -20,7 +20,7 @@ Herettter benyttes begrepet brukeraktivitet istedenfor personopplysninger, fordi
 Formaalet er todelt, (1) kontroll av uonsket/ulovlig brukeraktivitet og (2) finne grunnlag for aa gjore appen bedre for brukerne.
 
 ## Om innhenting av brukeraktivitet
-Opplysningene samles inn av "Google" og finnes i "Google Play Console", "Google Search Console" og "Google Analytics".
+Opplysningene samles inn av "Google" via Play Console, Search Console, Analytics og Tag Manager.
 - Utvikleren samler ikke inn andre opplysninger enn det som samles inn og lagres av Google.
 - Utvikleren har tilgang til denne informasjonen via Google, pga. verifisert eierskap til domenet hvor PWA er utplassert (se #### Url nedenfor).
 - Utvikleren kopierer eller lagrer ikke brukeraktiviteten, som finnes paa Google', paa andre steder.
@@ -62,6 +62,6 @@ Det klargjores at utviklerens navn paa Google Play Store er det samme som hans e
 - "Eleison".
 
 
-Redigert: Juni 01, 2023
+Redigert: Juni 07, 2023
   `
 })

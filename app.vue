@@ -36,7 +36,7 @@ useHead({
     { rel: 'apple-touch-icon', href: appConfig.basic.avatar },
     { rel: 'manifest', href: 'manifest.webmanifest', crossorigin: 'use-credentials' }
   ],
-  noscript: [{ children: 'JavaScript is required' }],
+  noscript: [{ children: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JN2RKR" height="0" width="0" style="display:none;visibility:hidden"></iframe>` }],
   // source: 10.03.23/lovkyndig/kirkepostille-v/v0.1.0-/v0.1.15
   script: [
     {
@@ -44,8 +44,7 @@ useHead({
       async: true
     },
     {
-      hid: 'gtmHead',
-      innerHTML: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-${process.env.GTAG_ID}');`
+      innerHTML: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-${process.env.GTAG_ID}'); (function(w,d,s,l,i){w[l]=w[l]||[]; w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'}); var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''; j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl; f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-5JN2RKR');`
     }
   ],
   style: [ `${style.var}` ],
