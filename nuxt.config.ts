@@ -58,7 +58,7 @@ export default defineNuxtConfig({
   // vite: { plugins: [ // VitePWA({ /* vite.config.ts */ }) ] },
 
   pwa: {
-    // registerWebManifestInRouteRules: false,
+    registerWebManifestInRouteRules: false,
     strategies: 'generateSW',
     injectRegister: 'script',
     registerType: 'autoUpdate',
@@ -67,8 +67,7 @@ export default defineNuxtConfig({
       navigateFallback: '/',
       globPatterns: ['**/*.{js,css,html,xml,json,md,svg,webp,ico,png,jpg}'],
       globIgnores: ['google*.html'],
-      // cleanupOutdatedCaches: true,
-      /*
+      cleanupOutdatedCaches: true,
       runtimeCaching: [
         {
           // source: https://vite-pwa-org.netlify.app/workbox/generate-sw.html
@@ -80,7 +79,6 @@ export default defineNuxtConfig({
           }
         },
       ]
-      */
     },
     devOptions: {
       enabled: true,
@@ -89,8 +87,8 @@ export default defineNuxtConfig({
     useCredentials: true,
     manifest: false,
     client: {
-      // installPrompt: true,
-      // periodicSyncForUpdates: 300 // per 5 min for testing only
+    installPrompt: true,
+    periodicSyncForUpdates: 900 // 300 = per 5 min for testing only
     }
   },
 
@@ -121,7 +119,6 @@ export default defineNuxtConfig({
   },
   typescript: {
     shim: false,
-    strict: false,
     typeCheck: true
   },
   // unocss: { preflight: true },
