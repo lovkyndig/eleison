@@ -19,12 +19,10 @@ document.html.onload = (function(){
 */
 
 document.head.onload = (function(){
-  console.log('head-tag has loaded and header-script.js is starting.')
-  const element = document.getElementsByTagName('head')[0]
-  element.insertAdjacentHTML('afterbegin', gtm_header)
-  // const element = document.getElementById('gtm_header');
-  // element.insertAdjacentHTML('beforebegin', '<!-- Google Tag Manager -->');
-  // element.insertAdjacentHTML('afterend', '<!-- End Google Tag Manager -->');
-  console.log('Comment elements added before and after "gtm_header". Look in Developer Elements')
+  // const element = document.getElementsByTagName('head')[0]
+  // element.insertAdjacentHTML('afterbegin', gtm_header)
+  const element = document.getElementById('gtm_header');
+  element.insertAdjacentHTML('beforebegin', '<!-- Google Tag Manager -->');
+  element.insertAdjacentHTML('afterend', '<!-- End Google Tag Manager -->');
 })()
 
