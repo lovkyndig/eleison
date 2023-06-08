@@ -19,8 +19,26 @@ const gtm_header = `(function(w,d,s,l,i){w[l]=w[l]||[]; w[l].push({'gtm.start': 
  * set head meta for all pages
  * https://nuxt.com/docs/getting-started/seo-meta#useseometa
  */
+
+// plugins: ['~/plugins/gtag.client.ts']
+useHead({
+  htmlAttrs: { lang: 'no' },
+  script: [
+    { src: gtag_src, async: true },
+    { innerHTML: gtag_header },
+    { innerHTML: gtm_header }
+  ],
+  noscript: [{ children: `Denne siden fungerer ikke hvis javascript er deaktivert i browseren - slik som naa!` }],
+  link: [
+    { rel: 'icon', href: appConfig.basic.favicon },
+    { rel: 'apple-touch-icon', href: appConfig.basic.avatar },
+    { rel: 'manifest', href: 'manifest.webmanifest', crossorigin: 'use-credentials' }
+  ],
+  style: [ `${style.var}` ],
+  meta: [ { name: 'id', content: `${pkg.version}`,} ],
+})
+
 useServerSeoMeta({
-  ogTitle: `${appConfig.basic.meta.name} - v${pkg.version}`,
   ogType: 'website',
   ogUrl: pkg.homepage,
   ogImage: `${pkg.homepage}${appConfig.seo_meta.listview}`,
@@ -31,22 +49,6 @@ useServerSeoMeta({
   twitterCard: 'summary_large_image',
   googleSiteVerification: process.env.GSITE_VERIFICATION,
   themeColor: '#f9fafb'
-})
-// plugins: ['~/plugins/vue-gtag-next.client.ts']
-useHead({
-  htmlAttrs: { lang: 'no' },
-  script: [
-    { src: gtag_src, async: true },
-    { innerHTML: gtag_header + gtm_header },
-  ],
-  noscript: [{ children: `Denne siden fungerer ikke hvis javascript er deaktivert i browseren - slik som naa!` }],
-  link: [
-    { rel: 'icon', href: appConfig.basic.favicon },
-    { rel: 'apple-touch-icon', href: appConfig.basic.avatar },
-    { rel: 'manifest', href: 'manifest.webmanifest', crossorigin: 'use-credentials' }
-  ],
-  style: [ `${style.var}` ],
-  meta: [ { name: 'id', content: `${pkg.version}`,} ],
 })
 
 onMounted(() => {
