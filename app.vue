@@ -35,9 +35,10 @@ useHead({
   htmlAttrs: { lang: 'no' },
   // body-script: https://github.com/nuxt/nuxt/issues/13069
   script: [
-    { children: gtm_header },
     { src: gtag_src, async: true },
     { innerHTML: gtag_header },
+    { children: gtm_header, id:'gtm_header' },
+    { src: 'javascript.js'}
   ],
   noscript: [{ children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` }],
   link: [
@@ -46,6 +47,10 @@ useHead({
     { rel: 'manifest', href: 'manifest.webmanifest', crossorigin: 'use-credentials' }
   ],
   style: [ `${style.var}` ],
+  
+})
+
+useHead({
   meta: [ { name: 'id', content: `${pkg.version}`,} ],
 })
 
@@ -62,8 +67,16 @@ useServerSeoMeta({
   themeColor: '#f9fafb'
 })
 
+function insertComment (element_id) {
+  const element = document.getElementById(element_id)
+  element.insertAdjacentHTML('beforebegin', '<!-- Google Tag Manager -->')
+  element.insertAdjacentHTML('afterend', '<!-- End Google Tag Manager -->')
+  console.log('Comment elements added before and after "gtm_header". Look in Developer Elements')
+}
+
 onMounted(() => {
   // pwa - Content is sized correctly for the viewport
+  insertComment('gtm_header')
 
   const widthCheck = () => {
     if (window) {
