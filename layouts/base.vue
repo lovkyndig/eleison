@@ -98,7 +98,8 @@ onUnmounted(() => {
   document.removeEventListener('keydown', ModalKeyListener)
   // document.removeEventListener('keydown', LoginKeyListener)
 })
-const gtm_src = `https://www.googletagmanager.com/ns.html?id=GTM-${process.env.GTM_ID}`
+const gtm_id = useRuntimeConfig().public.gtm // "GTM-" removed
+const gtm_src = `https://www.googletagmanager.com/ns.html?id=${gtm_id}`
 </script>
 
 <template>

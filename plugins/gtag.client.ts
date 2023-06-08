@@ -27,4 +27,5 @@ https://garywoodfine.com/how-to-add-google-analytics-to-nuxt-3/
 https://nuxt.com/docs/guide/directory-structure/plugins#vue-plugins
 https://nuxt.com/docs/guide/directory-structure/plugins
 https://nuxt.com/docs/guide/directory-structure/plugins#automatically-providing-helpers
+https://www.simoahava.com/gtm-tips/datalayer-declaration-vs-push/
 */
