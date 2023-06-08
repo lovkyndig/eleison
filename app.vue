@@ -17,12 +17,6 @@ const gtag_header = `window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', '${gtag_id}');`
-const gtm_id = config.public.gtm // "GTM-" removed
-const gtm_header = `/* <!--  Google Tag Manager --> */
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
-var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','${gtm_id}');`
 /**
  *
  * set head meta for all pages
@@ -37,8 +31,7 @@ useHead({
   script: [
     { src: gtag_src, async: true },
     { innerHTML: gtag_header },
-    { children: gtm_header, id:'gtm_header' },
-    { src: 'javascript.js'}
+    { src: 'header-script.js', defer: true }
   ],
   noscript: [{ children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` }],
   link: [
@@ -76,7 +69,7 @@ function insertComment (element_id) {
 
 onMounted(() => {
   // pwa - Content is sized correctly for the viewport
-  insertComment('gtm_header')
+  // insertComment('gtm_header')
 
   const widthCheck = () => {
     if (window) {
