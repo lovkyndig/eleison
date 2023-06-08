@@ -8,19 +8,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5JN2RKR');</script>
 <!-- End Google Tag Manager -->`
   
-//window.addEventListener('load', function() {
-// document.onload( {}
-  
+window.addEventListener('load', function() {
+// run everytime inside here
+})
 
-  // const element = document.getElementsByTagName('head')[0]
-  // element.insertAdjacentHTML('afterbegin', gtm_header)
-  // console.log('Comment elements added before and after "gtm_header". Look in Developer Elements')
- // )
-//})
+/*
+document.html.onload = (function(){
+  const list1 = document.getElementsByTagName('html')[0].firstChild.innerHTML
+  console.log('asdf ' + list1)
+})()
+*/
 
-document.head.onload = (function() {
+document.head.onload = (function(){
   console.log('heieee')
   const element = document.getElementsByTagName('head')[0]
   element.insertAdjacentHTML('afterbegin', gtm_header)
   console.log('Comment elements added before and after "gtm_header". Look in Developer Elements')
 })()
+

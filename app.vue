@@ -29,9 +29,9 @@ useHead({
   htmlAttrs: { lang: 'no' },
   // body-script: https://github.com/nuxt/nuxt/issues/13069
   script: [
-    { src: gtag_src, async: true },
+    // { src: gtag_src, async: true },
     // { innerHTML: gtag_header },
-    { src: 'header-script.js', defer: true }
+    // { src: 'header-script.js', defer: true }
   ],
   noscript: [{ children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` }],
   link: [
@@ -40,10 +40,6 @@ useHead({
     { rel: 'manifest', href: 'manifest.webmanifest', crossorigin: 'use-credentials' }
   ],
   style: [ `${style.var}` ],
-  
-})
-
-useHead({
   meta: [ { name: 'id', content: `${pkg.version}`,} ],
 })
 
