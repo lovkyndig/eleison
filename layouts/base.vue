@@ -107,12 +107,14 @@ const gtm_src = `https://www.googletagmanager.com/ns.html?id=${gtm_id}`
     name="base-layout" 
     class="pb-20 sm:pb-0 bg-gray-50 flex flex-col min-h-screen"
   >
+    <!--
     <iframe 
       :src="gtm_src"
       height="0" 
       width="0" 
       style="display:none; visibility:hidden" 
     />
+    -->
     <header
       class="hidden sm:block shrink-0"
       :class="route.path === '/' ? 'sm:sticky top-0 inset-x-0 z-30' : 'relative z-40'"
