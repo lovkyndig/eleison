@@ -26,7 +26,6 @@ document.head.onload = (function(){
   const element = document.getElementById('gtm_header');
   element.insertAdjacentHTML('beforebegin', '<!-- Google Tag Manager -->');
   element.insertAdjacentHTML('afterend', '<!-- End Google Tag Manager -->');
-  console.log('asdf ' + element);
   console.log('Comment elements added before and after "gtm_header". Look in Developer Elements')
 })()
 
