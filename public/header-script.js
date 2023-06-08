@@ -1,10 +1,9 @@
 // JavaScript from Eleison
 
 const gtm_header = `<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5JN2RKR');</script>
 <!-- End Google Tag Manager -->`
   
@@ -21,11 +20,11 @@ document.html.onload = (function(){
 
 document.head.onload = (function(){
   console.log('head-tag has loaded and header-script.js is starting.')
-  // const element = document.getElementsByTagName('head')[0]
-  // element.insertAdjacentHTML('afterbegin', gtm_header)
-  const element = document.getElementById('gtm_header');
-  element.insertAdjacentHTML('beforebegin', '<!-- Google Tag Manager -->');
-  element.insertAdjacentHTML('afterend', '<!-- End Google Tag Manager -->');
+  const element = document.getElementsByTagName('head')[0]
+  element.insertAdjacentHTML('afterbegin', gtm_header)
+  // const element = document.getElementById('gtm_header');
+  // element.insertAdjacentHTML('beforebegin', '<!-- Google Tag Manager -->');
+  // element.insertAdjacentHTML('afterend', '<!-- End Google Tag Manager -->');
   console.log('Comment elements added before and after "gtm_header". Look in Developer Elements')
 })()
 
