@@ -21,7 +21,7 @@ document.html.onload = (function(){
 document.head.onload = (function(){
   // const element = document.getElementsByTagName('head')[0]
   // element.insertAdjacentHTML('afterbegin', gtm_header)
-  const element = document.getElementById('gtm_header');
+  const element = document.getElementById('gtm_head');
   element.insertAdjacentHTML('beforebegin', '<!-- Google Tag Manager -->');
   element.insertAdjacentHTML('afterend', '<!-- End Google Tag Manager -->');
 })()

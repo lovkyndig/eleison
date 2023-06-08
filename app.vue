@@ -42,7 +42,7 @@ useHead({
   script: [
     { src: `https://www.googletagmanager.com/gtag/js?id=${gtag_id}`, async: true },
     { src: 'js/src-gtag-head.js' },
-    { children: gtm_script, id: 'gtm_head' },
+    { src: 'js/src-gtm-head.js' },
     // { src: 'js/head-scripts.js', defer: true }
   ],
   noscript: [{ children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` }],

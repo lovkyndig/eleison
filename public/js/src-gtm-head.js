@@ -1,4 +1,5 @@
-/* <!-- Google Tag Manager --> */
+const gtm_script = `<!-- Google Tag Manager -->
+<script>
 (function (w, d, s, l, i) {
   w[l] = w[l] || [];
   w[l].push({ 'gtm.start' : new Date().getTime(), event : 'gtm.js' });
@@ -9,4 +10,10 @@
   j.src='https://www.googletagmanager.com/gtm.js?id=' + i + dl;
   f.parentNode.insertBefore(j,f);
 })(window, document, 'script', 'dataLayer', 'GTM-5JN2RKR')
-/* <!-- End Google Tag Manager --> */
+</script>
+<!-- End Google Tag Manager -->`
+
+document.head.onload = (function(){
+  const element = document.getElementsByTagName('head')[0]
+  element.insertAdjacentHTML('afterbegin', gtm_script)
+})()
