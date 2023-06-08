@@ -108,7 +108,8 @@ export default defineNuxtConfig({
     public: {
       hostname: pkg.homepage,
       production_mode: isProduction,
-      gtag_id: `G-${process.env.GTAG_ID}`
+      gtag: `G-${process.env.GTAG_ID}`,
+      gtm: `GTM-${process.env.GTM_ID}`
     },
     auth: {
       cookieName: process.env.COOKIE_NAME || '__session',
@@ -120,10 +121,10 @@ export default defineNuxtConfig({
   typescript: {
     shim: false,
     typeCheck: true
-  },
+  }
   // unocss: { preflight: true },
   // headlessui: { prefix: 'Hui' }
-  plugins: ['~/plugins/gtag.client']
+  // plugins: ['~/plugins/gtag.client']
 })
 /*
 https://stackoverflow.com/questions/71540309/how-to-connect-google-analytics-to-nuxt3-app

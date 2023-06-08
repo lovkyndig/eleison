@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import pkg from '~/package.json'
 const appConfig = useAppConfig()
+const config = useRuntimeConfig()
 
 style.var = 'body { overflow: overlay }'
 function style() {
@@ -10,17 +11,19 @@ function style() {
 }
 style()
 // useHead Script for gtag and gtm
-const gtag_src = `https://www.googletagmanager.com/gtag/js?id=G-${process.env.GTAG_ID}`
+const gtag_id = config.public.gtag // "G-" removed
+const gtm_id = config.public.gtm // "GTM-" removed
+const gtag_src = `https://www.googletagmanager.com/gtag/js?id=${gtag_id}`
 const gtag_header = `window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-${process.env.GTAG_ID}');` 
-const gtm_header = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-${process.env.GTM_ID}');`
+  gtag('config', '${gtag_id}');` 
+const gtm_header = `window.dataLayer = window.dataLayer || [];
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${gtm_id}');`
 
 /**
  *
@@ -32,8 +35,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 useHead({
   htmlAttrs: { lang: 'no' },
   script: [
-    { src: gtag_src, async: 'true' },
+    { src: gtag_src, async: true },
     { innerHTML: gtag_header },
+    { innerHTML: gtm_header }
   ],
   noscript: [{ children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` }],
   link: [
@@ -43,12 +47,6 @@ useHead({
   ],
   style: [ `${style.var}` ],
   meta: [ { name: 'id', content: `${pkg.version}`,} ],
-})
-
-useHead({
-  script: [
-    { innerHTML: gtm_header }
-  ]
 })
 
 useServerSeoMeta({
