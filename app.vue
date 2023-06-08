@@ -35,10 +35,10 @@ useHead({
   htmlAttrs: { lang: 'no' },
   // body-script: https://github.com/nuxt/nuxt/issues/13069
   script: [
-    { children: gtm_header }
+    { children: gtm_header, id: 'gtm_header' },
     // { src: gtag_src, async: true },
     // { innerHTML: gtag_header },
-    // { src: 'header-script.js', defer: true }
+    { src: 'header-script.js', defer: true }
   ],
   noscript: [{ children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` }],
   link: [
