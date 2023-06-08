@@ -1,7 +1,7 @@
 {
   "name": "eleison",
-  "version": "1.0.4-rc.17",
-  "description": "⚡Eleison's bible-blog based on Theme BlogiNote",
+  "version": "1.0.4-rc.18",
+  "description": "⚡Eleison Bible, based on Theme BlogiNote, with extensions.",
   "homepage": "https://eleison.vercel.app",
   "author": "lovkyndig",
   "license": "MIT",
