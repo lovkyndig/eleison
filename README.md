@@ -16,4 +16,4 @@ NB!
 
 Updated June 05, 2023
 
-[//]: # (MDC-Tipbox-types: tip, announce, warning, fun, achieve, question, good, bad)
+[//]: # (MDC-Tipbox-types: tip, announce, warning, fun, achieve, question, good, bad. ::TipBox{type="" name=""})

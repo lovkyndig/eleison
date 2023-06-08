@@ -37,7 +37,6 @@ onMounted(() => {
   })
 })
 
-const showLoginPage = useState('showLoginPage')
 /**
  * listen page scroll (onMounted2)
  */
@@ -99,10 +98,20 @@ onUnmounted(() => {
   document.removeEventListener('keydown', ModalKeyListener)
   // document.removeEventListener('keydown', LoginKeyListener)
 })
+const gtm_src = `https://www.googletagmanager.com/ns.html?id=GTM-${process.env.GTM_ID}`
 </script>
 
 <template>
-  <div class="pb-20 sm:pb-0 bg-gray-50 flex flex-col min-h-screen">
+  <div 
+    name="base-layout" 
+    class="pb-20 sm:pb-0 bg-gray-50 flex flex-col min-h-screen"
+  >
+    <iframe 
+      :src="gtm_src"
+      height="0" 
+      width="0" 
+      style="display:none; visibility:hidden" 
+    />
     <header
       class="hidden sm:block shrink-0"
       :class="route.path === '/' ? 'sm:sticky top-0 inset-x-0 z-30' : 'relative z-40'"

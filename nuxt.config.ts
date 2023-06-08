@@ -123,26 +123,8 @@ export default defineNuxtConfig({
   },
   // unocss: { preflight: true },
   // headlessui: { prefix: 'Hui' }
-   // plugins: ['~/plugins/vue-gtag']
-   /*
-   app: {
-    head: {
-      script: [
-        {
-          src: `https://www.googletagmanager.com/gtag/js?id=G-${process.env.GTAG_ID}`,
-          async: true
-        },
-        {
-          hid: 'gtmHead',
-          innerHTML: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-${process.env.GTAG_ID}');
-          `
-        }
-      ]
-    }
-  }
-  */
+  plugins: ['~/plugins/gtag.client']
 })
+/*
+https://stackoverflow.com/questions/71540309/how-to-connect-google-analytics-to-nuxt3-app
+*/

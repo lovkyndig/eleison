@@ -1,19 +1,17 @@
-// source: https://nuxt.com/docs/guide/directory-structure/plugins#vue-plugins
 import VueGtag, { trackRouter } from "vue-gtag-next" // vue-gtag
-const router = useRouter()
-const config = useRuntimeConfig()
 
-export default defineNuxtPlugin((nuxtApp) => {
-  // if (config.public.production_mode) {
-    nuxtApp.vueApp.use(VueGtag, {
-      property: { // config
-        id: config.gtag_id
-      }
-    })
-    trackRouter(router) // nuxtApp.$router OR router
-  // }
-  // return { provide: { VueGtag } } 
+export default defineNuxtPlugin(nuxtApp => {
+  const router = useRouter()
+  nuxtApp.vueApp.use(VueGtag, {
+    property: { // config
+      id: `G-${process.env.GTAG_ID}` // useRuntimeConfig().gtag
+    }
+  })
+  trackRouter( router )
+  
 })
+// const { data: { value: { google_id, google_sv, yandex_id, privacy_policy} } } = await useMyApi("/api/main/site-metriks/"); 
+
 /*
 // source: 
 https://matteo-gabriele.gitbook.io/vue-gtag/
