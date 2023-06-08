@@ -98,8 +98,11 @@ onUnmounted(() => {
   document.removeEventListener('keydown', ModalKeyListener)
   // document.removeEventListener('keydown', LoginKeyListener)
 })
-// const gtm_id = useRuntimeConfig().public.gtm // "GTM-" removed
-// const gtm_src = `https://www.googletagmanager.com/ns.html?id=${gtm_id}`
+// Insert gtm-code if javascript is deactivated:
+const gtm_id = useRuntimeConfig().public.gtm // "GTM-" removed
+const gtm_url = `https://www.googletagmanager.com/ns.html?id=${gtm_id}`
+const style = 'display:none; visibility:hidden'
+const iframe = `<iframe src="${gtm_url}" height="0" width="0" style="${style}" />`
 </script>
 
 <template>
@@ -107,14 +110,11 @@ onUnmounted(() => {
     name="base-layout" 
     class="pb-20 sm:pb-0 bg-gray-50 flex flex-col min-h-screen"
   >
-    <!--
-    <iframe 
-      :src="gtm_src"
-      height="0" 
-      width="0" 
-      style="display:none; visibility:hidden" 
-    />
-    -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      {{ iframe }}
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header
       class="hidden sm:block shrink-0"
       :class="route.path === '/' ? 'sm:sticky top-0 inset-x-0 z-30' : 'relative z-40'"

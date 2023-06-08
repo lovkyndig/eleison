@@ -3,6 +3,9 @@ import pkg from '~/package.json'
 const appConfig = useAppConfig()
 const config = useRuntimeConfig()
 
+/**
+ * Used in head style below
+ */
 style.var = 'body { overflow: overlay }'
 function style() {
   if (appConfig.basic.scrollSmooth) {
@@ -10,18 +13,16 @@ function style() {
   }
 }
 style()
-// useHead Script for gtag and gtm
+
+/**
+ * useHead Scripts for gtag and gtm
+ */
 const gtag_id = config.public.gtag // "G-" removed
-// const gtag_src = `https://www.googletagmanager.com/gtag/js?id=${gtag_id}`
-/*
-const gtag_header = `window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '${gtag_id}');`
-
-  */
-const gtm_script = `/* <!-- Google Tag Manager --> */
+const gtag_script = `window.dataLayer = window.dataLayer || [];
+function gtag(){ window.dataLayer.push(arguments) }
+gtag('js', new Date());
+gtag('config', '${gtag_id}');`
+const gtm_script = `/* <!-- Google Tag Manager --><script> */
 (function (w, d, s, l, i) {
   w[l] = w[l] || [];
   w[l].push({ 'gtm.start' : new Date().getTime(), event : 'gtm.js' });
@@ -32,18 +33,17 @@ const gtm_script = `/* <!-- Google Tag Manager --> */
   j.src='https://www.googletagmanager.com/gtm.js?id=' + i + dl;
   f.parentNode.insertBefore(j,f);
 })(window, document, 'script', 'dataLayer', 'GTM-5JN2RKR')
-/* <!-- End Google Tag Manager --> */`
+/* /script><!-- End Google Tag Manager --> */`
 
 
-// plugins: ['~/plugins/gtag.client.ts']
+// plugins: ['~/plugins/gtag.client.ts'] // autoregistrated
 useHead({
   htmlAttrs: { lang: 'no' },
-  // body-script: https://github.com/nuxt/nuxt/issues/13069
   script: [
     { src: `https://www.googletagmanager.com/gtag/js?id=${gtag_id}`, async: true },
-    { src: 'js/src-gtag-head.js' },
-    { src: 'js/src-gtm-head.js' },
-    // { src: 'js/head-scripts.js', defer: true }
+    { children: gtag_script },
+    { children: gtm_script }, // id: 'gtm_head'
+    { src: 'js/head-script.js', defer: true }
   ],
   noscript: [{ children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` }],
   link: [
@@ -72,17 +72,9 @@ useServerSeoMeta({
   googleSiteVerification: process.env.GSITE_VERIFICATION,
   themeColor: '#f9fafb'
 })
-/*
-function insertComment (element_id) {
-  const element = document.getElementById(element_id)
-  element.insertAdjacentHTML('beforebegin', '<!-- Google Tag Manager -->')
-  element.insertAdjacentHTML('afterend', '<!-- End Google Tag Manager -->')
-  console.log('Comment elements added before and after "gtm_header". Look in Developer Elements')
-}
-*/
+
 onMounted(() => {
   // pwa - Content is sized correctly for the viewport
-  // insertComment('gtm_header')
 
   const widthCheck = () => {
     if (window) {
