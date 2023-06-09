@@ -1,58 +1,32 @@
 <script setup lang="ts">
 import pkg from '~/package.json'
 const appConfig = useAppConfig()
-const config = useRuntimeConfig()
-
-/**
- * Used in head style below
- */
-style.var = 'body { overflow: overlay }'
-function style() {
-  if (appConfig.basic.scrollSmooth) {
-    style.var = 'html, body { scroll-behavior: smooth }'
-  }
-}
-style()
 
 /**
  * useHead Scripts for gtag and gtm
  */
-const gtag_id = config.public.gtag // "G-" added
-const gtag_script = `window.dataLayer = window.dataLayer || [];
-function gtag(){ window.dataLayer.push(arguments) }
-gtag('js', new Date());
-gtag('config', '${gtag_id}');`
+const { $gtag_src, $gtag_script, $gtm_script, $gtm_noscript, $scrollSmooth } = useNuxtApp()
 
-const gtm_id = config.public.gtm // "GTM-" added
-const gtm_script = `(function (w, d, s, l, i) {
-  w[l] = w[l] || [];
-  w[l].push({ 'gtm.start' : new Date().getTime(), event : 'gtm.js' });
-  var f = d.getElementsByTagName(s)[0], 
-      j = d.createElement(s), 
-      dl = l != 'dataLayer' ? '&l=' + l : '';
-  j.async = true;
-  j.src='https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-  f.parentNode.insertBefore(j,f);
-})(window, document, 'script', 'dataLayer', '${gtm_id}')`
-
-
-// plugins: ['~/plugins/gtag.client.ts'] // autoregistrated
+// plugins: ['~/plugins/gtag.client.ts'] // autoregistated
 useHead({
   htmlAttrs: { lang: 'no' },
   script: [
-    { src: `https://www.googletagmanager.com/gtag/js?id=${gtag_id}`, async: true },
-    { children: gtag_script },
-    { children: gtm_script }, // id: 'gtm_head'
+    { src: `${$gtag_src}`, async: true }, 
+    { children: $gtag_script },
+    { children: $gtm_script },
     { src: 'js/app-src-defer.js', defer: true }
   ],
-  noscript: [{ children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` }],
+  noscript: [
+    { children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` },
+    { body: true, id: 'gtm_noscript', children: $gtm_noscript }
+  ],
   link: [
     { rel: 'icon', href: appConfig.basic.favicon },
     { rel: 'apple-touch-icon', href: appConfig.basic.avatar },
     { rel: 'manifest', href: 'manifest.webmanifest', crossorigin: 'use-credentials' }
   ],
-  style: [ `${style.var}` ],
-  meta: [ { name: 'id', content: `${pkg.version}`,} ],
+  style: [ `${$scrollSmooth}` ],
+  meta: [ { name: 'id', content: `${pkg.version}` } ]
 })
 
 /**
@@ -89,8 +63,40 @@ onMounted(() => {
   }
 })
 
-onUnmounted(() => { })
+//onBeforeMount(() => { 
+  // console.log('onbeforemount in setup ' + document.body.innerHTML)
+//})
 
+// onServerPrefetch(async () => {
+  // component is rendered as part of the initial request
+  // pre-fetch data on server as it is faster than on the client
+  // data.value = await fetchOnServer(/* ... */)
+// })
+
+
+</script>
+
+<script lang="ts">
+/*
+export default {
+  data() {
+    return {
+      val: 'hello',
+      newval: document.body.innerHTML
+    }
+  },
+  beforeCreate() {
+    console.log('beforecreate Value of body is: ' + this.newval)
+    console.log('beforecreate Value of val is: ' + this.val)
+  },
+  created() {
+    console.log('created Value of val is: ' + this.newval)
+  },
+  beforeMount() {
+    // console.log('beforeMount created Value of val is: ' + this.newval)
+  },
+}
+*/
 </script>
 
 <template>

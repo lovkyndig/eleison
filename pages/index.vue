@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref, onServerPrefetch, onMounted } from 'vue'
 import type { NavItem } from '@nuxt/content/dist/runtime/types'
 // import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
 import pkg from '~/package.json'
@@ -157,10 +158,35 @@ const getFileTypeIcon = (type:string) => {
     return fileType.iconName
   }
 }
+
+// const data = ref(null)
+// onServerPrefetch(async () => {
+  // window.document.body.innerHTML = '<br>'
+  // source: https://vuejs.org/api/composition-api-lifecycle.html
+  // await document.body.insertAdjacentHTML('afterbegin', 'p')
+  // component is rendered as part of the initial request
+  // pre-fetch data on server as it is faster than on the client
+  // data.value = await fetch(console.log('testing'))
+//})
+
+// function serverPrefetch(callback: () => Promise<any>): void
+
+
+// onMounted(async () => {
+  // if (document.head) {
+    // document.body.insertAdjacentHTML('afterbegin', 'p')
+    // if data is null on mount, it means the component
+    // is dynamically rendered on the client. Perform a
+    // client-side fetch instead.
+    // data.value = await fetchOnClient(/* ... */)
+//  }
+//)
+
+
 </script>
 
 <template>
-  <div>
+  <div id="index_file">
     <Head>
       <Title>Home</Title>
     </Head>

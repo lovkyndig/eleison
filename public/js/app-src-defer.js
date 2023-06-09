@@ -2,19 +2,16 @@
 
 // const body = document.getElementsByTagName('body')[0]
 // console.log('testing if ' + body.tagName)
-
+/*
 const noscript = document.createElement('noscript')
-noscript.innerHTML = '<iframesrc="https://www.googletagmanager.com/ns.html?id=GTM-5JN2RKR" height="0" width="0" style="display:none;visibility:hidden" />'
-document.body.prepend(noscript)
+const htmlcode = '<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JN2RKR" height="0" width="0" style="display:none;visibility:hidden" />'
+noscript.insertAdjacentHTML('afterbegin', htmlcode)
+// noscript.innerHTML = '<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JN2RKR" height="0" width="0" style="display:none;visibility:hidden" />'
+// document.body.prepend(noscript)
+document.body.insertAdjacentElement('afterbegin', noscript)
+*/
+document.body.onload = (function(){ })()
 
-document.body.onload = (function(){
-  /*
-  const element = document.getElementsByTagName('iframe')[0]
-  element.insertAdjacentHTML('beforebegin', '<noscript>')
-  element.insertAdjacentHTML('afterend', '<noscript>')
-  console.log('Finish inserting tags.' + element.tagName)
-  */
-})()
 
 /*
 sources:
