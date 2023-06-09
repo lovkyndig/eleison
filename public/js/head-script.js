@@ -1,10 +1,11 @@
 // JavaScript from Eleison
 
-document.head.onload = (function(){
+document.body.onload = (function(){
   /*
-  const element = document.getElementById('gtm_head');
-  element.insertAdjacentHTML('beforebegin', '<!-- Google Tag Manager -->');
-  element.insertAdjacentHTML('afterend', '<!-- End Google Tag Manager -->');
+  const element = document.getElementsByTagName('iframe')[0]
+  element.insertAdjacentHTML('beforebegin', '<noscript>')
+  element.insertAdjacentHTML('afterend', '<noscript>')
+  console.log('Finish inserting tags.' + element.tagName)
   */
 })()
 

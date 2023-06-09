@@ -5,7 +5,7 @@ export default defineNuxtPlugin(nuxtApp => {
   const router = useRouter()
   nuxtApp.vueApp.use(VueGtag, {
     property: { // property / config
-      id: 'GTM-5JN2RKR' // useRuntimeConfig().gtag // `G-${process.env.GTAG_ID}`
+      id: useRuntimeConfig().public.gtm // useRuntimeConfig().public.gtag // `G-${process.env.GTAG_ID}`
     }
   })
   trackRouter(router) // trackRouter(router) / router

@@ -73,8 +73,18 @@ useServerSeoMeta({
   themeColor: '#f9fafb'
 })
 
+function addNoscriptTag () {
+  console.log('Creating gtm-noscript and moving iframe into it.')
+  const firstel = document.getElementById('__nuxt')
+  firstel.insertAdjacentHTML('beforebegin', '<noscript id="gtm_noscript">')
+  const noscript = document.querySelector('#gtm_noscript')
+  const iframe = document.getElementsByTagName('iframe')[0]
+  noscript.appendChild(iframe)
+}
+
 onMounted(() => {
   // pwa - Content is sized correctly for the viewport
+  addNoscriptTag() // and moving iframe into it.
 
   const widthCheck = () => {
     if (window) {
@@ -95,9 +105,18 @@ onMounted(() => {
 })
 
 onUnmounted(() => { })
+
+// Insert gtm-code if javascript is deactivated:
+const gtm_id = useRuntimeConfig().public.gtm // "GTM-" added
 </script>
 
 <template>
+  <iframe
+    :src="`https://www.googletagmanager.com/ns.html?id=${gtm_id}`"
+    height="0" 
+    width="0" 
+    style="display:none;visibility:hidden" 
+  />
   <NuxtLayout>
     <NuxtLoadingIndicator />
     <NuxtPage />
