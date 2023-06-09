@@ -17,13 +17,14 @@ style()
 /**
  * useHead Scripts for gtag and gtm
  */
-const gtag_id = config.public.gtag // "G-" removed
+const gtag_id = config.public.gtag // "G-" added
 const gtag_script = `window.dataLayer = window.dataLayer || [];
 function gtag(){ window.dataLayer.push(arguments) }
 gtag('js', new Date());
 gtag('config', '${gtag_id}');`
-const gtm_script = `/* <!-- Google Tag Manager --><script> */
-(function (w, d, s, l, i) {
+
+const gtm_id = config.public.gtm // "GTM-" added
+const gtm_script = `(function (w, d, s, l, i) {
   w[l] = w[l] || [];
   w[l].push({ 'gtm.start' : new Date().getTime(), event : 'gtm.js' });
   var f = d.getElementsByTagName(s)[0], 
@@ -32,8 +33,7 @@ const gtm_script = `/* <!-- Google Tag Manager --><script> */
   j.async = true;
   j.src='https://www.googletagmanager.com/gtm.js?id=' + i + dl;
   f.parentNode.insertBefore(j,f);
-})(window, document, 'script', 'dataLayer', 'GTM-5JN2RKR')
-/* /script><!-- End Google Tag Manager --> */`
+})(window, document, 'script', 'dataLayer', '${gtm_id}')`
 
 
 // plugins: ['~/plugins/gtag.client.ts'] // autoregistrated
@@ -43,7 +43,7 @@ useHead({
     { src: `https://www.googletagmanager.com/gtag/js?id=${gtag_id}`, async: true },
     { children: gtag_script },
     { children: gtm_script }, // id: 'gtm_head'
-    { src: 'js/head-script.js', defer: true }
+    { src: 'js/app-src-defer.js', defer: true }
   ],
   noscript: [{ children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` }],
   link: [
@@ -73,19 +73,8 @@ useServerSeoMeta({
   themeColor: '#f9fafb'
 })
 
-function addNoscriptTag () {
-  console.log('Creating gtm-noscript and moving iframe into it.')
-  const firstel = document.getElementById('__nuxt')
-  firstel.insertAdjacentHTML('beforebegin', '<noscript id="gtm_noscript">')
-  const noscript = document.querySelector('#gtm_noscript')
-  const iframe = document.getElementsByTagName('iframe')[0]
-  noscript.appendChild(iframe)
-}
-
 onMounted(() => {
   // pwa - Content is sized correctly for the viewport
-  addNoscriptTag() // and moving iframe into it.
-
   const widthCheck = () => {
     if (window) {
       if (window.innerWidth > window.outerWidth) {
@@ -98,25 +87,13 @@ onMounted(() => {
     window.addEventListener('load', () => { widthCheck() })
     window.addEventListener('resize', () => { widthCheck() })
   }
-  /**
-   * If there is users with Javascript disabled, an iframe have to be Inserted iframe after body-tag.
-   * See the code for this in layout template.
-   */
 })
 
 onUnmounted(() => { })
 
-// Insert gtm-code if javascript is deactivated:
-const gtm_id = useRuntimeConfig().public.gtm // "GTM-" added
 </script>
 
 <template>
-  <iframe
-    :src="`https://www.googletagmanager.com/ns.html?id=${gtm_id}`"
-    height="0" 
-    width="0" 
-    style="display:none;visibility:hidden" 
-  />
   <NuxtLayout>
     <NuxtLoadingIndicator />
     <NuxtPage />
