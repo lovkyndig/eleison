@@ -3,11 +3,10 @@ import pkg from '~/package.json'
 const appConfig = useAppConfig()
 
 /**
- * useHead Scripts for gtag and gtm
+ * constants from plugin/provide-helpers.ts, for use in useHead scripts and style.
  */
 const { $gtag_src, $gtag_script, $gtm_script, $gtm_noscript, $scrollSmooth } = useNuxtApp()
 
-// plugins: ['~/plugins/gtag.client.ts'] // autoregistated
 useHead({
   htmlAttrs: { lang: 'no' },
   script: [
@@ -47,6 +46,7 @@ useServerSeoMeta({
   themeColor: '#f9fafb'
 })
 
+onBeforeMount(() => { /* Document isn't defined before onMount. */ })
 onMounted(() => {
   // pwa - Content is sized correctly for the viewport
   const widthCheck = () => {
@@ -63,10 +63,6 @@ onMounted(() => {
   }
 })
 
-//onBeforeMount(() => { 
-  // console.log('onbeforemount in setup ' + document.body.innerHTML)
-//})
-
 // onServerPrefetch(async () => {
   // component is rendered as part of the initial request
   // pre-fetch data on server as it is faster than on the client
@@ -77,26 +73,12 @@ onMounted(() => {
 </script>
 
 <script lang="ts">
-/*
 export default {
-  data() {
-    return {
-      val: 'hello',
-      newval: document.body.innerHTML
-    }
-  },
-  beforeCreate() {
-    console.log('beforecreate Value of body is: ' + this.newval)
-    console.log('beforecreate Value of val is: ' + this.val)
-  },
-  created() {
-    console.log('created Value of val is: ' + this.newval)
-  },
-  beforeMount() {
-    // console.log('beforeMount created Value of val is: ' + this.newval)
-  },
+  // data() { return { document: document } },
+  beforeCreate() { },
+  created() { /* Elements created, but document isn't defined yet. */ },
+  beforeMount() { /* Document isn't defined before onMount. */ },
 }
-*/
 </script>
 
 <template>

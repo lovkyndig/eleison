@@ -1,17 +1,15 @@
 import VueGtag, { trackRouter } from "vue-gtag-next"
-// import VueGtag from "vue-gtag"
 
 export default defineNuxtPlugin(nuxtApp => {
   const router = useRouter()
   nuxtApp.vueApp.use(VueGtag, {
-    property: { // property / config
-      id: useRuntimeConfig().public.gtm // useRuntimeConfig().public.gtag // `G-${process.env.GTAG_ID}`
+    property: { // config instead of property in vue-gtag
+      id: useRuntimeConfig().public.gtm // &l=dataLayer
     }
   })
-  trackRouter(router) // trackRouter(router) / router
+  trackRouter(router) // trackRouter(router) / only "router" in vue-gtag
 })
-// const { data: { value: { google_id, google_sv, yandex_id, privacy_policy} } } = await useMyApi("/api/main/site-metriks/"); 
-
+// useRuntimeConfig().public.gtm // `G-${process.env.GTAG_ID}`
 /*
 // source: 
 https://matteo-gabriele.gitbook.io/vue-gtag/
@@ -28,4 +26,6 @@ https://nuxt.com/docs/guide/directory-structure/plugins#vue-plugins
 https://nuxt.com/docs/guide/directory-structure/plugins
 https://nuxt.com/docs/guide/directory-structure/plugins#automatically-providing-helpers
 https://www.simoahava.com/gtm-tips/datalayer-declaration-vs-push/
+
+// const { data: { value: { google_id, google_sv, yandex_id, privacy_policy} } } = await useMyApi("/api/main/site-metriks/"); 
 */

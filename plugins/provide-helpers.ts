@@ -9,7 +9,8 @@ export default defineNuxtPlugin(() => {
   return {
     provide: {
       hello: (msg: string) => `Hello ${msg}!`,
-      gtag_src: `https://www.googletagmanager.com/gtag/js?id=${gtag_id}`,
+      // providing constants for use in app.vue useHead({})
+      gtag_src: `https://www.googletagmanager.com/gtag/js?id=${gtag_id}&l=dataLayer`, // "&l=dataLayer" added
       gtag_script: () => `window.dataLayer = window.dataLayer || [];
       function gtag(){ window.dataLayer.push(arguments) }
       gtag('js', new Date());
