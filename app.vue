@@ -5,7 +5,7 @@ const appConfig = useAppConfig()
 /**
  * constants from plugin/provide-helpers.ts, for use in useHead scripts and style.
  */
-const { $gtag_src, $gtag_script, $gtm_script, $gtm_noscript, $scrollSmooth } = useNuxtApp()
+const { $gtag_src, $gtag_script, $gtm_script, $gtm_iframe, $scrollSmooth, $moveGtmNoscript } = useNuxtApp()
 
 useHead({
   htmlAttrs: { lang: 'no' },
@@ -17,7 +17,7 @@ useHead({
   ],
   noscript: [
     { children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` },
-    { body: true, id: 'gtm_noscript', children: $gtm_noscript }
+    { body: true, id: 'gtm_noscript', children: $gtm_iframe }
   ],
   link: [
     { rel: 'icon', href: appConfig.basic.favicon },
@@ -46,7 +46,9 @@ useServerSeoMeta({
   themeColor: '#f9fafb'
 })
 
-onBeforeMount(() => { /* Document isn't defined before onMount. */ })
+onBeforeMount(() => { /* Document isn't defined before onMount. */ 
+  $moveGtmNoscript()
+})
 onMounted(() => {
   // pwa - Content is sized correctly for the viewport
   const widthCheck = () => {

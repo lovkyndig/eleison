@@ -25,9 +25,27 @@ export default defineNuxtPlugin(() => {
         j.src='https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j,f);
       })(window, document, 'script', 'dataLayer', '${gtm_id}')`,
-      gtm_noscript: () => `<iframe src="https://www.googletagmanager.com/ns.html?id=${gtm_id}"
+      gtm_iframe: () => `<iframe src="https://www.googletagmanager.com/ns.html?id=${gtm_id}"
       height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-      scrollSmooth: appConfig.basic.scrollSmooth ? 'html, body { scroll-behavior: smooth }' : 'body { overflow: overlay }'
+      scrollSmooth: appConfig.basic.scrollSmooth ? 'html, body { scroll-behavior: smooth }' : 'body { overflow: overlay }',
+/**
+  * 
+   * If there is users with Javascript disabled, an iframe have to be Inserted after body-tag.
+   * This code snippet can be used to "Ownership Verification" from Settings in (GCS), 
+   * Google Search Console, "Additional verification methods"; "Google Tag Manager".
+   * 
+   * NB! Verification will fail since this noscript-content isn't the first child of body 
+   * (on the serverside).
+   * There isn't a way (I know about) to fix this on the serverside, with nuxt or vue.
+   * 
+   */
+      moveGtmNoscript: () => {
+        const nuxt = document.querySelector('#__nuxt')
+        const noscript = document.querySelector('#gtm_noscript') // with iframe
+        document.body.insertBefore(noscript, nuxt)
+        console.log('Moved gtm_noscript, as 1.child to body.')
+      },
+      anotherhelper: () => {}
     }
   }
 })
