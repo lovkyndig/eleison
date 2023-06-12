@@ -12,7 +12,7 @@ useHead({
   script: [
     { src: `${$gtag_src}`, async: true }, 
     { children: $gtag_script },
-    { children: $gtm_script },
+    // { children: $gtm_script, body: true },
     { src: 'js/app-src-defer.js', defer: true }
   ],
   noscript: [
@@ -44,6 +44,13 @@ useServerSeoMeta({
   twitterCard: 'summary_large_image',
   googleSiteVerification: process.env.GSITE_VERIFICATION,
   themeColor: '#f9fafb'
+})
+
+useHead({
+  script: [
+    { children: $gtm_script }
+
+  ]
 })
 
 onBeforeMount(() => { /* Document isn't defined before onMount. */ 

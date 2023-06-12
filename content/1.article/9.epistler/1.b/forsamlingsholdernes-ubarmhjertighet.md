@@ -8,9 +8,8 @@ tags:
   - Diverse
 ---
 
-# Tromsø predikantenes ubarmhjertighet
-At en tromsøpredikant og forsamlingsholder ikke skammer seg med å forsøke å påvirke 
-menigheten til å unnlate å holde forsamlinger, bør egentlig ikke overraske. Det avslører deres ubarmhjertighet.
+# Forsamlingsholdernes ubarmhjertighet
+At en forsamlingsholder ikke skammer seg med å forsøke å påvirke menigheten til å unnlate å holde forsamlinger, bør egentlig ikke overraske. Det avslører deres ubarmhjertighet.
 
 ::LoginContent
 ## Bevis

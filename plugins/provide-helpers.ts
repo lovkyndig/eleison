@@ -10,20 +10,31 @@ export default defineNuxtPlugin(() => {
     provide: {
       hello: (msg: string) => `Hello ${msg}!`,
       // providing constants for use in app.vue useHead({})
-      gtag_src: `https://www.googletagmanager.com/gtag/js?id=${gtag_id}&l=dataLayer`, // "&l=dataLayer" added
+      gtag_src: `https://www.googletagmanager.com/gtag/js?id=${gtag_id}`, // "&l=dataLayer" added
       gtag_script: () => `window.dataLayer = window.dataLayer || [];
-      function gtag(){ window.dataLayer.push(arguments) }
-      gtag('js', new Date());
-      gtag('config', '${gtag_id}');`,
+      function gtag(){ window.dataLayer.push(arguments) };
+      gtag('js', new Date()); 
+      gtag('config', '${gtag_id}');
+      gtag('page', { // added by Eleison
+        path: document.location.pathname, 
+        title: document.title
+      } );`,
       gtm_script: () => `(function (w, d, s, l, i) {
         w[l] = w[l] || [];
-        w[l].push({ 'gtm.start' : new Date().getTime(), event : 'gtm.js' });
+        w[l].push({ 
+          event : 'gtm.js',
+          'gtm.start' : new Date().getTime(), 
+          'page' : { // added by Eleison
+            path: document.location.pathname, 
+            title: document.title
+          }
+        });
         var f = d.getElementsByTagName(s)[0], 
             j = d.createElement(s), 
             dl = l != 'dataLayer' ? '&l=' + l : '';
         j.async = true;
         j.src='https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j,f);
+        f.parentNode.insertBefore(j, f);
       })(window, document, 'script', 'dataLayer', '${gtm_id}')`,
       gtm_iframe: () => `<iframe src="https://www.googletagmanager.com/ns.html?id=${gtm_id}"
       height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
@@ -62,4 +73,17 @@ Can be used in templates like this:
 // alternatively, you can also use it here
 const { $hello } = useNuxtApp()
 </script>
+*/
+
+/*
+Backup-data:
+From gtag_script originalt (from Google Tag Manager-start-guide):
+gtag('js', new Date()); 
+gtag('config', '${gtag_id}');
+
+From gtm_script originalt (from Google Tag Manager-start-guide):
+w[l].push({ 
+  'gtm.start' : new Date().getTime(), 
+  event : 'gtm.js' 
+});
 */

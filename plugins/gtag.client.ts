@@ -9,6 +9,8 @@ export default defineNuxtPlugin(nuxtApp => {
   })
   trackRouter(router) // trackRouter(router) / only "router" in vue-gtag
 })
+
+
 // useRuntimeConfig().public.gtm // `G-${process.env.GTAG_ID}`
 /*
 // source: 

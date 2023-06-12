@@ -5,7 +5,7 @@ showOutdatedWarning: false
 created: 2023-05-25
 updated: 2023-05-25
 tags:
-  - Sikkerhet
+  - Selvsikker
 ---
 
 # Guds utvalgte folk
