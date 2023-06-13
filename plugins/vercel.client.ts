@@ -7,7 +7,8 @@ export default defineNuxtPlugin((/*nuxtApp*/) => {
   // You can alternatively use this format, which comes with automatic type support
   return {
     provide: {
-      inject: inject()
+      inject: inject(),
+      // vercel_src_script: 'https://vercel.com/_vercel/insights/script.js'
     }
   }
 })
