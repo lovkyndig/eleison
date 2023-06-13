@@ -14,7 +14,7 @@ export default defineNuxtPlugin(() => {
       gtag_script: () => `window.dataLayer = window.dataLayer || [];
       function gtag(){ window.dataLayer.push(arguments) };
       gtag('js', new Date()); 
-      gtag('config', '${gtag_id}');
+      gtag('config', '${gtag_id}' );
       gtag('page', { // added by Eleison
         path: document.location.pathname, 
         title: document.title
