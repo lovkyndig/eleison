@@ -20,6 +20,7 @@ export default defineNuxtPlugin(() => {
         title: document.title
       } );`,
       // The following two functions is taken out of use 13.juni 2023
+      // don't want to use cookies
       gtm_script: () => `(function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ 

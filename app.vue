@@ -47,7 +47,7 @@ useServerSeoMeta({
 })
 
 onBeforeMount(() => { /* Document isn't defined before onMount. */ 
-  $moveGtmNoscript()
+  // $moveGtmNoscript()
 })
 onMounted(() => {
   // pwa - Content is sized correctly for the viewport
