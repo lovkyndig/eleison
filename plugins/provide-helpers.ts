@@ -19,6 +19,7 @@ export default defineNuxtPlugin(() => {
         path: document.location.pathname, 
         title: document.title
       } );`,
+      // The following two functions is taken out of use 13.juni 2023
       gtm_script: () => `(function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ 

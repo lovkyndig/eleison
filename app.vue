@@ -12,12 +12,12 @@ useHead({
   script: [
     { src: `${$gtag_src}`, async: true }, 
     { children: $gtag_script },
-    { children: $gtm_script, body: true },
+    // { children: $gtm_script, body: true },
     { src: 'js/app-src-defer.js', defer: true }
   ],
   noscript: [
     { children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` },
-    { body: true, id: 'gtm_noscript', children: $gtm_iframe }
+    // { body: true, id: 'gtm_noscript', children: $gtm_iframe }
   ],
   link: [
     { rel: 'icon', href: appConfig.basic.favicon },
