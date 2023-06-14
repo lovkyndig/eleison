@@ -10,10 +10,13 @@ const { $gtag_src, $gtag_script, $gtm_script, $gtm_iframe, $scrollSmooth, $moveG
 useHead({
   htmlAttrs: { lang: 'no' },
   script: [
+    /* 
+    // Using gtag.client.ts instead of my own gtag-system
     { src: `${$gtag_src}`, async: true }, 
     { children: $gtag_script },
-    // { children: $gtm_script, body: true },
+    { children: $gtm_script, body: true },
     { src: 'js/app-src-defer.js', defer: true }
+    */
   ],
   noscript: [
     { children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` },

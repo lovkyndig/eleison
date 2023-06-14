@@ -8,7 +8,11 @@ export default defineNuxtPlugin((/*nuxtApp*/) => {
   return {
     provide: {
       inject: inject(),
-      // vercel_src_script: 'https://vercel.com/_vercel/insights/script.js'
+      /*
+      vercel_src_script: 'https://vercel.com/_vercel/insights/script.js'
+      in node_modules/@vercel/analytics/analytics/dist/index.js, line 81
+      change "_vercel/insights/script.js" with "https://vercel.com/_vercel/insights/script.js"
+      */
     }
   }
 })
