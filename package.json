@@ -1,6 +1,6 @@
 {
   "name": "eleison",
-  "version": "1.0.4-rc.39",
+  "version": "1.0.4-rc.40",
   "description": "⚡Eleison Bible, based on Theme BlogiNote, with extensions.",
   "homepage": "https://eleison.vercel.app",
   "author": "lovkyndig",
@@ -10,6 +10,7 @@
     "url": "git://github.com/lovkyndig/eleison.git"
   },
   "devDependencies": {
+    "@dargmuesli/nuxt-cookie-control": "latest",
     "@iconify/vue": "latest",
     "@nuxt/content": "latest",
     "@nuxt/eslint-config": "latest",

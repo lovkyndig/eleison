@@ -125,13 +125,18 @@ function sponseInfo() {
               Vipps kommer! <br>
               Kontonr.: 1503 78 35835
             </p>
-            <p id="emailPassord">
-              Login: 
-              <br>
-              <b>"user@gmail.com"</b><br>
-              <b>{{ useFormPassword() }}
-              </b>
-            </p>
+            <div id="emailPassord">
+              <p>
+                Login:
+                <br>
+                <b>"user@gmail.com"</b><br>
+                <b>{{ useFormPassword() }}
+                </b>
+              </p>
+              <p style="font-size: 0.5rem">
+                GDPR-info: Login-funksjon lager cookie!
+              </p>
+            </div>
           </div>
         </div>
       </div>

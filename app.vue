@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import pkg from '~/package.json'
+import vue from 'vue'
 const appConfig = useAppConfig()
 
 /**
@@ -10,13 +11,11 @@ const { $gtag_src, $gtag_script, $gtm_script, $gtm_iframe, $scrollSmooth, $moveG
 useHead({
   htmlAttrs: { lang: 'no' },
   script: [
-    /* 
-    // Using gtag.client.ts instead of my own gtag-system
-    { src: `${$gtag_src}`, async: true }, 
-    { children: $gtag_script },
-    { children: $gtm_script, body: true },
+    // Is gtag creating cookies without permission?
+    // { src: `${$gtag_src}`, async: true }, 
+    // { children: $gtag_script },
+    // { children: $gtm_script, body: true },
     { src: 'js/app-src-defer.js', defer: true }
-    */
   ],
   noscript: [
     { children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` },
@@ -25,7 +24,7 @@ useHead({
   link: [
     { rel: 'icon', href: appConfig.basic.favicon },
     { rel: 'apple-touch-icon', href: appConfig.basic.avatar },
-    { rel: 'manifest', href: 'manifest.webmanifest', crossorigin: 'use-credentials' }
+    { rel: 'manifest', href: 'manifest.webmanifest', crossorigin: 'use-credentials' },
   ],
   style: [ `${$scrollSmooth}` ],
   meta: [ { name: 'id', content: `${pkg.version}` } ]
@@ -49,7 +48,7 @@ useServerSeoMeta({
   themeColor: '#f9fafb'
 })
 
-onBeforeMount(() => { /* Document isn't defined before onMount. */ 
+onBeforeMount(() => { 
   // $moveGtmNoscript()
 })
 onMounted(() => {

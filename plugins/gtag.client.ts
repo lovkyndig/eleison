@@ -1,19 +1,20 @@
 import VueGtag, { trackRouter } from "vue-gtag-next"
+// Is this plugin creating cookies without permission?
 
-export default defineNuxtPlugin(nuxtApp => {
+export default defineNuxtPlugin((nuxtApp) => {
+  /*
   const router = useRouter()
   nuxtApp.vueApp.use(VueGtag, {
-    property: { // config instead of property in vue-gtag
+    property: { 
       id: useRuntimeConfig().public.gtm // &l=dataLayer
     }
   })
-  trackRouter(router) // trackRouter(router) / only "router" in vue-gtag
+  trackRouter(router)
+  */
 })
 
-
-// useRuntimeConfig().public.gtm // `G-${process.env.GTAG_ID}`
 /*
-// source: 
+source: 
 https://matteo-gabriele.gitbook.io/vue-gtag/
 https://garywoodfine.com/how-to-add-google-analytics-to-nuxt-3/
 https://stackoverflow.com/questions/74410533/nuxt-3-how-to-access-plugin-injections-from-components
@@ -30,4 +31,5 @@ https://nuxt.com/docs/guide/directory-structure/plugins#automatically-providing-
 https://www.simoahava.com/gtm-tips/datalayer-declaration-vs-push/
 
 // const { data: { value: { google_id, google_sv, yandex_id, privacy_policy} } } = await useMyApi("/api/main/site-metriks/"); 
+// useRuntimeConfig().public.gtag // `G-${process.env.GTAG_ID}`
 */

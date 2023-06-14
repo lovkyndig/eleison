@@ -10,9 +10,11 @@ export default defineNuxtConfig({
   css: [ /* app.vue */ ],
   modules: [
     [resolve('./modules/copyFilesToPublic'), { cleanFolders: ['public/article'] }],
+    '@dargmuesli/nuxt-cookie-control',
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@vite-pwa/nuxt',
+    // 'nuxt-cookie-control',
     '~/modules/sitemap'
   ],
   sitemap: {
@@ -121,6 +123,46 @@ export default defineNuxtConfig({
   typescript: {
     shim: false,
     typeCheck: true
+  },
+  // https://github.com/dargmuesli/nuxt-cookie-control#module-options
+  cookieControl: {
+    colors: false,
+    barPosition: 'bottom-left',
+    closeModalOnClickOutside: true, // The Details 
+    isControlButtonEnabled: false, // Can't show this beacause of back to top-button.
+    locales: ['en'],
+    localeTexts: {
+      en: {
+        accept: 'Ok', decline: 'No', manageCookies: 'Details',
+        save: 'Ok', acceptAll: 'All', declineAll: 'No',
+        close: 'Esc'
+      }
+    },
+    cookies: {
+      necessary: [
+        {
+          description: {
+            en: 'Cookies for Analytics.',
+          },
+          name: {
+            en: 'Necessary Cookie',
+          },
+          targetCookieIds: ['NEC'],
+        },
+      ],
+      optional: [
+        {
+          id: 'op',
+          name: 'Optional Cookie',
+          links: {
+            'https://example.com': 'Privacy Policy',
+            'https://example.cop': null,
+          },
+          targetCookieIds: ['_o', '_p', '_t'],
+        },
+      ],
+    }
+    // typed module options
   }
   // unocss: { preflight: true },
   // headlessui: { prefix: 'Hui' }
