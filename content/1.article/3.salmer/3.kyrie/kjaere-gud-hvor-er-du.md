@@ -11,16 +11,22 @@ tags:
 # Kjære Gud hvor er du?
 Am-------------Dm------------G  
 Kjære Gud hvor er du når jeg trenger deg  
----C--------------F-------------Dm-----------G--------------C  
-du ser jo hvordan smertene  tar livsmotet og troen bort fra meg.
+---C--------------F  
+du ser jo hvordan smertene  
+----Dm-----------G--------------C  
+tar livsmotet og troen bort fra meg.  
 
 Am----------------Dm-------------G  
 Styrk meg ved din Helligånd, giv sjelefred,  
----C--------------F-------------Dm--------------G-------------C  
-og minn meg om at Jesus Kristus svettet blod og klaget da han led.  
+---C--------------F  
+og minn meg om at Jesus Kris-  
+----Dm---------------G-------------C  
+tus svettet blod, og klaget da han led.  
 
-F------------G------------E-----------------Am  
-Du lot røver-en på korset bli til trøst for frelseren,  
+F------------G  
+Du lot røver-en på korset  
+E-----------------Am  
+bli til trøst for frelseren,  
 -----Dm---------E-------E7-----Am  
 send røvere med trøst i lidels-en.  
 

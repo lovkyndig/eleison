@@ -19,7 +19,6 @@ The Vercel-deployment of this repo is 100% pwa, and ready to be published as an 
 - [Guide to publishing this pwa on Google Play](https://github.com/lovkyndig/eleison/releases)
 
 ## To do-list (personal notes)
-- Add MutationObserver, ResizeObserver, onresize when media screen width < 768px, and change cookieControl__BarButtons; remove width: 100% and change flex-direction from column to row. 
 - Add _find()_-function (to find the search-string in the article).
 - Add _dark-light_-theme-toggle.
 
