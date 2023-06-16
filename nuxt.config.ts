@@ -14,7 +14,6 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@vite-pwa/nuxt',
-    // 'nuxt-cookie-control',
     '~/modules/sitemap'
   ],
   sitemap: {
@@ -125,43 +124,62 @@ export default defineNuxtConfig({
     typeCheck: true
   },
   // https://github.com/dargmuesli/nuxt-cookie-control#module-options
+  // https://tailwindcss.com/docs/customizing-colors // puple
   cookieControl: {
-    colors: false,
-    barPosition: 'bottom-left',
+    barPosition: 'bottom-right',
     closeModalOnClickOutside: true, // The Details 
     isControlButtonEnabled: false, // Can't show this beacause of back to top-button.
+    cookieNameIsConsentGiven: 'ncc_c',
+    cookieNameCookiesEnabledIds: 'ncc_e',
     locales: ['en'],
     localeTexts: {
       en: {
-        accept: 'Ok', decline: 'No', manageCookies: 'Details',
-        save: 'Ok', acceptAll: 'All', declineAll: 'No',
+        accept: 'Ok', decline: 'No', manageCookies: 'Info',
+        save: 'Save', acceptAll: 'All', declineAll: 'Esc',
         close: 'Esc'
       }
     },
     cookies: {
       necessary: [
         {
+          id: 'auth',
           description: {
-            en: 'Cookies for Analytics.',
+            en: 'For authentication.'
           },
-          name: {
-            en: 'Necessary Cookie',
-          },
+          name: { en: 'Auth' },
           targetCookieIds: ['NEC'],
         },
       ],
       optional: [
         {
-          id: 'op',
-          name: 'Optional Cookie',
+          id: 'analytics',
+          description: {
+            en: 'Functional for Google Analytics.'
+          },
+          name: 'Analytics',
           links: {
-            'https://example.com': 'Privacy Policy',
-            'https://example.cop': null,
+            '': '',
+            '/privacy': 'Link to Privacy Policy'
           },
           targetCookieIds: ['_o', '_p', '_t'],
         },
       ],
-    }
+    },
+    colors: {
+      barBackground: 'rgba(249, 250, 251, 0.8)', // #f9fafb
+      barTextColor: '#7e22ce',
+      barButtonColor: '#6b21a8',
+      barButtonBackground: '#f3e8ff',
+      barButtonHoverBackground: '#7e22ce',
+      modalBackground: '#f9fafb',
+      modalTextColor: '#7e22ce',
+      modalButtonColor: '#6b21a8',
+      modalButtonBackground: '#f3e8ff',
+      modalButtonHoverBackground: '#7e22ce',
+      checkboxInactiveBackground: '#f3e8ff',
+      checkboxInactiveCircleBackground: '#e9d5ff',
+      checkboxActiveBackground: '#7e22ce',
+    },
     // typed module options
   }
   // unocss: { preflight: true },

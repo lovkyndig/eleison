@@ -1,21 +1,25 @@
 <script setup lang="ts">
 import pkg from '~/package.json'
-import vue from 'vue'
 const appConfig = useAppConfig()
 
 /**
  * constants from plugin/provide-helpers.ts, for use in useHead scripts and style.
  */
-const { $gtag_src, $gtag_script, $gtm_script, $gtm_iframe, $scrollSmooth, $moveGtmNoscript } = useNuxtApp()
+const { 
+  // $gtag_src, $gtag_script, $gtm_script, $gtm_iframe, $moveGtmNoscript, 
+  $scrollSmooth
+} = useNuxtApp()
 
 useHead({
   htmlAttrs: { lang: 'no' },
   script: [
-    // Is gtag creating cookies without permission?
-    // { src: `${$gtag_src}`, async: true }, 
-    // { children: $gtag_script },
-    // { children: $gtm_script, body: true },
-    { src: 'js/app-src-defer.js', defer: true }
+    /* 
+    { src: `${$gtag_src}`, async: true }, 
+    { children: $gtag_script },
+    { children: $gtm_script, body: true },
+    */
+    { src: 'js/app-src-defer.js', defer: true },
+    { src: 'js/app-src-body.js', body: true }
   ],
   noscript: [
     { children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` },
@@ -67,13 +71,26 @@ onMounted(() => {
   }
 })
 
-// onServerPrefetch(async () => {
-  // component is rendered as part of the initial request
-  // pre-fetch data on server as it is faster than on the client
-  // data.value = await fetchOnServer(/* ... */)
-// })
-
-
+/**
+ * Handle GDPR Cookie-law:
+ */
+const { cookiesEnabledIds } = useCookieControl()
+watch( () => cookiesEnabledIds.value,
+  (current, previous) => {
+    if (current?.includes('auth')) {
+      localStorage.setItem('eleisons-bibel', '{"cookie": "no"}')
+      if (previous?.includes('analytics')) window.location.reload()
+    }
+    if (
+      (current?.includes('analytics') && 
+      !previous?.includes('analytics'))
+    ) {
+      localStorage.setItem('eleisons-bibel', '{"cookie": "ok"}')
+      window.location.reload()
+    }
+  },
+  { deep: true }
+)
 </script>
 
 <script lang="ts">
@@ -89,6 +106,11 @@ export default {
   <NuxtLayout>
     <NuxtLoadingIndicator />
     <NuxtPage />
+    <CookieControl>
+      <template #bar>
+        <p>Accept optional cookies?</p>
+      </template>
+    </CookieControl>
   </NuxtLayout>
 </template>
 

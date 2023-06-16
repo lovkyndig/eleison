@@ -125,10 +125,10 @@ const showLoginModal = useState('showLoginModal')
         </a>
         <NuxtLink
           v-if="appConfig.basic.subscribePage"
-          to="/privacy"
+          to="/sitemap"
           class="btn text-purple-500 hover:bg-purple-100"
         >
-          Privacy
+          Sitemap
         </NuxtLink>
       </div>
       <div class="flex justify-end items-center gap-4">

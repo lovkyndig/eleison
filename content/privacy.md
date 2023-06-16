@@ -1,9 +1,3 @@
-import { defineEventHandler } from 'h3'
-export default defineEventHandler(async(event) => { 
-
-  appendHeader(event, 'Content-Type', 'text/plain')
-
-  return `
   # Personvernerklaering (GDPR)
   Leseveiledning: De norske tegne i alfabetet er blitt byttet ut, med ae, o og aa.
   
@@ -70,5 +64,3 @@ export default defineEventHandler(async(event) => {
   _Redigert: Juni 15, 2023_
   
   [//]: # (Dette er en kopi av teksten i ~/server/routes/privacy.txt.ts)
-  `
-})

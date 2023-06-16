@@ -1,6 +1,6 @@
 {
   "name": "eleison",
-  "version": "1.0.4-rc.40",
+  "version": "1.0.4-rc.41",
   "description": "⚡Eleison Bible, based on Theme BlogiNote, with extensions.",
   "homepage": "https://eleison.vercel.app",
   "author": "lovkyndig",
@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@dargmuesli/nuxt-cookie-control": "latest",
+    "@gtm-support/vue-gtm": "latest",
     "@iconify/vue": "latest",
     "@nuxt/content": "latest",
     "@nuxt/eslint-config": "latest",
@@ -39,7 +40,6 @@
     "sass": "latest",
     "sitemap": "latest",
     "typescript": "<5.0.0",
-    "vue-gtag-next": "latest",
     "vue-tsc": "latest"
   },
   "scripts": {
