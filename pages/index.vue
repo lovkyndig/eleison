@@ -2,10 +2,10 @@
 import { ref, onServerPrefetch, onMounted } from 'vue'
 import type { NavItem } from '@nuxt/content/dist/runtime/types'
 // import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
-import pkg from '~/package.json'
+// import pkg from '~/package.json'
 const appConfig = useAppConfig()
 
-const currentUser = useAuthUser()
+// const currentUser = useAuthUser()
 useHead({
   // title: `${appConfig.basic.meta.name} - v${pkg.version}`
 })
