@@ -38,5 +38,5 @@ Hvis Jesu kjærlighet til hjerte går
 vi er takknemlig for det kors vi får.
 
 ## Melodi
-Tekst: Eleison, September 2020
+Tekst: Eleison, September 2020  
 Melodi: J.Andersen, Melodiboken nr. 405 "Jeg er ei glemt"

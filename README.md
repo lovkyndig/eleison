@@ -8,8 +8,8 @@ The Theme in Eleison is [`BlogiNote`](https://github.com/Benbinbin/bloginote) (v
 - [`pwa`](https://www.npmjs.com/package/@vite-pwa/nuxt)
 - [`Vercel analytics`](https://vercel.com/blog/nuxt-analytics-on-vercel)
 - [`auth` _LoginModal-component_](https://github.com/damien-hl/nuxt3-auth-example)
-- [`Cookie Control`](https://www.npmjs.com/package/@dargmuesli/nuxt-cookie-control)
-- [`@gtm-support`](https://www.npmjs.com/package/@gtm-support/vue-gtm)
+- [`Cookie Control`](https://www.npmjs.com/package/@dargmuesli/nuxt-cookie-control) - Disabled
+- [`@gtm-support`](https://www.npmjs.com/package/@gtm-support/vue-gtm) - Disabled
 - [`privacy-routes`](/server/routes/privacy.txt.ts)
 - [`bubblewrap`](https://github.com/GoogleChromeLabs/bubblewrap/blob/main/packages/cli/README.md)
 - [`Google Play`_-guide_](https://vaadin.com/blog/submitting-a-pwa-to-google-play-store-using-bubblewrap)
@@ -19,12 +19,13 @@ The Vercel-deployment of this repo is 100% pwa, and ready to be published as an 
 - [Guide to publishing this pwa on Google Play](https://github.com/lovkyndig/eleison/releases)
 
 ## To do-list (personal notes)
+- Fix cookie Control and gtm who creates java-code in Google Play, that don't work.
 - Add _find()_-function (to find the search-string in the article).
 - Add _dark-light_-theme-toggle.
 
 ## License
 [MIT](./LICENSE)
 
-Updated June 16, 2023
+Updated June 17, 2023
 
 [//]: # (MDC-Tipbox-types: tip, announce, warning, fun, achieve, question, good, bad. ::TipBox{type="" name=""})

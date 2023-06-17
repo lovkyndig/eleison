@@ -15,7 +15,7 @@ Men i tanker, ord og gjerning
 har vi synde-skam og dom.  
 Vi bekjenner våre mangler  
 for vår neste og vår Far.  
-Gud vil tilgi ogss og vise  
+Gud vil tilgi oss og vise  
 vi i Jesus frelse har.
 
 > (2) Hvis vi elsker slik som Jesus  

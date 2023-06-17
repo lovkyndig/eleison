@@ -60,6 +60,9 @@ De som ønsker være små,
 i Jesu fotspor går.
 
 ## Melodi
-Tekst: Eleison, September 2007
+Tekst: Eleison, September 2007  
 Melodi: P.P.Bliss 1873  
 Melodiboken 467 "Sett deg for et Hellig mål"
+
+### Merknad
+Dette er en type salmer som vi kan finne i de fleste salmebøker, hvor salmedikteren tenker på sin nestes udødelige sjel. Det er grunnen til slike salmer passer best å synges i kirken og ikke når man sitter for seg selv. Dog hender det stadig at de ord som kommer ut av egen munn, blir til lærdom, oppbyggelse og trøst, når man selv - ved Guds hjelp - får nåde til å høre og betenke dem. 

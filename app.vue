@@ -18,8 +18,8 @@ useHead({
     { children: $gtag_script },
     { children: $gtm_script, body: true },
     */
-    { src: 'js/app-src-defer.js', defer: true },
-    { src: 'js/app-src-body.js', body: true }
+    // { src: 'js/app-src-defer.js', defer: true },
+    // { src: 'js/app-src-body.js', body: true }
   ],
   noscript: [
     { children: `Denne appen fungerer ikke hvis javascript er deaktivert i browseren!` },
@@ -74,6 +74,7 @@ onMounted(() => {
 /**
  * Handle GDPR Cookie-law:
  */
+/*
 const { cookiesEnabledIds } = useCookieControl()
 watch( () => cookiesEnabledIds.value,
   (current, previous) => {
@@ -91,6 +92,7 @@ watch( () => cookiesEnabledIds.value,
   },
   { deep: true }
 )
+*/
 </script>
 
 <script lang="ts">

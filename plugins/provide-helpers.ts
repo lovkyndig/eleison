@@ -4,7 +4,7 @@
 
 export default defineNuxtPlugin(() => {
   const appConfig = useAppConfig()
-  const { cookiesEnabledIds } = useCookieControl()
+  // const { cookiesEnabledIds } = useCookieControl()
 
   return {
     provide: {

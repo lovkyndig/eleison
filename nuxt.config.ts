@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   css: [ /* app.vue */ ],
   modules: [
     [resolve('./modules/copyFilesToPublic'), { cleanFolders: ['public/article'] }],
-    '@dargmuesli/nuxt-cookie-control',
+    // '@dargmuesli/nuxt-cookie-control',
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@vite-pwa/nuxt',
@@ -125,6 +125,7 @@ export default defineNuxtConfig({
   },
   // https://github.com/dargmuesli/nuxt-cookie-control#module-options
   // https://tailwindcss.com/docs/customizing-colors // puple
+  /*
   cookieControl: {
     barPosition: 'bottom-right',
     closeModalOnClickOutside: true, // The Details 
@@ -139,6 +140,7 @@ export default defineNuxtConfig({
         close: 'Esc'
       }
     },
+
     cookies: {
       necessary: [
         {
@@ -182,6 +184,7 @@ export default defineNuxtConfig({
     },
     // typed module options
   }
+  */
   // unocss: { preflight: true },
   // headlessui: { prefix: 'Hui' }
   // plugins: ['~/plugins/gtag.client']
