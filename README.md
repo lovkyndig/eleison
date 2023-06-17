@@ -26,6 +26,11 @@ The Vercel-deployment of this repo is 100% pwa, and ready to be published as an 
 ## License
 [MIT](./LICENSE)
 
+## Version notes
+- v1.0.4 works great as pwa on web, but after converting to java-app with bubblewrap and publishing, I covered java-code who breaks the app on Google Play. Therefore I have to disable the cookies and gtm-support, to check if the problem disappear.
+
+- v1.0.3 Works well as app on Google Play, no problem.
+
 Updated June 17, 2023
 
 [//]: # (MDC-Tipbox-types: tip, announce, warning, fun, achieve, question, good, bad. ::TipBox{type="" name=""})
