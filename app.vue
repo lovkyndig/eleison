@@ -108,11 +108,13 @@ export default {
   <NuxtLayout>
     <NuxtLoadingIndicator />
     <NuxtPage />
+    <!--
     <CookieControl>
       <template #bar>
         <p>Accept optional cookies?</p>
       </template>
     </CookieControl>
+    -->
   </NuxtLayout>
 </template>
 

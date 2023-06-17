@@ -1,4 +1,5 @@
 <script setup lang="ts">
+/*
 const showLoginModal = useState('showLoginModal')
 showLoginModal.value = true
 const props = defineProps({
@@ -11,30 +12,21 @@ const props = defineProps({
     default: useFormPassword()
   }
 })
-
-if (process.client) {
-  onMounted(() => {
-    if (document) {
-      console.log('modal2content.value.arg1')
-    }
-  })
-}
+*/
 
 </script>
-<script lang="ts">
-export default {
-  // 
-}
-</script>
+
 <template>
   <div 
     class="p-6 border bg-white dark:border-gray-700 rounded"
   >
+    <!--
     <ClientOnly>
       <LoginModal
         v-show="showLoginModal"
       />
     </ClientOnly>
+    -->
     <div 
       id="logincontent" 
       class="hide-content"

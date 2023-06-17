@@ -9,7 +9,7 @@
  * but I did't need to.
  * https://usefulangle.com/post/356/javascript-detect-element-added-to-dom
  */
-
+/*
 changeButtonsOnCookieBarAndModal()
 function changeButtonsOnCookieBarAndModal() {
   const cookieContainer = document.querySelectorAll(".cookieControl__BarContainer")[0]
@@ -39,3 +39,4 @@ function changeButtonsOnCookieBarAndModal() {
     modalBtn.style.flexDirection = 'row'
   }
 }
+*/

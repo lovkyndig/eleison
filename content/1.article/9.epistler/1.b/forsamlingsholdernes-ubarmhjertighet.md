@@ -11,7 +11,6 @@ tags:
 # Forsamlingsholdernes ubarmhjertighet
 At en forsamlingsholder ikke skammer seg med å forsøke å påvirke menigheten til å unnlate å holde forsamlinger, bør egentlig ikke overraske. Det avslører deres ubarmhjertighet.
 
-::LoginContent
 ## Bevis
 Det beviser at han først og fremst lar den kjødelige kjærligheten til familien overstyre kjærligheten til menighetens medlemmer.
 
@@ -59,4 +58,3 @@ Du tror tilsynelatende at det er dine positive aktive handlinger som skal dømme
 på dommens dag. Vel, det er også de negative unnlatelses-handlingene. Det beviser Matt 25, 31 flg.
 
 > Det er det du ikke har gjort mot Mariaene, du skal dømmes for.
-::

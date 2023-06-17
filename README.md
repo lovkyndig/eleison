@@ -7,7 +7,7 @@ The Theme in Eleison is [`BlogiNote`](https://github.com/Benbinbin/bloginote) (v
 - [`Pagefind`](https://pagefind.app/)
 - [`pwa`](https://www.npmjs.com/package/@vite-pwa/nuxt)
 - [`Vercel analytics`](https://vercel.com/blog/nuxt-analytics-on-vercel)
-- [`auth` _LoginModal-component_](https://github.com/damien-hl/nuxt3-auth-example)
+- [`auth` _LoginModal-component_](https://github.com/damien-hl/nuxt3-auth-example) - Disabled
 - [`Cookie Control`](https://www.npmjs.com/package/@dargmuesli/nuxt-cookie-control) - Disabled
 - [`@gtm-support`](https://www.npmjs.com/package/@gtm-support/vue-gtm) - Disabled
 - [`privacy-routes`](/server/routes/privacy.txt.ts)
@@ -27,8 +27,8 @@ The Vercel-deployment of this repo is 100% pwa, and ready to be published as an 
 [MIT](./LICENSE)
 
 ## Version notes
+- v1.0.5 No changes with disabling cookies and gtm-support. Disable the loginModal in the next version and checking the result.
 - v1.0.4 works great as pwa on web, but after converting to java-app with bubblewrap and publishing, I covered java-code who breaks the app on Google Play. Therefore I have to disable the cookies and gtm-support, to check if the problem disappear.
-
 - v1.0.3 Works well as app on Google Play, no problem.
 
 Updated June 17, 2023
