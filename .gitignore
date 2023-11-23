@@ -1,11 +1,32 @@
-# https://git-scm.com/docs/gitignore
+# No need to have the following files on GitHub and Vercel.
+# Standard
 node_modules
 *.log*
-*.txt
+.env
+
+# dev, build and generate
 .nuxt
 .output
 dist
+
+# Yarn
 yarn.lock
+
+# INIT-FILES
+# Service-Worker
+public/sw*
+public/workbox*
+
+# Public folders and files
+public/article
+public/convert
+public/*.bat
+
+# Root-folders and files
+*.bat
+
+# The GITHUB_TOKEN_READ .env-variable is inserted manually on Vercel.
+# .npmrc
+
+# bubblewrap
 bubblewrap
-assets
-backup

@@ -1,6 +1,5 @@
-<script lang="ts" setup>
+<script setup lang="ts">
 import mermaid from 'mermaid'
-import { StringObj } from 'sitemap/dist/lib/sitemap-item-stream'
 
 const props = defineProps({
   code: {
@@ -47,9 +46,8 @@ const toggleExpand = () => {
   expand.value = !expand.value
   if (!expand.value && codeBlockContainer.value) {
     nextTick(() => {
-      codeBlockContainer.value.scrollIntoView({ block: "nearest" })
+      codeBlockContainer.value.scrollIntoView({ block: 'nearest' })
     })
-
   }
 }
 
@@ -71,13 +69,12 @@ const languageColorMap = {
   scss: '#c6538c',
   vue: '#41b883',
   markdown: '#083fa1',
-  md: '#083fa1',
-  tex: '#f1e05a'
+  md: '#083fa1'
 }
 
 const programLanguage = ref('')
 
-if(props.language) {
+if (props.language) {
   programLanguage.value = props.language.toLowerCase()
 }
 
@@ -96,16 +93,18 @@ if (props.filename) {
  */
 type CopyState = 'wait' | 'process' | 'success' | 'fail'
 const copyState = ref<CopyState>('wait')
-const clipboard = ref<Clipboard | Navigator>(null) // ref<null | Navigator>(null)
+const clipboard = ref<null | Navigator>(null)
 
 onMounted(() => {
+  // @ts-ignore
   clipboard.value = navigator.clipboard
 })
 
 const copyHandler = () => {
   copyState.value = 'process'
   if (clipboard.value) {
-    navigator.clipboard.writeText(props.code).then(() => {
+    // @ts-ignore
+    clipboard.value.writeText(props.code).then(() => {
       copyState.value = 'success'
 
       const timer = setTimeout(() => {
@@ -139,20 +138,16 @@ const urlRegex = /(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-
  *
  */
 // convert mermaid code to svg
-const mermaidGraph = ref<Promise<string> | string>('') // ref('')
+
+const mermaidGraph = ref('')
+
 onMounted(() => {
   if (props.language === 'mermaid' && props.code && document) {
     mermaid.mermaidAPI.initialize({ startOnLoad: false })
-    if (!props.code.includes('mindmap')) {
-      mermaidGraph.value = mermaid.mermaidAPI.render('graphDiv', props.code)
-    }
-    else if (props.code.includes('mindmap')) {
-      // mermaidGraph.value = mermaid.mermaidAPI.renderAsync('graphDiv', props.code)
-      console.log('mindmap and other promise-based mermaid is not working - sorry!')
-    }
-
-  } 
+    mermaidGraph.value = mermaid.mermaidAPI.render('graphDiv', props.code)
+  }
 })
+
 </script>
 
 <template>
@@ -170,10 +165,11 @@ onMounted(() => {
           v-show="codeLines > 3 && props.language !== 'mermaid'"
           @click="toggleExpand"
         >
-          <IconCustom
-            name="material-symbols:keyboard-arrow-down-rounded"
+          <!-- If this isn't working - import it as component -->
+          <svgo-material-symbols-keyboard-arrow-down-rounded
             class="w-4 h-4 text-gray-400 transition-transform duration-300"
             :class="expand ? '' : '-rotate-90'"
+            :font-controlled="false"
           />
         </button>
       </div>
@@ -185,13 +181,12 @@ onMounted(() => {
         <NuxtLink
           v-if="urlRegex.test(props.filename)"
           :to="props.filename"
-          target="_blank"
           class=" no-underline transition-colors duration-300"
           style="text-decoration-line: none; color: #94a3b8;"
         >
-          <IconCustom
-            name="bi:link-45deg"
+          <svgo-bi-link-45deg
             class="shrink-0 w-4 h-4"
+            :font-controlled="false"
           />
           <!-- <span class="shrink-0 text-xs">{{ props.filename }}</span> -->
         </NuxtLink>
@@ -199,9 +194,9 @@ onMounted(() => {
           v-else
           class=" flex items-center gap-2 text-gray-400 "
         >
-          <IconCustom
-            name="bi:file-earmark-code"
-            class="shrink-0 w-4 h-4 "
+          <svgo-bi-file-earmark-code
+            class="shrink-0 w-4 h-4"
+            :font-controlled="false"
           />
           <span class="shrink-0 text-xs">{{ props.filename }}</span>
         </div>
@@ -214,25 +209,29 @@ onMounted(() => {
           :disabled="copyState !== 'wait' || !clipboard"
           @click="copyHandler"
         >
-          <IconCustom
+          <SvgoUilCopy
             v-show="copyState === 'wait'"
-            name="uil:copy"
+            name="copy"
             class="w-4 h-4"
+            :font-controlled="false"
           />
-          <IconCustom
+          <SvgoEosIconsLoading
             v-show="copyState === 'process'"
-            name="eos-icons:loading"
+            name="icons-loading"
             class="w-4 h-4 text-purple-500"
+            :font-controlled="false"
           />
-          <IconCustom
+          <SvgoUilCheck
             v-show="copyState === 'success'"
-            name="uil:check"
+            name="check"
             class="w-4 h-4 text-green-500"
+            :font-controlled="false"
           />
-          <IconCustom
+          <SvgoIconParkOutlineFileFailedOne
             v-show="copyState === 'fail'"
-            name="icon-park-outline:file-failed-one"
+            name="file-failed-one"
             class="w-4 h-4 text-red-500"
+            :font-controlled="false"
           />
         </button>
 

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://kirkepostille.vercel.app/sitemap.xml
+Crawl-delay: 10

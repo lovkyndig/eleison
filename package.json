@@ -1,68 +1,27 @@
 {
-  "name": "eleison",
-  "version": "1.0.7",
-  "description": "⚡Eleison Bible, based on Nuxt3-Theme, with extensions.",
+  "name": "@lovkyndig/eleison",
+  "version": "1.1.0",
+  "description": "⚡Eleison Bible, a layer2, clone of PWA Starter App, based on layer 1 'Create Google App'",
   "homepage": "https://eleison.vercel.app",
-  "author": "lovkyndig",
-  "license": "MIT",
+  "author": "Kyrie Eleison",
   "repository": {
     "type": "git",
-    "url": "git://github.com/lovkyndig/eleison.git"
+    "url": "https://github.com/lovkyndig/eleison"
   },
-  "devDependencies": {
-    "@dargmuesli/nuxt-cookie-control": "latest",
-    "@gtm-support/vue-gtm": "latest",
-    "@iconify/vue": "latest",
-    "@nuxt/content": "latest",
-    "@nuxt/eslint-config": "latest",
-    "@nuxt/kit": "latest",
-    "@nuxtjs/tailwindcss": "latest",
-    "@types/bcryptjs": "latest",
-    "@types/cookie-signature": "latest",
-    "@vercel/analytics": "latest",
-    "@vite-pwa/nuxt": "latest",
-    "@vueuse/nuxt": "latest",
-    "d3-hierarchy": "latest",
-    "d3-selection": "latest",
-    "d3-shape": "latest",
-    "d3-zoom": "latest",
-    "bcryptjs": "latest",
-    "cookie-signature": "latest",
-    "eslint": "latest",
-    "feed": "latest",
-    "mermaid": "<10.0.0",
-    "nuxt": "latest",
-    "pagefind": "latest",
-    "rehype-katex": "latest",
-    "remark-math": "latest",
-    "remark-sub": "latest",
-    "remark-super": "latest",
-    "sass": "latest",
-    "sitemap": "latest",
-    "typescript": "<5.0.0",
-    "vue-tsc": "latest"
-  },
+  "main": "./nuxt.config.ts",
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
-    "generate": "nuxt generate && npx pagefind",
-    "preview": "nuxi preview",
-    "lint": "eslint ."
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate && npx pagefind --source dist",
+    "preview": "nuxt preview"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@lovkyndig/create-google-app": "^1.0.2-rc.1",
+    "mermaid": "9.1.7"
   },
   "keywords": [
-    "bloginote",
-    "bubblewrap",
-    "google-play",
-    "google-site-verification",
-    "gtag",
-    "nuxt",
-    "markdown",
-    "mermaid",
-    "remark",
-    "pagefind",
-    "pwa",
-    "tailwindcss",
-    "vercel",
-    "window.find()"
+    "starter",
+    "layer2"
   ]
 }

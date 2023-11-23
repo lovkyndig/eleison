@@ -1,36 +1,13 @@
 # Eleison
-The Theme in Eleison is [`BlogiNote`](https://github.com/Benbinbin/bloginote) (version 3.1.1) from [`Benbinbin`](https://github.com/Benbinbin), that is a hidden treasure, like the treasure in the Bible, hidden for the wise and prudent. [Matt 11, 25](https://no.bibelsite.com/matthew/11-25.htm). With this repo you can move on to [`Google Play`](https://play.google.com/console).
+Eleison is a clone of layer 2; [pwa-starter-app](https://github.com/lovkyndig/pwa-starter-app).[^1]
 
-## Extensions (Upgrade from BlogiNote)
-- [`vue-tsc` _< 5.0.0_](https://www.npmjs.com/package/vue-tsc)
-- [`GitHub -> Vercel`](https://vercel.com/docs/concepts/deployments/git/)
-- [`Pagefind`](https://pagefind.app/)
-- [`pwa`](https://www.npmjs.com/package/@vite-pwa/nuxt)
-- [`Vercel analytics`](https://vercel.com/blog/nuxt-analytics-on-vercel)
-- [`auth` _LoginModal-component_](https://github.com/damien-hl/nuxt3-auth-example) - Disabled
-- [`Cookie Control`](https://www.npmjs.com/package/@dargmuesli/nuxt-cookie-control) - Disabled
-- [`@gtm-support`](https://www.npmjs.com/package/@gtm-support/vue-gtm) - Disabled
-- [`privacy-routes`](/server/routes/privacy.txt.ts)
-- [`bubblewrap`](https://github.com/GoogleChromeLabs/bubblewrap/blob/main/packages/cli/README.md)
-- [`Google Play`_-guide_](https://vaadin.com/blog/submitting-a-pwa-to-google-play-store-using-bubblewrap)
+Layer 1 is [Create Google App](https://github.com/lovkyndig/create-google-app).
 
-## Special Features: 
-The Vercel-deployment of this repo is 100% pwa, and ready to be published as an app on Google Play.
-- [Guide to publishing this pwa on Google Play](https://github.com/lovkyndig/eleison/releases)
-
-## To do-list (personal notes)
-- Fix cookie Control and gtm who creates java-code in Google Play, that don't work.
-- Add _find()_-function (to find the search-string in the article).
-- Add _dark-light_-theme-toggle.
+## Clone it and use it
+Please go to my original [layer 1](https://github.com/lovkyndig/create-google-app) and [layer2](https://github.com/lovkyndig/pwa-starter-app), if you want to clone it or use it.[^2]
 
 ## License
 [MIT](./LICENSE)
 
-## Version notes
-- v1.0.5 No changes with disabling cookies and gtm-support. Disable the loginModal in the next version and checking the result.
-- v1.0.4 works great as pwa on web, but after converting to java-app with bubblewrap and publishing, I covered java-code who breaks the app on Google Play. Therefore I have to disable the cookies and gtm-support, to check if the problem disappear.
-- v1.0.3 Works well as app on Google Play, no problem.
-
-Updated June 17, 2023
-
-[//]: # (MDC-Tipbox-types: tip, announce, warning, fun, achieve, question, good, bad. ::TipBox{type="" name=""})
+[^1]: Notice! This is an **app** published on the _Google Play Store_. Please read the [documentation/ guidelines](https://create-google-app.vercel.app) to learn how to do it.
+[^2]: Read the _README_-file in [PWA Starter app](https://github.com/lovkyndig/pwa-starter-app) about setup/ install, or read the [documentation/ guidelines](https://create-google-app.vercel.app).
