@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Eleison</title>
+        <link>https://eleison.vercel.app</link>
+        <description>⚡Eleison Bible, a layer2, clone of PWA Starter App, based on layer 1 'Create Google App'</description>
+        <lastBuildDate>Mon, 27 Nov 2023 20:51:40 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Eleison</title>
+            <url>https://eleison.vercel.app/img/avatar.webp</url>
+            <link>https://eleison.vercel.app</link>
+        </image>
+        <copyright>All rights reserved 2023, Kyrie Eleison</copyright>
+        <item>
+            <title><![CDATA[Forord]]></title>
+            <link>https://eleison.vercel.app/article/forord</link>
+            <guid>/article/forord</guid>
+            <description><![CDATA[🎶 Salmer og Christian Scrivers Sjeleskatt 📜 publiseres på www for første gang. I tillegg til Eleisons bibelinspirerte epistler 📝 til menigheten og menighetsledere 🙏. Eleison tror og tenker på liknende måte som Paulus og Peter, m.fl..]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ressurser]]></title>
+            <link>https://eleison.vercel.app/article/ressurser</link>
+            <guid>/article/ressurser</guid>
+            <description><![CDATA[Oversikt over ressurser på internett. Dvs. linker til websider som Eleison bruker når han grunner på Guds ord; bibelen, Luthers skrifter og ordet i nord. Mange gamle gotiske bøker kan finnes digitaliert på www.nb.no/search.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Dikterne]]></title>
+            <link>https://eleison.vercel.app/article/salmer/dikterne</link>
+            <guid>/article/salmer/dikterne</guid>
+            <pubDate>Sat, 20 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Her publiseres noen salmer 🎼 skrevet av to av de mest foraktede læstadianerne i lyngenretningen. Begge fra Nordreisa i Nord-Troms. Andre læstadianere som har skrevet salmer og fått disse publisert i Vekter-rop(et), har derfor ikke behov for å bli nevnt her.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Fattige synder på lystens vei]]></title>
+            <link>https://eleison.vercel.app/article/salmer/tull-ruth/fattige-synder-paa-lystens-vei</link>
+            <guid>/article/salmer/tull-ruth/fattige-synder-paa-lystens-vei</guid>
+            <pubDate>Sat, 20 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Fattige synder på lystens vei,
+vend nu ditt blikk mot Guds lam,
+Jesus vil tage dig opp til sig,
+fri dig fra synd og fra skam.
+Lukk opp døren, Han banker på,
+er du trossig, da skjer det så,
+tar du ei gaven mens du den får,
+bort han med gaven jo går.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hellige Gud og Himmelske Fader]]></title>
+            <link>https://eleison.vercel.app/article/salmer/tull-ruth/hellige-gud-og-himmelske-fader</link>
+            <guid>/article/salmer/tull-ruth/hellige-gud-og-himmelske-fader</guid>
+            <pubDate>Sat, 20 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hellige Gud og Himmelske Fader,
+Lov, takk stor pris, skal og ære Dig skje,
+For at min sjel du bestyrker og mater,
+og jeg får føle din godhet derved.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hjelp mig Herre mig og mine, ut av syndens død og pine]]></title>
+            <link>https://eleison.vercel.app/article/salmer/tull-ruth/hjelp-mig-herre-mig-og-mine</link>
+            <guid>/article/salmer/tull-ruth/hjelp-mig-herre-mig-og-mine</guid>
+            <pubDate>Sat, 20 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hjelp mig Herre mig og mine, ut av syndens død og pine
+skjænk oss Åndens rette tro,
+At vi Dig O Gud alene, vil av hjertets lyst kun tjene,
+og at søke fred og ro.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hjem jeg lenges til min Gud]]></title>
+            <link>https://eleison.vercel.app/article/salmer/tull-ruth/hjem-jeg-lenges-til-min-gud</link>
+            <guid>/article/salmer/tull-ruth/hjem-jeg-lenges-til-min-gud</guid>
+            <pubDate>Sat, 20 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hjem jeg lenges til min Gud,
+bort fra verdens mørke dale,
+hjem til himlens gyldne sale,
+hvor vi blive skal Hans brud.
+Jesus som på korset døde,
+og for våre synder led,
+Ham vi skal i himlen møte,
+og Ham ha i evighet.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Jesus du min glede]]></title>
+            <link>https://eleison.vercel.app/article/salmer/tull-ruth/jesus-du-min-glede</link>
+            <guid>/article/salmer/tull-ruth/jesus-du-min-glede</guid>
+            <pubDate>Sat, 20 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Jesus du min glede. La mig med dig trede,
+hver en tid og stund,
+Med stor lyst og lengsel, gjennom kors og trengsel,
+utav hjertets grunn.
+Giv at jeg på livets vei, dig kun følger og tilbeder,
+for hvert skritt jeg treder.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[O, at jeg kunne som jeg vilde,]]></title>
+            <link>https://eleison.vercel.app/article/salmer/tull-ruth/o-at-jeg-kunne-som-jeg-vilde</link>
+            <guid>/article/salmer/tull-ruth/o-at-jeg-kunne-som-jeg-vilde</guid>
+            <pubDate>Sat, 20 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[O, at jeg kunne som jeg vilde,
+av kjødets rene dype grunn,
+rett prise Dig O Frelser milde,
+som gleder mig i denne stund,
+så stort som tungen ei kan si,
+dig pris skje tatt evindelig.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[O, Gud du min formynder]]></title>
+            <link>https://eleison.vercel.app/article/salmer/tull-ruth/o-gud-du-min-formynder</link>
+            <guid>/article/salmer/tull-ruth/o-gud-du-min-formynder</guid>
+            <pubDate>Sat, 20 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[O, Gud du min formynder,
+som i det høye bor.
+Forlat mig mine synder,
+uti din nåde stor.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[O, Jesus du min søte himmelbroder]]></title>
+            <link>https://eleison.vercel.app/article/salmer/tull-ruth/o-jesus-du-min-sote-himmelbroder</link>
+            <guid>/article/salmer/tull-ruth/o-jesus-du-min-sote-himmelbroder</guid>
+            <pubDate>Sat, 20 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[O, Jesus du min søte himmelbroder,
+du er min Frelser og min moder,
+Dig alene finne kan jeg trøst,
+kun ved ditt blod fra synd jeg er forløst.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Søk Herren mens du Ham finner]]></title>
+            <link>https://eleison.vercel.app/article/salmer/tull-ruth/sok-herren-mens-du-ham-finner</link>
+            <guid>/article/salmer/tull-ruth/sok-herren-mens-du-ham-finner</guid>
+            <pubDate>Sat, 20 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Søk Herren mens du Ham finner,
+kall på den stund Han er nær,
+forherdelse snart overvinner,
+dig så du blir liksom du er.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Å, min kjærlighet og glede]]></title>
+            <link>https://eleison.vercel.app/article/salmer/kyrie/aa-min-kjaerlighet-og-glede</link>
+            <guid>/article/salmer/kyrie/aa-min-kjaerlighet-og-glede</guid>
+            <pubDate>Sat, 20 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Å, min kjærlighet og glede,
+som jeg lengter efter deg
+Gid du nå var her tilstede,
+at du kunne varme meg
+med din omsorg full av trøst,
+å hvor savner jeg din røst.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Barabbas]]></title>
+            <link>https://eleison.vercel.app/article/salmer/kyrie/barabbas</link>
+            <guid>/article/salmer/kyrie/barabbas</guid>
+            <pubDate>Tue, 06 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Når jeg tenker tilbake på den dagen du kom,
+da jeg ventet på døden for min dom.
+Du kom inn i vårt fengsel fullt av bødende sår -
+o jeg minnes som om det var i går.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Det fins en sykdom]]></title>
+            <link>https://eleison.vercel.app/article/salmer/kyrie/det-fins-en-sykdom</link>
+            <guid>/article/salmer/kyrie/det-fins-en-sykdom</guid>
+            <pubDate>Thu, 15 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Det fins en sykdom, Adams-slekten bærer,
+som fører kulde inn i hjertets rom.
+Med lov den tvinges ut de fromme lærer,
+i rettens saler hører vi derom.
+De fromme straffes ikke her på jord
+men himlens nøkkel skjules i Guds ord.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hvis vi elsker slik som Jesus]]></title>
+            <link>https://eleison.vercel.app/article/salmer/kyrie/hvis-vi-elsker-slik-som-jesus</link>
+            <guid>/article/salmer/kyrie/hvis-vi-elsker-slik-som-jesus</guid>
+            <pubDate>Thu, 15 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[(1) Hvis vi elsker slik som Jesus
+er vi Hellig, ren og from.
+Men i tanker, ord og gjerning
+har vi synde-skam og dom.
+Vi bekjenner våre mangler
+for vår neste og vår Far.
+Gud vil tilgi oss og vise
+vi i Jesus frelse har.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Kjære Gud hvor er du?]]></title>
+            <link>https://eleison.vercel.app/article/salmer/kyrie/kjaere-gud-hvor-er-du</link>
+            <guid>/article/salmer/kyrie/kjaere-gud-hvor-er-du</guid>
+            <pubDate>Thu, 15 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Am-------------Dm------------G
+Kjære Gud hvor er du når jeg trenger deg
+---C--------------F
+du ser jo hvordan smertene
+----Dm-----------G--------------C
+tar livsmotet og troen bort fra meg.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Kjære søsken, vær lydhør]]></title>
+            <link>https://eleison.vercel.app/article/salmer/kyrie/kjaere-gud-saer-lydhor</link>
+            <guid>/article/salmer/kyrie/kjaere-gud-saer-lydhor</guid>
+            <pubDate>Thu, 15 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kjære søsken vær lydhør,
+for hva Gud har sagt;
+Livet som vi levde før
+av-legges må med makt.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[2.bog - 11.prædiken - Ekteskapskontrakt]]></title>
+            <link>https://eleison.vercel.app/article/sjeleskatt/2-del/11-prediken/19-20</link>
+            <guid>/article/sjeleskatt/2-del/11-prediken/19-20</guid>
+            <pubDate>Mon, 27 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[($19) Til desmere aandelig Lyst og Glæde for en gudfrygtig Sjel ville vi1 fremstille den hele Lære om Formælingen med Christo Jesu under Formen af en Ægteskabskontrakt, saalydende:]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[4.bog - 1.prædiken - Indledning]]></title>
+            <link>https://eleison.vercel.app/article/sjeleskatt/4-del/1-prediken/1-7</link>
+            <guid>/article/sjeleskatt/4-del/1-prediken/1-7</guid>
+            <pubDate>Sat, 03 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Om den troende sjels kors. 1.prediken, hvori dets nytte og nødvendighed betragtes. Luk 9, 23: "Men Han sagde til dem alle: Hvo som vil komme efter mig, Han skal fornegte sig selv og dagligen tage sit kors op og følge mig."]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Luk 9, 23 Syv betænkninger om korset]]></title>
+            <link>https://eleison.vercel.app/article/sjeleskatt/4-del/1-prediken/8-15</link>
+            <guid>/article/sjeleskatt/4-del/1-prediken/8-15</guid>
+            <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[En troende og gudfrygtig sjel kan ikke eller må ikke være uden kors og trængsel i denne verden. Det er summen av Christian Scrivers syv betænkninger i den innledende utlæggelsen av Luk 9, 23 - på de fire første sidene av 1.predikens 40 sider.1]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[4.bog - 11.prædiken - Indholdsoversikt]]></title>
+            <link>https://eleison.vercel.app/article/sjeleskatt/4-del/11-prediken/indhold</link>
+            <guid>/article/sjeleskatt/4-del/11-prediken/indhold</guid>
+            <pubDate>Wed, 17 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Innledning §§ 1 - 4 over Ps. 94, 19: "Under mine mange utrolige tanker i mit indre kvæge dine husvalelser min sjel." Tre sorger behandles §§ 5 - 58. Størst trøst gir læsning om 3. sorg fra § 43, og fra § 44 til § 58 om de tre årsager til all sorg.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[En rose blandt torner]]></title>
+            <link>https://eleison.vercel.app/article/sjeleskatt/4-del/11-prediken/43</link>
+            <guid>/article/sjeleskatt/4-del/11-prediken/43</guid>
+            <pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Du menneskesøn, jeg sender dig til Israels børn, til de affaldne folk, som ere affaldne fra mig. - Og det er børn, hårde af ansigt og stive i hjerte. - De ere gjenstridige og som torner hos dig; thi du bor hos skorpioner; men du skal ikke frygte for deres ord.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Intet kors er uden nytte]]></title>
+            <link>https://eleison.vercel.app/article/sjeleskatt/4-del/11-prediken/44</link>
+            <guid>/article/sjeleskatt/4-del/11-prediken/44</guid>
+            <pubDate>Mon, 15 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Via medmenneskers urettferdige angreb bevirker Gud, at en begavet og berømt mand ikke smager den timelige æres sødme, tænker lidet på sine fortrin og erkjender, at han endu er i verden, i tåredalen og har årsag til at længes efter himmelen.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Tålmodighedsskole og Gudfrygtighedsøvelse]]></title>
+            <link>https://eleison.vercel.app/article/sjeleskatt/4-del/11-prediken/45</link>
+            <guid>/article/sjeleskatt/4-del/11-prediken/45</guid>
+            <pubDate>Mon, 15 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[De gudelskende sjele have i de fiendske og hadske mennesker, hvoraf de er omringede, en stedsevarende tålmodighedsskole og Gudfrygtighedsøvelse. Det er ingen kunst at være en god kristen blandt venner, men ibalndt fiender.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Fiendene gavnlig for en kristen]]></title>
+            <link>https://eleison.vercel.app/article/sjeleskatt/4-del/11-prediken/46</link>
+            <guid>/article/sjeleskatt/4-del/11-prediken/46</guid>
+            <pubDate>Sat, 13 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Se, hvor gavnlig ofte en hatefull fiende er for en kristen, og hvorledes Gud etter sin store godhet kan vende ondskapen til det beste for sine barn og gjøre et ryggesløst menneske til en botspredikant! (Christian Schrivers Sjeleskatt §46)]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Dine fiender er lægemidler]]></title>
+            <link>https://eleison.vercel.app/article/sjeleskatt/4-del/11-prediken/47</link>
+            <guid>/article/sjeleskatt/4-del/11-prediken/47</guid>
+            <pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dine fiender er lægemidler, som din kjærlige Gudfader har beredt til helsebod for din sjel. Deres ondskab er en bitter pille, som Guds miskundhed har lavet til dit bedste; dine værste fiender, som heftigt anfalde dig, ere den nådige Guds værktøj,]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Forfølgelser jager mange til himmelens dør]]></title>
+            <link>https://eleison.vercel.app/article/sjeleskatt/4-del/11-prediken/48</link>
+            <guid>/article/sjeleskatt/4-del/11-prediken/48</guid>
+            <pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[verdens venskab drager mange fra Gud, mens dens fiendskab driver mange til Gud, og ved spøg, smiger, opvartning, latter og leg fører den mange i helvede, medens den ved forhånelser, bespottelser og forfølgelser jager mange til himmelens dør.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Trængselens vei hellige vandret før dig]]></title>
+            <link>https://eleison.vercel.app/article/sjeleskatt/4-del/11-prediken/49</link>
+            <guid>/article/sjeleskatt/4-del/11-prediken/49</guid>
+            <pubDate>Wed, 17 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Se, denne trængselens vei have mange hellige vandret før dig. Se, der går din Herre Kristus foran dig; Fariseeren går bagefter ham og bander ham. Se, der går Moses foran dig; Korah, Dathan og Abiram med sin hob gå bagefter og bespotte ham.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hemmlig synd men dog uskyldig for verden]]></title>
+            <link>https://eleison.vercel.app/article/sjeleskatt/4-del/11-prediken/50</link>
+            <guid>/article/sjeleskatt/4-del/11-prediken/50</guid>
+            <pubDate>Wed, 17 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vær ikke bekymret; jeg vil tugte dig med måde og ikke holde dig aldeles uskyldig Siden giver Gud til beleilig tid onde mennesker tilladelse til at angribe hans barn, men ærer det tillige for verden, idet det har navn af at lide uskyldigt.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Vi skal elske våre fiender]]></title>
+            <link>https://eleison.vercel.app/article/sjeleskatt/4-del/11-prediken/51</link>
+            <guid>/article/sjeleskatt/4-del/11-prediken/51</guid>
+            <pubDate>Thu, 25 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Som Gud har plantet lyset i os og ved godhed overvunnet og dempet vår ondskab med sin godhed, setter han os som lys i det tykkeste mørke, for at overvinde våre medmenneskers ondskab med kjærlighed og godhed.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[I skulle efterfølge Hans fodspor]]></title>
+            <link>https://eleison.vercel.app/article/sjeleskatt/4-del/11-prediken/52</link>
+            <guid>/article/sjeleskatt/4-del/11-prediken/52</guid>
+            <pubDate>Thu, 25 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kristus har efterladt os et eksempel, at I skulle efterfølge Hans fodspor (1 Pet 2, 21), og giv agt på din Guds kjærlige øiemed, idet Han har sat dig ... blandt hadske, fiendligsindede mennesker, for at du skal være dem et lys...]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Rom 6-7  om døden og dens glede]]></title>
+            <link>https://eleison.vercel.app/article/epistler/b/rom-6-7-om-doden-og-dens-glede.md</link>
+            <guid>/article/epistler/b/rom-6-7-om-doden-og-dens-glede.md</guid>
+            <pubDate>Tue, 13 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vi blev altså begravet med ham ved dåpen til døden ... For synden har ikke lenger noen rett over den som er død.... loven bestemmer over et menneske bare så lenge det lever? ... Derfor, mine brødre, døde også I fra loven ved Kristi legeme, ... idet vi er død fra det som vi var fanget under...]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Bergprekens lærdommer og virkning]]></title>
+            <link>https://eleison.vercel.app/article/epistler/b/bergprekens-laerdommer-og-virkning</link>
+            <guid>/article/epistler/b/bergprekens-laerdommer-og-virkning</guid>
+            <pubDate>Thu, 15 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Eleisons tolkning og omskrivelse av noen bibelvers fra Jesu Bergpreken, og om bergprekens virkning i oss.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Den urettferdige frifinnelsen]]></title>
+            <link>https://eleison.vercel.app/article/epistler/b/den-urettferdige-frifinnelsen</link>
+            <guid>/article/epistler/b/den-urettferdige-frifinnelsen</guid>
+            <pubDate>Tue, 06 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[En frifinnelse kan ofte oppleves som urettferdig hvis man misliker skyldneren eller mener at tiltalepunkter og bevis er blitt oversett. Likeledes hvis en annen enn den skyldige, blir dømt for ugjerningene.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Er de ferdige til krig?]]></title>
+            <link>https://eleison.vercel.app/article/epistler/b/er-de-ferdige-til-krig</link>
+            <guid>/article/epistler/b/er-de-ferdige-til-krig</guid>
+            <pubDate>Wed, 24 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA["Herre, fri min sjel fra en løgnaktig lebe, fra en falsk tunge! ... Ve mig, at jeg lever som fremmed iblandt barbarer og villmenn! Lenge nok har min sjel bodd hos dem som hater fred. Jeg er bare fred, men når jeg taler, er de ferdige til krig."1]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Forsamlingsholdernes ubarmhjertighet]]></title>
+            <link>https://eleison.vercel.app/article/epistler/b/forsamlingsholdernes-ubarmhjertighet</link>
+            <guid>/article/epistler/b/forsamlingsholdernes-ubarmhjertighet</guid>
+            <pubDate>Tue, 06 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At en forsamlingsholder ikke skammer seg med å forsøke å påvirke menigheten til å unnlate å holde forsamlinger, bør egentlig ikke overraske. Det avslører deres ubarmhjertighet.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Guds utvalgte folk]]></title>
+            <link>https://eleison.vercel.app/article/epistler/b/guds-utvalgte-folk</link>
+            <guid>/article/epistler/b/guds-utvalgte-folk</guid>
+            <pubDate>Thu, 25 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Jødene mente de var Guds utvalgt folk. Læstadianerne i Nord-Troms synes å tro det samme, fordi andre som kaller seg kristne som utgangspunkt ikke aksepteres som brødre eller søstre av Herren Jesus Krisus.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Kunnskaps tale uten ånd]]></title>
+            <link>https://eleison.vercel.app/article/epistler/b/kunnskaps-tale-uten-aand</link>
+            <guid>/article/epistler/b/kunnskaps-tale-uten-aand</guid>
+            <pubDate>Thu, 08 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Er det "kunnskaps tale uten ånd" vi hører fra predikestolene? Eleison har fått særlige nådegaver til å avsløre åndene, og har hørt og sett stoltheten i de aller fleste - også predikantene.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Lære rett og leve liberalt]]></title>
+            <link>https://eleison.vercel.app/article/epistler/b/laere-rett-og-leve-liberalt</link>
+            <guid>/article/epistler/b/laere-rett-og-leve-liberalt</guid>
+            <pubDate>Wed, 31 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Er dagens læstadianere opptatt av å lære rett og leve som en fariseer og skriflærd? Jf. Matt 22, 6.25. "de vil gjerne sitte øverst ved gjestebudene og ha de øverste seter i synagogene ... men innvendig er de fulle av rov og griskhet!"]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Livet med en drapsmann]]></title>
+            <link>https://eleison.vercel.app/article/epistler/b/livet-med-en-drapsmann</link>
+            <guid>/article/epistler/b/livet-med-en-drapsmann</guid>
+            <pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hvordan er det å leve sammen med en drapsmann? Hvis du leser videre vil du få vite hvordan en som er i den ulykkelige tilstand at hun er tvunget til å leve sammen med en drapsmann, beskriver dette livet. Det er et tvangsekteskap.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Nattverd - Dypping]]></title>
+            <link>https://eleison.vercel.app/article/epistler/b/nattverd-dypping</link>
+            <guid>/article/epistler/b/nattverd-dypping</guid>
+            <pubDate>Wed, 17 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Praksis med instinksjon er i strid med Luthers teologi. Luther forklarer at denne praksis kun kan avsløres som falsk av en eneste av apostlene, nemlig Johannes. Dette skriver han i kirkepostillens festdel på apostelen Johannes dag (gjengitt nedenfor).1]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Tuktemester til Kristus]]></title>
+            <link>https://eleison.vercel.app/article/epistler/b/tuktemester</link>
+            <guid>/article/epistler/b/tuktemester</guid>
+            <pubDate>Wed, 24 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Og når man så begynner å fortælle dem, hva uret de gjør, så foregiver de, at man taler mot øvrigheten og giver årsak til opprør. Kort sagt, man skal kun præ­dike, hvad de gjerne vil høre. Gjør man ikke det, forkynner man ikke lengere evangeliet.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Venstre og høyre side]]></title>
+            <link>https://eleison.vercel.app/article/epistler/b/venstre-og-hoyre-side</link>
+            <guid>/article/epistler/b/venstre-og-hoyre-side</guid>
+            <pubDate>Fri, 26 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kampen med rettferdighets våpen; til "venstre og høyre side" og mot "venstre og høyre sides fristelser", er alfa og omega for læstadianerne i Nord-troms (lyngenretningen). På høyre side foregår kampen mot hovmot og egen ære.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Luthers Heidelberg-sætninger]]></title>
+            <link>https://eleison.vercel.app/article/epistler/c/luthers-heidelberg-setninger</link>
+            <guid>/article/epistler/c/luthers-heidelberg-setninger</guid>
+            <pubDate>Fri, 26 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Uden tiltro til os selv, og ganske efter den Hellige Ånds Anvisning: "Forlad dig ikke paa din Forstand" (Ordspr. 3,5) - forelægger vi i al ydmyghed følgende theologiske Paradoxer til Bedømmelse af enhver, som vil høre derpaa -]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[19 av 95 teser]]></title>
+            <link>https://eleison.vercel.app/article/epistler/c/19-av-95-teser</link>
+            <guid>/article/epistler/c/19-av-95-teser</guid>
+            <pubDate>Fri, 26 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Eleison har i dag gjennomgått Luthers 95 teser og funnet at 19 av dem kan lære oss noe, bl.a.: "at den, som overser sin neste som lider nød, og istedet ofrer en gave til kirken, mottar Guds vrede. Tese 45]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Tese 1-4 om boten - Luthers forklaring]]></title>
+            <link>https://eleison.vercel.app/article/epistler/c/tese-1-4-om-boten</link>
+            <guid>/article/epistler/c/tese-1-4-om-boten</guid>
+            <pubDate>Fri, 26 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Luthers forklaring og bevis av tese 1 til 4 er lærerik lesning om boten, som i dagens moderne læstadianske samfunn synes å være ukjent tema blant de fleste. Gud gi at vi i kjærlighet kunne påminne hverandre om boten.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Eleison til den rike mann]]></title>
+            <link>https://eleison.vercel.app/article/epistler/a/eleison-til-den-rike-mann</link>
+            <guid>/article/epistler/a/eleison-til-den-rike-mann</guid>
+            <pubDate>Mon, 22 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dersom du bærer fram et offer til alteret og der kommer til å tenke på at en annen har noe å anklage deg for, så la offergaven ligge foran alteret og gå først og bli forlikt med ham. Kom så og bær fram ditt offer! Skynd deg å komme overens med din motpart mens du ennå er med ham på veien. Matt 5, 23-24.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Vedlegg: Om ugyldige avtaler]]></title>
+            <link>https://eleison.vercel.app/article/epistler/a/vedlegg-om-ugyldige-avtaler</link>
+            <guid>/article/epistler/a/vedlegg-om-ugyldige-avtaler</guid>
+            <pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Selv om bindende avtale er inngått kan den senere kjennes ugyldig pga. mangler ved partene eller innholdet. Viser til avtaleloven, ulovfestet rett, rettspraksis og juridisk litteratur over dette svært poplulære faget. Nedfor oppgis kun noen stikkord for å identifisere det viktigste og antyde omfanget av emnet.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Eleison til menighetsledere]]></title>
+            <link>https://eleison.vercel.app/article/epistler/a/eleison-til-menighetsledere</link>
+            <guid>/article/epistler/a/eleison-til-menighetsledere</guid>
+            <pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Når I da har saker om timelige ting, så setter I dem til dommere som ikke aktes for noget i menigheten! Til skam for eder sier jeg det. Så finnes det da ikke nogen vis mann iblandt eder, ikke en eneste én, som kan skille tretten for sin bror? men bror fører sak mot bror, og det for vantros domstol! 1 Kor 6, 4-6.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Vedlegg: Tall og regnestykker]]></title>
+            <link>https://eleison.vercel.app/article/epistler/a/vedlegg-tall-og-regnestykker</link>
+            <guid>/article/epistler/a/vedlegg-tall-og-regnestykker</guid>
+            <pubDate>Mon, 22 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Konklusjonen etter regnestykken nedenfor viser at flere hundre tusen kroner av gjeldsbrevet er uhederlig å kreve oppfylt, og at forretningene anses som ugyldig i henhold til ugyldighetsreglene. Vi vil imidlertid ikke forfølge saken. Gud kan gjøre det!]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ågerkar skal straffes]]></title>
+            <link>https://eleison.vercel.app/article/epistler/a/aagerkar-skal-straffes</link>
+            <guid>/article/epistler/a/aagerkar-skal-straffes</guid>
+            <pubDate>Fri, 12 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[For åger straffes den som ved rettshandel utnytter noens nød, lettsinn, uforstand eller avhengighetsforhold til å oppnå eller betinge et vederlag, som etter de foreliggende omstendigheter står i et påtakelig misforhold til det som ytes, eller som medvirker hertil. (Strl.1902)]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Tilsvar fra den rike mannen]]></title>
+            <link>https://eleison.vercel.app/article/epistler/a/tilsvar-fra-den-rike-mannen</link>
+            <guid>/article/epistler/a/tilsvar-fra-den-rike-mannen</guid>
+            <pubDate>Mon, 22 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Den rike mannen tok kontakt en ukes tid etter at saken ble publisert her. Det han har forklart er at han har god samvittighet og at han har hjemmel i husleiekontrakten for forretningene har har gjennomført. Vi overlater dermed saken i Guds hender.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Griskhet = ondskap]]></title>
+            <link>https://eleison.vercel.app/article/epistler/a/griskhet-ondskap</link>
+            <guid>/article/epistler/a/griskhet-ondskap</guid>
+            <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[En grisk skal ikke arve Guds rike, jf. Ef 5, 5 og 1 Kor 6, 10. "Dere ikke skal omgås en som kalles bror, og som likevel lever i hor eller er grådig, ...  Slike skal dere heller ikke spise sammen med." 1 Kor 5, 11.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Om Eleisons Bibel]]></title>
+            <link>https://eleison.vercel.app/about</link>
+            <guid>/about</guid>
+            <description><![CDATA[Eleison1 forestiller seg å ha samme tro og meninger som forfatterne av bibelens epistler. Bibelens brev er derfor omskrevet og adressert til den læstadianske menigheten (lyngenretningen).]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Eleisons Bibel]]></title>
+            <link>https://eleison.vercel.app/</link>
+            <guid>/</guid>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Personvernerklaering (GDPR)]]></title>
+            <link>https://eleison.vercel.app/privacy</link>
+            <guid>/privacy</guid>
+            <description><![CDATA[Leseveiledning: De norske tegne i alfabetet er blitt byttet ut, med ae, o og aa.]]></description>
+            <content:encoded><![CDATA[this should be the full content]]></content:encoded>
+        </item>
+    </channel>
+</rss>

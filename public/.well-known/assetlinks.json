@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.vercel.eleison.twa",
+      "sha256_cert_fingerprints": [
+        "75:15:9C:2A:AB:7C:4A:10:C4:D5:28:05:7F:72:57:5A:1E:7A:09:31:E3:9F:49:97:D9:E6:CB:17:F4:D8:03:C7"
+      ]
+    }
+  }
+]

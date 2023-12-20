@@ -29,7 +29,8 @@ They are using cookies in the login autentication process (before commenting).
 
 ## Login
 As said above, login is required via third party, but only if you wish to write comments.  
-You can read comments and everyting on the websites, without logging in.
+You can read comments and everyting on the websites, without logging in, with one exeption:
+Restricted areas can be reached trough login, but only the smart ones can find the username and password.
 
 ## Claims and objections
 Complaints or objections about the developer's use of third parties services, or other complaints and objections, can be sent to the developer's email:  

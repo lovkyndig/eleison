@@ -1,6 +1,6 @@
 {
   "name": "@lovkyndig/eleison",
-  "version": "1.1.0",
+  "version": "1.1.1-rc.1",
   "description": "⚡Eleison Bible, a layer2, clone of PWA Starter App, based on layer 1 'Create Google App'",
   "homepage": "https://eleison.vercel.app",
   "author": "Kyrie Eleison",
@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@lovkyndig/create-google-app": "^1.0.2-rc.1",
+    "@lovkyndig/android-app-guide": "^1.0.0",
     "mermaid": "9.1.7"
   },
   "keywords": [

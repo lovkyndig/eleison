@@ -10,7 +10,12 @@ export default defineAppConfig({
       homepage: pkg.homepage,
       logo: 'Kyrie Eleison'
     },
-    menu: { btn: 'Books' },
+    menu: {
+      logo: 'Kyrie Eleison',
+      btn: 'Books',
+      mobil: 'Eleison',
+      restricted: /^\/(article\/epistler\/a|article\/epistler\/b)\/.*/
+    },
     author: pkg.author,
     email: 'jesu.broder@gmail.com',
     avatar: '/img/avatar.webp',
